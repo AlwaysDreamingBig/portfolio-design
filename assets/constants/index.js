@@ -7,12 +7,12 @@ export const nav = [
     {
       id: '2',
       title: 'Work',
-      href: '/work-experience',
+      href: '/work',
     },
     {
       id: '3',
       title: 'Projects',
-      href: '/personal-projects',
+      href: '/projects',
     },
     {
       id: '4',
