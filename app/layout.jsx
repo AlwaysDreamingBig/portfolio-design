@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/design components/Header";
+import PageTransition from "@/components/design components/PageTransition";
 
 const inter = Inter({ subsets: ["latin"] });
 const jetbrainsmono = JetBrains_Mono({
@@ -20,7 +21,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jetbrainsmono.variable}>
         <Header />
-        {children}
+
+        <PageTransition>
+          {children}
+        </PageTransition>
       </body>
     </html>
   );
