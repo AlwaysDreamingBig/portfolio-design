@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 
 const Header = () => {
   return (
-    <header className="px-10 py-2 mb-10">
+    <header className="px-28 py-2 mb-10">
       <div className="mt-4 flex justify-between items-center">
         {/** Logo */}
         <Link href="/">
