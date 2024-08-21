@@ -18,8 +18,8 @@ const Navigation = () => {
           <Link key={item.id} href={item.href} className="relative group">
             <div
               className={`flex items-center ${
-                pathName === item.href ? 'text-blue-500 font-semibold' : 'text-gray-700'
-              } transition-colors duration-200 group-hover:text-blue-400`}
+                pathName === item.href ? 'text-blue-500 font-semibold' : 'text-white/80'
+              } transition-colors duration-200 group-hover:text-blue-400 sm:text-base lg:text-lg 3xl:text-xl ${item.title === 'Contact' ? 'bg-blue-500 px-3 py-1 rounded-lg text-black font-bold group-hover:text-white' : ''}`}
             >
               {item.title}
               {pathName === item.href && (
@@ -46,7 +46,7 @@ const Navigation = () => {
         </button>
 
         {/* Mobile Menu Items */}
-        <div className={`fixed inset-0 top-32 bg-black/80 border-t border-gray-200 z-50 transform transition-transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} sm:hidden`}>
+        <div className={`fixed inset-0 top-32 max-h-screen bg-black/80 border-t border-gray-200 z-50 transform transition-transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} sm:hidden`}>
           <div className="flex flex-col p-4 space-y-14 mt-8 items-center">
             {nav.map((item) => (
               <Link key={item.id} href={item.href} onClick={() => setIsOpen(false)} className={`flex items-center text-gray-700 text-2xl hover:text-blue-500 transition-colors duration-200 ${pathName === item.href ? 'text-blue-500 font-semibold' : ''}`}>
