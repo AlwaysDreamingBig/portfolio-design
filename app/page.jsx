@@ -7,13 +7,14 @@ import { motion } from 'framer-motion';
 import { bugsbunny } from '@/assets/images';
 import Section from '@/components/design components/Section';
 import SocialIcons from '@/components/design components/Socials';
+import Brands from '@/components/design components/Home Page components/Brands';
 
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen text-gray-900">
 
       {/* Hero Section */}
-      <Section className="flex flex-col items-start justify-start h-screen text-white bg-transparent relative mt-20">
+      <Section className="flex flex-col items-start justify-start h-screen text-white bg-transparent relative mt-20 mb-36">
         
         {/* Text Content */}
         <div className='flex flex-col z-10 ml-20 w-1/2 mt-24'>
@@ -88,6 +89,11 @@ const HomePage = () => {
               </div>
             </div>
           </Link>
+        </div>
+
+        {/** Brands */}
+        <div className='mt-20'>
+          <Brands />
         </div>
       </Section>
     </div>
