@@ -25,4 +25,13 @@ export const nav = [
       href: '/contact',
     },
   ];
-  
+
+  import { itgstoreLogo, paulstraLogo, siemensLogo, alstomLogo, lesBrouilles } from "../images";
+
+  export const brands = [
+    { src: itgstoreLogo, alt: 'ITGStore' },
+    { src: paulstraLogo, alt: 'Paulstra' },
+    { src: siemensLogo, alt: 'Siemens' },
+    { src: alstomLogo, alt: 'Alstom Aptis' },
+    { src: lesBrouilles, alt: 'Alstom Aptis' },
+  ];
