@@ -8,6 +8,7 @@ import { bugsbunny } from '@/assets/images';
 import Section from '@/components/design components/Section';
 import SocialIcons from '@/components/design components/Socials';
 import Brands from '@/components/design components/Home Page components/Brands';
+import ProjectCardContainer from '@/components/design components/Home Page components/ProjectCardContainer';
 
 const HomePage = () => {
   return (
@@ -96,6 +97,10 @@ const HomePage = () => {
           <Brands />
         </div>
       </Section>
+
+      <div className='mt-44'>
+        <ProjectCardContainer />
+      </div>
     </div>
   );
 };
