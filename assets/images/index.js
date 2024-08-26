@@ -11,7 +11,7 @@ import chatbotImg from './chatbot.webp';
 import HoospitalMan from './HoospitalMan.jpg';
 import HPMan from './HpMan.png';
 import AIOT from './iot-ai.jpg';
-import Landlord from './LandLord.png';
+import Landlord from './LandLord.jpg';
 import android17 from './A173.JPG';
 
 

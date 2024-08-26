@@ -46,6 +46,7 @@ import { Bungee } from "next/font/google";
       tag: 'Embedded Development',
       description: 'Develop new features for the MAG8000 4G and maintain existing code base for the MAG8000 3G. ',
       link: '/case-studies/project-1',
+      titleClassName: 'text-white',
     },
     {
       id: 6,
@@ -55,6 +56,7 @@ import { Bungee } from "next/font/google";
       tag: 'Web Development',
       description: 'Develop a complete Real-Estate web application with database management.',
       link: '/case-studies/project-2',
+      titleClassName: 'text-cyan-500',
     },
     {
       id: 2,
@@ -64,6 +66,7 @@ import { Bungee } from "next/font/google";
       tag: 'Ingeneering & SAV',
       description: 'I help with the maintenance and improvement of electric buses by analyzing data.',
       link: '/case-studies/project-2',
+      titleClassName: 'text-white',
     },
     {
       id: 3,
@@ -73,6 +76,7 @@ import { Bungee } from "next/font/google";
       tag: 'AI',
       description: 'I leaded case study of a chatbot development and implementation.',
       link: '/case-studies/project-2',
+      titleClassName: '',
     },
     {
       id: 4,
@@ -82,6 +86,7 @@ import { Bungee } from "next/font/google";
       tag: 'Embedded Development',
       description: 'I worked on the development of embedded functions for the MCU model.',
       link: '/case-studies/project-2',
+      titleClassName: 'text-white',
     },
     {
       id: 5,
@@ -91,6 +96,7 @@ import { Bungee } from "next/font/google";
       tag: 'Software Development',
       description: 'Develop a complete hospital management desktop application with database management.',
       link: '/case-studies/project-2',
+      titleClassName: 'text-cyan-500',
     },
     {
       id: 7,
@@ -100,6 +106,7 @@ import { Bungee } from "next/font/google";
       tag: 'Web Development',
       description: 'Design and create a responsive and fun website.',
       link: '/case-studies/project-2',
+      titleClassName: 'text-white',
     },
     {
       id: 8,
@@ -109,6 +116,7 @@ import { Bungee } from "next/font/google";
       tag: 'In Progress',
       description: 'Design and develop a AI driven IOT platform.',
       link: '/case-studies/project-2',
+      titleClassName: '',
     },
   ];
   

@@ -9,7 +9,7 @@ const ProjectCardContainer = () => {
   return (
     <div className="min-h-screen p-6">
       <div className="mx-auto">
-        <div className="grid grid-cols-1 gap-10">
+        <div className="grid grid-cols-1 gap-16">
           {projects.map((project) => (
             <ProjectCardWithAnimation key={project.id} project={project} />
           ))}
@@ -49,6 +49,7 @@ const ProjectCardWithAnimation = ({ project }) => {
         tag={project.tag}
         description={project.description}
         link={project.link}
+        titleClassName={project.titleClassName}
       />
     </motion.div>
   );
