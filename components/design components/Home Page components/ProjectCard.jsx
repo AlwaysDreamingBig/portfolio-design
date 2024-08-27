@@ -30,7 +30,7 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
 
       {/* Content */}
       <div
-        className={`relative flex flex-col md:w-2/3 lg:w-1/3 w-full sm:space-x-6 bg-black/20 h-full z-10 rounded-lg transition-opacity duration-500 sm:opacity-100 ${
+        className={`relative  flex flex-col md:w-2/3 lg:w-2/3 xl:w-1/3 w-full sm:space-x-6 bg-black/20 h-full z-10 rounded-lg transition-opacity duration-500 sm:opacity-100 ${
           isHovered ? 'opacity-100 sm:opacity-100' : 'opacity-0 sm:opacity-100'
         }`}
       >
@@ -46,11 +46,11 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
         </div>
 
         {/* Text Content */}
-        <div className="flex flex-col justify-between flex-grow space-y-10 px-10 py-20 bg-gray-800">
+        <div className="flex flex-col justify-between flex-grow space-y-10 px-10 py-20 bg-gray-800 lg:bg-transparent">
           <div className="space-y-10">
-            <h3 className={`text-4xl font-bold mb-2 font-sans ${titleClassName ? titleClassName : 'text-cyan-500 lg:text-black'}`}>{title}</h3>
-            <span className="text-sm text-yellow-400 font-medium">{tag}</span>
-            <p className="mt-2">{description}</p>
+            <h3 className={`text-4xl font-bold mb-2 font-sans lg:bg-gray-800 lg:p-4 ${titleClassName ? titleClassName : 'text-cyan-500 xl:text-black'}`}>{title}</h3>
+            <span className="text-sm text-yellow-400 font-medium lg:bg-gray-800 lg:p-4">{tag}</span>
+            <p className="mt-2 lg:bg-gray-800 lg:p-4">{description}</p>
           </div>
           
           {/* View Case Study Button */}

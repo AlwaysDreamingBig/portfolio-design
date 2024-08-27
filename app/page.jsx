@@ -59,7 +59,7 @@ const HomePage = () => {
             transition={{ delay: 0.6, duration: 0.8, ease: "easeInOut" }}
             whileHover={{ scale: 1.1, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.2)" }}
           >
-            <div className='mt-4 flex sm:flex-row flex-col items-center justify-center'>
+            <div className='mt-4 flex sm:flex-row flex-col lg:flex-col xl:flex-row items-center justify-center'>
                 <Link href="/work" className="px-8 py-2 border border-blue-500 text-white font-semibold rounded-2xl shadow-md hover:text-blue-500 transition">
                     Download CV
                 </Link>
@@ -71,7 +71,7 @@ const HomePage = () => {
         </div>
 
         {/* Image Section */}
-        <div className='absolute lg:right-[15%] z-0'>
+        <div className='absolute lg:right-[10%] xl:right-[15%] z-0'>
             {/* Rotating Circle */}
             <div className="absolute w-full h-full border-4 border-blue-500 rounded-full animate-spin-slow" style={{ borderTopColor: 'transparent' }} />
             
@@ -93,14 +93,14 @@ const HomePage = () => {
         </div>
 
         {/** Brands */}
-        <div className='sm:mt-20'>
+        <div className='sm:mt-20 lg:ml-16'>
           <Brands />
         </div>
       </Section>
 
       <div className='m-24'/>
 
-      <div className='sm:mt-[420px] mt-[700px] '>
+      <div className='sm:mt-[420px] mt-[700px] lg:mt-[120px] '>
         <ProjectCardContainer />
       </div>
     </div>
