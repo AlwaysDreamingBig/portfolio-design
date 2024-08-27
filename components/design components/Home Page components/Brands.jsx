@@ -20,7 +20,7 @@ const Brands = () => {
         </motion.h2>
         
         <motion.div
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8"
+          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-8"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, ease: 'easeInOut' }}
@@ -29,7 +29,7 @@ const Brands = () => {
           {brands.map((brand, index) => (
             <motion.div 
               key={index}
-              className="flex items-center justify-center sm:p-4 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300"
+              className="flex items-center justify-center sm:p-4 md:p-2 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

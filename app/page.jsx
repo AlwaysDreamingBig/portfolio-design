@@ -15,10 +15,10 @@ const HomePage = () => {
     <div className="flex flex-col min-h-screen text-gray-900">
 
       {/* Hero Section */}
-      <Section className="flex flex-col items-center md:items-start md:justify-start h-screen text-white bg-transparent relative md:mt-20 md:mb-36 mb-36">
+      <Section className="flex flex-col items-center lg:items-start lg:justify-start h-screen text-white bg-transparent relative md:mt-20 lg:mb-36 mb-36">
         
         {/* Text Content */} 
-        <div className='flex flex-col z-10 text-center md:text-start md:ml-20 md:w-1/2 md:mt-24 mt-[450px]'>
+        <div className='flex flex-col z-10 text-center lg:text-start lg:ml-20 lg:w-1/2 lg:mt-24 mt-[450px] md:mt-[500px]'>
           
           {/* Main Headings with Floating Animation */}
           <motion.h1 
@@ -71,12 +71,12 @@ const HomePage = () => {
         </div>
 
         {/* Image Section */}
-        <div className='absolute md:right-[15%] z-0'>
+        <div className='absolute lg:right-[15%] z-0'>
             {/* Rotating Circle */}
             <div className="absolute w-full h-full border-4 border-blue-500 rounded-full animate-spin-slow" style={{ borderTopColor: 'transparent' }} />
             
           <Link href="/">
-            <div className="relative w-[400px] h-[400px] md:w-[500px] md:h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
+            <div className="relative w-[400px] h-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
               <Image 
                 src={bugsbunny} 
                 alt="My Logo" 
