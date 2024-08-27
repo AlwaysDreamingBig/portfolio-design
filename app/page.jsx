@@ -15,10 +15,10 @@ const HomePage = () => {
     <div className="flex flex-col min-h-screen text-gray-900">
 
       {/* Hero Section */}
-      <Section className="flex flex-col items-start justify-start h-screen text-white bg-transparent relative mt-20 mb-36">
+      <Section className="flex flex-col items-center sm:items-start sm:justify-start h-screen text-white bg-transparent relative sm:mt-20 sm:mb-36 mb-36">
         
-        {/* Text Content */}
-        <div className='flex flex-col z-10 ml-20 w-1/2 mt-24'>
+        {/* Text Content */} 
+        <div className='flex flex-col z-10 text-center sm:text-start sm:ml-20 sm:w-1/2 sm:mt-24 mt-[450px]'>
           
           {/* Main Headings with Floating Animation */}
           <motion.h1 
@@ -59,7 +59,7 @@ const HomePage = () => {
             transition={{ delay: 0.6, duration: 0.8, ease: "easeInOut" }}
             whileHover={{ scale: 1.1, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.2)" }}
           >
-            <div className='mt-4 flex flex-row items-center justify-center'>
+            <div className='mt-4 flex sm:flex-row flex-col items-center justify-center'>
                 <Link href="/work" className="px-8 py-2 border border-blue-500 text-white font-semibold rounded-2xl shadow-md hover:text-blue-500 transition">
                     Download CV
                 </Link>
@@ -71,12 +71,12 @@ const HomePage = () => {
         </div>
 
         {/* Image Section */}
-        <div className='absolute right-[15%] z-0'>
+        <div className='absolute sm:right-[15%] z-0'>
             {/* Rotating Circle */}
             <div className="absolute w-full h-full border-4 border-blue-500 rounded-full animate-spin-slow" style={{ borderTopColor: 'transparent' }} />
             
           <Link href="/">
-            <div className="relative w-[500px] h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
+            <div className="relative w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
               <Image 
                 src={bugsbunny} 
                 alt="My Logo" 
@@ -93,12 +93,12 @@ const HomePage = () => {
         </div>
 
         {/** Brands */}
-        <div className='mt-20'>
+        <div className='sm:mt-20'>
           <Brands />
         </div>
       </Section>
 
-      <div className='mt-44'>
+      <div className='sm:mt-44 mt-[120vh]'>
         <ProjectCardContainer />
       </div>
     </div>

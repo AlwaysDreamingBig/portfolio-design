@@ -29,7 +29,7 @@ const Brands = () => {
           {brands.map((brand, index) => (
             <motion.div 
               key={index}
-              className="flex items-center justify-center p-4 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300"
+              className="flex items-center justify-center sm:p-4 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

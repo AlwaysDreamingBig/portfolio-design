@@ -1,18 +1,24 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link, titleClassName }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <motion.div
-      className="relative flex items-center justify-between p-10 text-white rounded-lg shadow-lg overflow-hidden h-[100vh] opacity-80 hover:opacity-100 transition duration-500"
+      className="relative flex items-center justify-between sm:p-10 text-white rounded-lg shadow-lg overflow-hidden h-[100vh] opacity-80 hover:opacity-100 transition duration-500"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
+      onHoverStart={() => setIsHovered(true)}
+      onHoverEnd={() => setIsHovered(false)}
     >
       {/* Background Image Wrapper */}
-      <div className="absolute inset-0 z-0">
+      <div
+        className={`absolute inset-0 z-0 transition-opacity duration-500 ${isHovered ? 'opacity-0 sm:opacity-100' : 'opacity-100'}`}
+      >
         <Image
           src={backgroundImage.src}
           alt={title}
@@ -23,7 +29,11 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
       </div>
 
       {/* Content */}
-      <div className="relative flex flex-col w-1/3 space-x-6 bg-black/20 h-full z-10 rounded-lg">
+      <div
+        className={`relative flex flex-col sm:w-1/3 w-full sm:space-x-6 bg-black/20 h-full z-10 rounded-lg transition-opacity duration-500 sm:opacity-100 ${
+          isHovered ? 'opacity-100 sm:opacity-100' : 'opacity-0 sm:opacity-100'
+        }`}
+      >
         {/* Logo */}
         <div className="flex-shrink-0 w-32 h-32 ml-8 mt-8">
           <Image
@@ -36,9 +46,9 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
         </div>
 
         {/* Text Content */}
-        <div className="flex flex-col justify-between flex-grow space-y-10 px-10 py-20">
+        <div className="flex flex-col justify-between flex-grow space-y-10 px-10 py-20 bg-gray-800">
           <div className="space-y-10">
-            <h3 className={`text-4xl font-bold mb-2 text-black font-sans ${titleClassName}`}>{title}</h3>
+            <h3 className={`text-4xl font-bold mb-2 font-sans ${titleClassName ? titleClassName : 'text-cyan-500 sm:text-black'}`}>{title}</h3>
             <span className="text-sm text-yellow-400 font-medium">{tag}</span>
             <p className="mt-2">{description}</p>
           </div>
