@@ -98,7 +98,9 @@ const HomePage = () => {
         </div>
       </Section>
 
-      <div className='sm:mt-44 mt-[120vh]'>
+      <div className='m-24'/>
+
+      <div className='sm:mt-44 mt-[700px]'>
         <ProjectCardContainer />
       </div>
     </div>
