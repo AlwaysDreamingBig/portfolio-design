@@ -15,10 +15,10 @@ const HomePage = () => {
     <div className="flex flex-col min-h-screen text-gray-900">
 
       {/* Hero Section */}
-      <Section className="flex flex-col items-center sm:items-start sm:justify-start h-screen text-white bg-transparent relative sm:mt-20 sm:mb-36 mb-36">
+      <Section className="flex flex-col items-center md:items-start md:justify-start h-screen text-white bg-transparent relative md:mt-20 md:mb-36 mb-36">
         
         {/* Text Content */} 
-        <div className='flex flex-col z-10 text-center sm:text-start sm:ml-20 sm:w-1/2 sm:mt-24 mt-[450px]'>
+        <div className='flex flex-col z-10 text-center md:text-start md:ml-20 md:w-1/2 md:mt-24 mt-[450px]'>
           
           {/* Main Headings with Floating Animation */}
           <motion.h1 
@@ -71,12 +71,12 @@ const HomePage = () => {
         </div>
 
         {/* Image Section */}
-        <div className='absolute sm:right-[15%] z-0'>
+        <div className='absolute md:right-[15%] z-0'>
             {/* Rotating Circle */}
             <div className="absolute w-full h-full border-4 border-blue-500 rounded-full animate-spin-slow" style={{ borderTopColor: 'transparent' }} />
             
           <Link href="/">
-            <div className="relative w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
+            <div className="relative w-[400px] h-[400px] md:w-[500px] md:h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
               <Image 
                 src={bugsbunny} 
                 alt="My Logo" 
@@ -100,7 +100,7 @@ const HomePage = () => {
 
       <div className='m-24'/>
 
-      <div className='sm:mt-44 mt-[700px]'>
+      <div className='sm:mt-[420px] mt-[700px] '>
         <ProjectCardContainer />
       </div>
     </div>

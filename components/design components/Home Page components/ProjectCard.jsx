@@ -30,7 +30,7 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
 
       {/* Content */}
       <div
-        className={`relative flex flex-col sm:w-1/3 w-full sm:space-x-6 bg-black/20 h-full z-10 rounded-lg transition-opacity duration-500 sm:opacity-100 ${
+        className={`relative flex flex-col md:w-1/3 w-full sm:space-x-6 bg-black/20 h-full z-10 rounded-lg transition-opacity duration-500 sm:opacity-100 ${
           isHovered ? 'opacity-100 sm:opacity-100' : 'opacity-0 sm:opacity-100'
         }`}
       >
