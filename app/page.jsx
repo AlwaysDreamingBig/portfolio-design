@@ -9,10 +9,13 @@ import Section from '@/components/design components/Section';
 import SocialIcons from '@/components/design components/Socials';
 import Brands from '@/components/design components/Home Page components/Brands';
 import ProjectCardContainer from '@/components/design components/Home Page components/ProjectCardContainer';
+import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
 
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen text-gray-900">
+
+      <ScrollToTopButton />
 
       {/* Hero Section */}
       <Section className="flex flex-col items-center lg:items-start lg:justify-start h-screen text-white bg-transparent relative md:mt-20 lg:mb-36 mb-36">
