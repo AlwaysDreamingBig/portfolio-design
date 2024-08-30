@@ -3,6 +3,7 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/design components/Header";
 import PageTransition from "@/components/design components/PageTransition";
+import { sevillana, nerkoOne, caveat, ibmPlexMono, pixelifySans, silkscreen, rubikBubbles, bangers } from "@/components/design components/utils/fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 const jetbrainsmono = JetBrains_Mono({
@@ -19,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={jetbrainsmono.variable}>
+      <body className={`${jetbrainsmono.variable} ${sevillana} ${nerkoOne} ${caveat} ${ibmPlexMono} ${pixelifySans} ${silkscreen} ${rubikBubbles} ${bangers}`}>
         <Header />
 
         <PageTransition>

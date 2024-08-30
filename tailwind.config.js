@@ -33,6 +33,17 @@ module.exports = {
       '3xl': '1920px',
     },
     extend: {
+      fontFamily: {
+        sevillana: ['var(--font-sevillana)'],
+        jetbrainsmono: ['var(--font-jetbrainsmono)'],
+        nerkoOne: ['var(--font-nerko-one)'],
+        caveat: ['var(--font-caveat)'],
+        ibmPlexMono: ['var(--font-ibm-plex-mono)'],
+        pixelifySans: ['var(--font-pixelify-sans)'],
+        silkscreen: ['var(--font-silkscreen)'],
+        rubikBubbles: ['var(--font-rubik-bubbles)'],
+        bangers: ['var(--font-bangers)'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
