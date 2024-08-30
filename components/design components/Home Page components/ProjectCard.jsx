@@ -6,13 +6,24 @@ import { motion } from 'framer-motion';
 
 const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link, titleClassName }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+
+    // Function to toggle the visibility
+    const toggleVisibility = () => {
+      setIsVisible(!isVisible);
+    };
+
+    const mobileHoveredFn = () => {
+      setIsHovered(true);
+      setIsVisible(true);
+    }
 
   return (
     <motion.div
       className="relative flex items-center justify-between sm:p-10 text-white rounded-lg shadow-lg overflow-hidden h-[100vh] opacity-80 hover:opacity-100 transition duration-500"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
-      onHoverStart={() => setIsHovered(true)}
+      onHoverStart={mobileHoveredFn}
       onHoverEnd={() => setIsHovered(false)}
     >
       {/* Background Image Wrapper */}
@@ -29,6 +40,7 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
       </div>
 
       {/* Content */}
+      {isVisible && (
       <div
         className={`relative flex flex-col md:w-2/3 xl:w-1/2 sxl:w-1/3 w-full sm:space-x-6 bg-black/20 h-full z-10 rounded-lg transition-opacity duration-500 sm:opacity-100 ${
           isHovered ? 'opacity-100 sm:opacity-100' : 'opacity-0 sm:opacity-100'
@@ -61,7 +73,11 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
             View Case Study
           </a>
         </div>
-      </div>
+      </div>)}
+
+      <button onClick={toggleVisibility} className='p-4 bg-yellow-600 absolute top-0 sm:block hidden'>
+        {isVisible ? 'Hide Description' : 'Show Description'}
+      </button>
     </motion.div>
   );
 };
