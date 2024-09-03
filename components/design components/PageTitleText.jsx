@@ -5,15 +5,17 @@ import TypingText from '@/components/design components/utils/TypingTextEffect'
 const PageTitleText = ({text1 = 'Page', text2 = 'Title', hoverColor1 = "rgb(64, 209, 162)", hoverColor2 = "rgb(146, 209, 250)", typingTextColor = "text-purple-400"}) => {
   return (
     <div className="flex flex-col items-center justify-center">    
-      <div className="flex flex-col items-center justify-center h-[70vh]">
-        <h1 className="text-6xl md:text-8xl lg:text-[200px] font-bold text-center">
+      <div className="flex flex-col items-center justify-center h-[50vh]">
+        <h1 className="text-6xl sm:text-8xl lg:text-9xl xl:text-[150px] font-bold text-center">
           <TextHoverEffect
             text={`${text1}`}
             hoverColor={`${hoverColor1}`}
             normalColor="white"
             effectType="vowels" // Applies hover effect to vowels only
           />
-
+        </h1>
+        
+        <h1 className="text-6xl sm:text-8xl lg:text-9xl xl:text-[150px] font-bold text-center">
           <TextHoverEffect
             text={`${text2}`}
             hoverColor={`${hoverColor2}`}
