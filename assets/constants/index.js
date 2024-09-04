@@ -27,7 +27,7 @@ export const nav = [
   ];
 
 import { Bungee } from "next/font/google";
-  import { itgstoreLogo, paulstraLogo, siemensLogo, alstomLogo, lesBrouilles, flowImg, aptisBus, paulstraImg1, chatbotImg, bugsbunny, HoospitalMan, HPMan, AIOT, Landlord, android17 } from "../images";
+  import { itgstoreLogo, paulstraLogo, siemensLogo, alstomLogo, lesBrouilles, flowImg, aptisBus, paulstraImg1, chatbotImg, bugsbunny, HoospitalMan, HPMan, AIOT, Landlord, android17, siemensLogo2, paulstraLogo2 } from "../images";
 
   export const brands = [
     { src: itgstoreLogo, alt: 'ITGStore' },
@@ -47,6 +47,10 @@ import { Bungee } from "next/font/google";
       description: 'Develop new features for the MAG8000 4G and maintain existing code base for the MAG8000 3G. ',
       link: '/case-studies/project-1',
       titleClassName: 'text-white',
+      company: 'SIEMENS',
+      position: 'Software Engineer',
+      companyLink: 'https://www.siemens.com/fr/fr/entreprise/siemens-france.html',
+      logoSM: siemensLogo2,
     },
     {
       id: 6,
@@ -67,6 +71,9 @@ import { Bungee } from "next/font/google";
       description: 'I help with the maintenance and improvement of electric buses by analyzing data.',
       link: '/case-studies/project-2',
       titleClassName: 'text-white',
+      company: 'ALSTOM Aptis',
+      position: 'Analyst Engineer',
+      companyLink: 'https://fr.wikipedia.org/wiki/Alstom_Aptis',
     },
     {
       id: 3,
@@ -77,6 +84,9 @@ import { Bungee } from "next/font/google";
       description: 'I leaded case study of a chatbot development and implementation.',
       link: '/case-studies/project-2',
       titleClassName: '',
+      company: 'ITGStore',
+      position: 'Assistant Engineer',
+      companyLink: 'https://www.itgstore-consulting.com/?lang=en',
     },
     {
       id: 4,
@@ -87,6 +97,10 @@ import { Bungee } from "next/font/google";
       description: 'I worked on the development of embedded functions for the MCU model.',
       link: '/case-studies/project-2',
       titleClassName: 'text-white',
+      company: 'HUTCHINSON Paulstra',
+      position: 'Software Engineer',
+      companyLink: 'https://www.paulstra-industry.com/en',
+      logoSM: paulstraLogo2,
     },
     {
       id: 5,

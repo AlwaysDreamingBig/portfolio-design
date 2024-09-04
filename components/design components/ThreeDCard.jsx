@@ -44,7 +44,7 @@ export function ThreeDCardWork({company, position, description, img, logo, pageL
             as={Link}
             href={pageLink}
             target="__blank"
-            className="px-4 py-2 rounded-xl text-xs bg-black font-normal dark:text-white">
+            className="px-4 py-2 rounded-xl text-xs bg-black font-normal dark:text-white hover:opacity-80">
               <Image
                 src={logo}
                 height="1000"
@@ -56,7 +56,7 @@ export function ThreeDCardWork({company, position, description, img, logo, pageL
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold">
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold hover:opacity-80">
             Case Study →
           </CardItem>
         </div>
