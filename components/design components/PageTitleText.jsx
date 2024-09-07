@@ -4,7 +4,7 @@ import TypingText from '@/components/design components/utils/TypingTextEffect'
 
 const PageTitleText = ({text1 = 'Page', text2 = 'Title', hoverColor1 = "rgb(64, 209, 162)", hoverColor2 = "rgb(146, 209, 250)", typingTextColor = "text-purple-400"}) => {
   return (
-    <div className="flex flex-col items-center justify-center">    
+    <div className="flex flex-col items-center justify-center font-nerkoOne">    
       <div className="flex flex-col items-center justify-center h-[50vh]">
         <h1 className="text-6xl sm:text-8xl lg:text-9xl xl:text-[150px] font-bold text-center">
           <TextHoverEffect
@@ -28,8 +28,8 @@ const PageTitleText = ({text1 = 'Page', text2 = 'Title', hoverColor1 = "rgb(64, 
       <h1 className={`text-4xl font-bold ${typingTextColor}`}>
         <TypingText
           texts={[
-            "Welcome to My Portfolio...",
-            "I'm a Creative Software Engineer...",
+            "Good things come to those who know how to seize them....",
+            "I shall...",
             "Let's Build Something Amazing!"
           ]}
           speed={100}
