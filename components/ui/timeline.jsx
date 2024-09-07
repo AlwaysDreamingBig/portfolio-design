@@ -3,7 +3,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 
 export const Timeline = ({
-  data
+  data, projectBg
 }) => {
   const ref = useRef(null);
   const containerRef = useRef(null);
@@ -44,7 +44,7 @@ export const Timeline = ({
               </h3>
             </div>
 
-            <div className="relative pl-20 pr-4 md:pl-4 w-full sm:shadow-lg sm:p-2 rounded-lg sm:bg-blue-200/70 sm:border sm:border-blue-300">
+            <div className={`relative pl-20 pr-4 md:pl-4 w-full sm:shadow-lg sm:p-2 rounded-lg sm:border ${projectBg ? 'sm:border-blue-600 sm:bg-white mb-32' : 'sm:bg-blue-200/70 sm:border-blue-300'}`}>
               <h3
                 className="md:hidden block text-2xl mb-4 text-left font-bold text-white dark:text-neutral-500 bg-red-500 p-2">
                 {item.title}
