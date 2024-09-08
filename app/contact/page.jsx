@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { services } from '@/assets/constants'; // Import the services array
 import MyInfo from '@/components/design components/contact page component/MyInfo';
+import sendEmail from '@/components/design components/utils/utils';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -22,10 +23,16 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // handle form submission
-    console.log(formData);
+    try {
+      await sendEmail(formData);
+      // Handle success, e.g., show a success message or redirect
+      alert('Your message has been sent successfully!');
+    } catch (error) {
+      // Handle error, e.g., show an error message
+      alert('Failed to send your message. Please try again.');
+    }
   };
 
   return (
