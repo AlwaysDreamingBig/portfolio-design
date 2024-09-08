@@ -119,14 +119,14 @@ export default function Contact() {
             </div>
 
             <div>
-              <label htmlFor="company" className="block text-white">
+              <label htmlFor="city" className="block text-white">
                 City or Country
               </label>
               <input
                 id="city"
                 name="city"
                 type="text"
-                value={formData.company}
+                value={formData.city}
                 onChange={handleChange}
                 className="w-full px-3 py-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600"
                 placeholder="Enter your city or country"
