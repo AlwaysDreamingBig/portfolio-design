@@ -134,3 +134,4 @@ import { Bungee } from "next/font/google";
     },
   ];
   
+  export const services = ['Embedded Development', 'Web Development', 'Other', ];
