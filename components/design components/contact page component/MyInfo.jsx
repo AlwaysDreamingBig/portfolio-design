@@ -13,7 +13,7 @@ export default function MyInfo() {
             <PhoneIcon className="h-6 w-6 text-blue-600" />
           </div>
           <span className="text-white ml-4">
-            <strong>Phone:</strong> +1 234 567 8901
+            <strong>Phone:</strong> +33 609 500 543
           </span>
         </div>
 
@@ -22,7 +22,7 @@ export default function MyInfo() {
             <MailIcon className="h-6 w-6 text-blue-600" />
           </div>
           <span className="text-white ml-4">
-            <strong>Email:</strong> myemail@example.com
+            <strong>Email:</strong> auriolngueli@gmail.com
           </span>
         </div>
 
@@ -31,7 +31,7 @@ export default function MyInfo() {
             <LocationMarkerIcon className="h-6 w-6 text-blue-600" />
           </div>
           <span className="text-white ml-4">
-            <strong>Address:</strong> 1234 Example St, City, Country
+            <strong>Address:</strong> Strasbourg, 67000 FRANCE
           </span>
         </div>
       </div>

@@ -36,8 +36,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="sm:mx-48 mx-10 my-24 sm:flex sm:space-x-10 space-y-10">
-      <div className="bg-[#303030] flex flex-col rounded-lg gap-8 w-4/5 px-10 py-8">
+    <div className="sxl:mx-48 lg:mx-14 sm:mx-20 mx-10 my-24 flex lg:flex-row flex-col sm:space-x-10 space-y-10">
+      <div className="bg-[#303030] flex flex-col rounded-lg gap-8 lg:w-4/5 w-full sm:px-10 px-6 py-8">
         <h1 className="text-blue-600 text-xl font-bold">Contact Us</h1>
 
         <form onSubmit={handleSubmit} className="space-y-9">
