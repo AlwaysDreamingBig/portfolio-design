@@ -8,7 +8,7 @@ import { android17, android17Img1, android17Img2, android17Img3, HPImg1, HPImg2,
 export function TimelineProjects() {
   const data = [
     {
-      title: "2023 - present",
+      title: "2024 - present",
       content: (
         <div>
           <p
@@ -52,7 +52,7 @@ export function TimelineProjects() {
       ),
     },
     {
-      title: "2023 - present",
+      title: "Early 2024",
       content: (
         <div>
           <p
@@ -96,7 +96,7 @@ export function TimelineProjects() {
       ),
     },
     {
-      title: "2022 - 2023",
+      title: "Late 2023",
       content: (
         <div>
           <p
@@ -140,7 +140,7 @@ export function TimelineProjects() {
       ),
     },
     {
-      title: "2021",
+      title: "Early 2023",
       content: (
         <div>
           <p
@@ -184,7 +184,7 @@ export function TimelineProjects() {
       ),
     },
     {
-      title: "2020",
+      title: "2022",
       content: (
         <div>
           <p

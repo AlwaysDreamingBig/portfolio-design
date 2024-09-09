@@ -1,11 +1,14 @@
 import BouncingArrow from '@/components/design components/BouncingArrow'
 import PageTitleText from '@/components/design components/PageTitleText'
+import ScrollToTopButton from '@/components/design components/ScrollToTopButton'
 import { TimelineProjects } from '@/components/design components/TimelineProjects'
 import React from 'react'
 
 export default function projects() {
   return (
     <div className='flex flex-col space-y-10'>
+      <ScrollToTopButton />
+
       <div className=''>
         <PageTitleText 
           text1='PERSONAL'
