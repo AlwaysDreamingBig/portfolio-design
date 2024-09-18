@@ -26,11 +26,11 @@ export default function ProjectCard({ title, text, images = [] }) {
   return (
     <div className='grid grid-cols-1 gap-4 max-w-8xl p-4 mx-auto md:grid-rows-2'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:px-28'>
-        <div className='bg-black/90 text-2xl p-8'>
+        <div className='text-blue-500 text-2xl p-8'>
           {title}
         </div>
 
-        <div className='bg-black/90 text-justify font-sans font-light text-white dark:text-neutral-300 p-8 leading-loose'>
+        <div className='hover:shadow-xl transition duration-200 shadow-2xl dark:shadow-none rounded-lg dark:bg-black dark:border-white/[0.2] border border-gray-800 text-justify font-sans font-light text-white dark:text-neutral-300 p-8 leading-loose'>
             <div className="space-y-4">
               {paragraphsText.map((para, index) => (
                 <p key={index} className="leading-loose">{para}</p>
@@ -40,7 +40,7 @@ export default function ProjectCard({ title, text, images = [] }) {
       </div>
 
       {/* Image slider container */}
-      <div className='relative bg-black/90 p-4'>
+      <div className='relative border p-4'>
         {/* Left button */}
         <button
           onClick={scrollLeft}

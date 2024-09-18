@@ -19,13 +19,13 @@ function ImprovementCard({ icon: Icon, title, description }) {
     <>
       <div 
         className={cn(
-          "relative p-6 bg-white dark:bg-neutral-900 shadow-md rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl",
+          "relative p-6 dark:bg-neutral-900 shadow-md rounded-lg transition-transform transform hover:scale-105 hover:shadow-xl",
           "flex flex-col justify-between space-y-4 cursor-pointer"
         )}
         onClick={openModal}
       >
         <div className="flex justify-center text-4xl text-blue-400">{Icon}</div>
-        <h3 className="text-xl font-bold text-center text-black font-serif">{title}</h3>
+        <h3 className="text-xl font-bold text-center text-blue-100 font-serif">{title}</h3>
         <p className="text-neutral-600 dark:text-neutral-300 text-sm text-center italic animate-pulse">Click for details</p>
       </div>
 
@@ -46,8 +46,8 @@ export default function Improvement({ improvements }) {
     <section className="px-6 py-12 max-w-7xl mx-auto">
       {/* Title and Introduction */}
       <header className="text-center mb-12">
-        <h2 className="text-4xl font-bold">Latest Improvements</h2>
-        <p className="text-neutral-500 dark:text-neutral-400 mt-2">Explore the latest updates and features we've added to improve your experience.</p>
+        <h2 className="text-4xl font-bold text-blue-500">Improvements Axes</h2>
+        <p className="text-neutral-500 dark:text-neutral-400 mt-2">Explore the possible updates and features we've added to improve your experience.</p>
       </header>
 
       {/* Bento Grid */}

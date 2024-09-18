@@ -3,21 +3,29 @@ import React, { useState } from 'react';
 
 // Individual Bento Item (Summary or Lessons Card)
 function BentoCard({ title, text, items, expanded, onClick }) {
+  const paragraphsText = text.split('||');
+
   return (
     <div
       onClick={onClick}
-      className={`bg-white dark:bg-neutral-800 rounded-lg shadow-md p-6 transition-all duration-1000 cursor-pointer ${
+      className={`hover:shadow-xl shadow-2xl dark:shadow-none dark:border-white/[0.2] border border-gray-800 dark:bg-neutral-800 rounded-lg p-6 transition-all duration-1000 cursor-pointer ${
         expanded ? 'transform scale-105' : 'opacity-60'
       }`}
       style={{ minHeight: expanded ? '400px' : '200px', transition: 'all 1.5s ease-in-out' }} // Change size based on expanded state
     >
-      <h3 className="text-xl font-bold mb-4 text-black">{title}</h3>
+      <h3 className="text-xl font-bold mb-4 text-blue-500">{title}</h3>
       {expanded ? (
         <>
-          <p className="text-neutral-700 dark:text-neutral-300 mb-4">{text}</p>
-          <ul className="space-y-2">
+          <p className="text-white dark:text-neutral-300 mb-4 text-justify">
+            <div className="space-y-4">
+              {paragraphsText.map((para, index) => (
+                <p key={index} className="leading-loose">{para}</p>
+              ))}
+            </div>
+          </p>
+          <ul className="space-y-2 list-disc mx-20 my-10">
             {items.map((item, index) => (
-              <li key={index} className="text-neutral-700 dark:text-neutral-300 text-lg">
+              <li key={index} className="text-orange-500 dark:text-neutral-300 text-lg">
                 {item}
               </li>
             ))}
@@ -38,7 +46,7 @@ export default function MangorianBento({ summary }) {
     <section className="px-6 py-12 max-w-7xl mx-auto">
       {/* Title */}
       <header className="text-center mb-20">
-        <h2 className="text-4xl font-bold">Project Overview</h2>
+        <h2 className="text-4xl font-bold text-blue-400">The End of a journey is always there!</h2>
         <p className="text-neutral-500 dark:text-neutral-400 mt-2">
           A detailed look at the project, including the key takeaways and lessons learned.
         </p>

@@ -38,17 +38,17 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-2xl dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-black border border-gray-800 justify-between flex flex-col space-y-4",
+        "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-2xl dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] border border-gray-800 justify-between flex flex-col space-y-4",
         className
       )}
     >
       {bigTitle ? (
-        <div className="flex flex-col items-center justify-center h-full space-y-2">
-          <div className="font-sans font-bold text-white dark:text-neutral-200 text-5xl">
+        <div className="flex flex-col items-center justify-center h-full space-y-2 bg-gray-400">
+          <div className="font-sans font-bold text-black dark:text-neutral-200 text-5xl">
             {bigTitle}
           </div>
           {tag && (
-            <div className="font-sans font-medium text-neutral-400 dark:text-neutral-500 text-base">
+            <div className="font-sans font-medium text-blue-800 dark:text-neutral-500 text-base">
               {tag}
             </div>
           )}
@@ -65,7 +65,7 @@ export const BentoGridItem = ({
         </div>
       ) : overviewTitle ? (
         <div className="text-justify font-sans font-light text-white dark:text-neutral-300">
-          <div className="font-sans font-bold text-white dark:text-neutral-200 mb-8 mt-2 text-4xl">
+          <div className="font-sans font-bold text-blue-500 dark:text-neutral-200 mb-8 mt-2 text-4xl">
             {overviewTitle}
           </div>
 
@@ -81,7 +81,7 @@ export const BentoGridItem = ({
         </div>
       ) : researchTitle ? (
         <div className="text-justify font-sans font-light text-white dark:text-neutral-300">
-          <div className="font-sans font-bold text-white dark:text-neutral-200 mb-2 mt-2 text-3xl">
+          <div className="font-sans font-bold text-blue-500 dark:text-neutral-200 mb-2 mt-2 text-3xl">
             {researchTitle}
           </div>
 
@@ -97,7 +97,7 @@ export const BentoGridItem = ({
         </div>
       ) : problemTitle ? (
         <div className="text-justify font-sans font-light text-white dark:text-neutral-300 group-hover/bento:translate-x-2 transition duration-200">
-          <div className="font-sans font-normal text-white dark:text-neutral-200 mb-10 mt-2 text-2xl">
+          <div className="font-sans font-normal text-blue-300 dark:text-neutral-200 mb-10 mt-2 text-2xl">
             {problemTitle}
           </div>
 
