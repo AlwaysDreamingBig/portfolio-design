@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import TypingText from "../design components/utils/TypingTextEffect";
 
 export const BentoGrid = ({
   className,
@@ -43,13 +44,20 @@ export const BentoGridItem = ({
       )}
     >
       {bigTitle ? (
-        <div className="flex flex-col items-center justify-center h-full space-y-2 bg-gray-400">
-          <div className="font-sans font-bold text-black dark:text-neutral-200 text-5xl">
+        <div className="flex flex-col items-center justify-center text-center h-full space-y-6 bg-gray-400 rounded-lg">
+          <div className="font-bold font-nerkoOne text-black dark:text-neutral-200 text-7xl">
             {bigTitle}
           </div>
           {tag && (
-            <div className="font-sans font-medium text-blue-800 dark:text-neutral-500 text-base">
-              {tag}
+            <div className="font-nerkoOne font-medium text-blue-800 dark:text-neutral-500 text-xl">
+              {
+                <TypingText
+                  texts={[tag]}
+                  speed={100}
+                  loop={true} // Set to true if you want looping behavior
+                  loopCount={1} // The text will loop 3 times
+                />
+              }
             </div>
           )}
         </div>
