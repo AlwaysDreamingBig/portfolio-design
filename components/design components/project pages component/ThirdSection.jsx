@@ -34,7 +34,7 @@ export function ThirdSection({Overview, Text1, Text2}) {
     },
 ];
     return (
-        (<BentoGrid className="mx-auto md:grid-cols-1 max-w-6xl md:auto-rows-[28rem]">
+        (<BentoGrid className="mx-auto md:grid-cols-1 max-w-6xl lg:auto-rows-[28rem]">
           {items.map((item, i) => (
             <BentoGridItem
               key={i}

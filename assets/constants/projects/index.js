@@ -28,13 +28,13 @@ export const SIEMENS = {
           title: "Roles & Responsibilities",
           description: "My contributions to the MAG 8000 4G and 3G development and maintenance.",
           list: [
-            "Architected and developed FUOTA solution for 4G systems",
-            "Designed AWS security mechanisms for key management and firmware signing",
-            "Maintained legacy 3G firmware codebase, implementing updates and fixes",
-            "Collaborated with production teams to implement process flowcharts",
-            "Led unit testing and zero-series testing to validate 4G firmware updates",
-            "Provided technical support to clients and assisted in resolving firmware issues"
-          ],
+            "Firmware Architect",
+            "Cloud Security Specialist",
+            "Legacy Systems Specialist",
+            "Process Flow Designer",
+            "Testing Lead",
+            "Technical Support Specialist"
+        ],
         },
         specificationsBoxParam: {
           title: "Technical Specifications",
@@ -215,7 +215,7 @@ export const SIEMENS = {
           tag: "Creating a responsive React-based website for a game!",
         },
         descriptionBoxParams: {
-          description: "The Android-17 project involved developing a dynamic and responsive website for a game using React and TailwindCSS. The website was designed to adapt to various screen sizes, ensuring a seamless user experience across devices. By leveraging React's component-based architecture and TailwindCSS for styling, the site achieved a modern, intuitive, and visually appealing design. The use of JavaScript allowed for interactive elements and smooth navigation, enhancing the overall gaming experience for users."
+          description: "The Android-17 project involved developing a dynamic and responsive website for a fictional video game using React and TailwindCSS. The website was designed to adapt to various screen sizes, ensuring a seamless user experience across devices. || By leveraging React's component-based architecture and TailwindCSS for styling, the site achieved a modern, intuitive, and visually appealing design. The use of JavaScript allowed for interactive elements and smooth navigation, enhancing the overall gaming experience for users."
         },
       },
     SecondSection: {
@@ -234,11 +234,11 @@ export const SIEMENS = {
             title: "Roles & Responsibilities",
             description: "My contributions to the Android-17 website development.",
             list: [
-            "Designed and implemented the React-based front-end of the website",
-            "Applied TailwindCSS for styling to ensure a consistent look and feel",
-            "Integrated JavaScript to add interactivity and dynamic content",
-            "Tested the website across various devices to ensure responsiveness",
-            "Created and maintained project documentation and code comments"
+                "Front-End Developer",
+                "UI/UX Designer",
+                "JavaScript Developer",
+                "Responsive Design Specialist",
+                "Documentation Specialist"
             ],
         },
         specificationsBoxParam: {
@@ -287,7 +287,7 @@ export const SIEMENS = {
     FifthSection: {
         researchBoxParam: {
           title: "Research",
-          description: "Research focused on understanding current web development trends and technologies relevant to the Android-17 website.",
+          description: "To inform the development of Android-17 website, I investigated current video game websites to understand their approach to responsive design and interactive features. This research highlighted the importance of responsive design in enhancing user experience across various devices. I explored how TailwindCSS enables the creation of modern, efficient styles that adapt to different screen sizes. Best practices for implementing interactive features using JavaScript were examined to ensure engaging and dynamic user interactions. || I evaluated the benefits of React’s component-based architecture for maintaining a scalable and manageable codebase. Additionally, I researched common challenges in integrating responsive design with interactive elements and identified effective solutions to create a cohesive and functional website.",
         },
         findingsBoxParam: {
           title: "Findings",
@@ -429,13 +429,13 @@ export const BUNNY_SHOES = {
           title: "Roles & Responsibilities",
           description: "My contributions to the BunnyShoes store website development.",
           list: [
-            "Designed and implemented the website structure and navigation.",
-            "Developed React components for product listings, individual product pages, and the shopping cart.",
-            "Styled the website using TailwindCSS to ensure a cohesive design.",
-            "Implemented JavaScript for interactive elements and dynamic content.",
-            "Managed the overall user experience and ensured smooth navigation across the site.",
-            "Collaborated with designers to create a visually appealing layout tailored to desktop users."
-          ],
+            "Web Architect",
+            "React Developer",
+            "UI/UX Designer",
+            "Front-End Developer",
+            "User Experience Designer",
+            "Visual Designer"
+        ],
         },
         specificationsBoxParam: {
           title: "Technical Specifications",
@@ -623,14 +623,13 @@ export const LANDLORD = {
           title: "Roles & Responsibilities",
           description: "My contributions to the LANDLORD web app development.",
           list: [
-            "Architected and developed the full-stack MERN application.",
-            "Integrated Firebase for Google authentication and user management.",
-            "Designed and implemented property listing and search functionalities.",
-            "Developed the backend with Node.js and Express, including API endpoints and data handling.",
-            "Managed state using Redux for consistent and efficient data flow.",
-            "Created and configured MongoDB databases for storing application data.",
-            "Developed an admin panel for property and user management."
-          ],
+            "Full-Stack Developer",
+            "Firebase Integration",
+            "Feature Developer",
+            "Backend Developer",
+            "State Management",
+            "Database Administrator",
+            ],
         },
         specificationsBoxParam: {
           title: "Technical Specifications",
@@ -678,7 +677,7 @@ export const LANDLORD = {
     FifthSection: {
         researchBoxParam: {
             title: "Research",
-            description: "Research focused on understanding real estate management needs, best practices for user authentication, and effective state management techniques. Key areas included analyzing real estate platforms, reviewing Firebase authentication methods, and exploring Redux for state management."
+            description: "To develop the real estate platform effectively, I began by investigating how existing platforms manage property listings and search functionalities, focusing on methods that enhance efficiency and user experience. Research into user authentication systems revealed that Firebase provides a secure and user-friendly approach to managing user accounts. I examined state management solutions and determined that Redux is particularly effective for handling complex interactions in large-scale applications. || Analyzing data storage options led to the conclusion that MongoDB offers the flexibility and scalability needed for real estate applications. Lastly, I explored best practices for designing user interfaces to ensure that a clear and responsive design would significantly improve user engagement and satisfaction"
         },
         findingsBoxParam: {
             title: "Findings",
@@ -826,13 +825,14 @@ export const HOSPITAL_MANAGEMENT = {
           title: "Roles & Responsibilities",
           description: "My contributions to the Hospital Management System development.",
           list: [
-            "Designed and implemented the application architecture using Java and JavaFX.",
-            "Developed the database schema and integrated MySQL for data management.",
-            "Created a user-friendly dashboard for real-time hospital and pharmacy management.",
-            "Built and tested modules for patient records, appointments, billing, and inventory management.",
-            "Implemented reporting tools for performance tracking and data analysis.",
-            "Ensured system security and data integrity with secure Java-based services."
-          ],
+            "Application Architect",
+            "Full-stack Developper",
+            "Java Developper",
+            "Database Manager",
+            "UI/UX Designer",
+            "Module Developer",
+            "Reporting",
+            ],
         },
         specificationsBoxParam: {
           title: "Technical Specifications",
@@ -880,7 +880,7 @@ export const HOSPITAL_MANAGEMENT = {
     FifthSection: {
         researchBoxParam: {
             title: "Research",
-            description: "Research focused on understanding hospital management needs, best practices for data management, and user interface design. Key areas included analyzing existing hospital management systems, reviewing JavaFX capabilities for UI development, and exploring effective database management techniques."
+            description: "To develop an effective hospital management system, I started by examining the role of a well-designed dashboard in facilitating efficient management and real-time decision-making. || My research underscored the importance of effective data management and security for handling sensitive patient and pharmacy information. I investigated JavaFX as a powerful tool for creating interactive and visually appealing desktop applications, which is crucial for user engagement. || A modular approach to application design was explored to enhance scalability and maintainability. Additionally, I reviewed efficient algorithms and data handling practices necessary for managing complex scheduling and billing processes, ensuring the system can handle intricate tasks smoothly."
         },
         findingsBoxParam: {
             title: "Findings",
@@ -1027,13 +1027,11 @@ export const AI_CHATBOT = {
           title: "Roles & Responsibilities",
           description: "My contributions to the AI chatbot development and research.",
           list: [
-            "Conducted in-depth research on chatbot architectures and AI technologies in 2020.",
-            "Implemented a rule-based chatbot using Facebook’s API and tools.",
-            "Developed a machine learning chatbot with Google Dialogflow for improved natural language processing.",
-            "Built a deep learning chatbot from scratch using Python and neural network techniques.",
-            "Trained the deep learning model with conversational datasets to improve chatbot performance.",
-            "Tested and evaluated the performance of all chatbots in different conversational contexts."
-          ],
+            "Chatbot Research",
+            "Rule-Based Chatbot Developer",
+            "Model Trainer",
+            "Performance Evaluator"
+            ],
         },
         specificationsBoxParam: {
           title: "Technical Specifications",
@@ -1082,7 +1080,7 @@ export const AI_CHATBOT = {
     FifthSection: {
         researchBoxParam: {
             title: "Research",
-            description: "Research focused on exploring different chatbot architectures and AI methods for enhancing conversational abilities. Key areas included the evaluation of rule-based, machine learning, and deep learning approaches to chatbot development."
+            description: "In developing the chatbot, my research began with evaluating rule-based chatbots and their effectiveness in automating simple tasks versus their limitations with complex, unstructured conversations. || I explored machine learning chatbots for their ability to adapt to new inputs and provide a more personalized user experience. Deep learning models were assessed for their capacity to deliver flexible and natural conversational capabilities, despite their higher resource requirements. Google Dialogflow was analyzed for its robust tools that simplify the creation of ML-based chatbots with strong NLP features and minimal coding. || Additionally, I investigated how Python, in combination with TensorFlow or Keras, allows for the full customization and development of advanced deep learning models, enhancing chatbot functionalities."
         },
         findingsBoxParam: {
             title: "Findings",
@@ -1243,13 +1241,11 @@ export const PERSONAL_PORTFOLIO = {
           title: "Roles & Responsibilities",
           description: "My contributions to the development of the personal portfolio website.",
           list: [
-            "Designed and developed the entire website from scratch using React and Next.js.",
-            "Implemented responsive design principles using TailwindCSS for a seamless experience on all devices.",
-            "Added interactive animations and transitions with Framer Motion to create a dynamic user experience.",
-            "Created dedicated pages for home, work, personal projects, about me, and contact, each with unique styling and functionality.",
-            "Ensured fast page load times and smooth navigation using Next.js for server-side rendering and routing.",
-            "Developed a contact form with email integration for easy communication."
-          ],
+            "Full-Stack Web Developer",
+            "Responsive Design Specialist",
+            "Page Designer",
+            "Performance Optimization Specialist",
+            ],
         },
         specificationsBoxParam: {
           title: "Technical Specifications",
@@ -1296,7 +1292,7 @@ export const PERSONAL_PORTFOLIO = {
     FifthSection: {
         researchBoxParam: {
             title: "Research",
-            description: "Researched modern web design trends, animation techniques, and best practices for creating a personal portfolio that is both visually appealing and functionally robust."
+            description: "To guide the development of my portfolio project, I investigated various tools and frameworks for optimizing performance and design. My research highlighted that Framer Motion is highly effective for adding animations with minimal performance impact, enhancing user engagement without compromising speed. I examined TailwindCSS's utility-first approach, which facilitates rapid and flexible styling across different devices, ensuring a consistent look and feel. Next.js was chosen for its excellent support for building fast, server-rendered applications, which improves load times and SEO. Additionally, I confirmed that responsive design is crucial for providing a seamless user experience across various platforms, and TailwindCSS simplifies its implementation, making it easier to achieve a fully responsive design."
         },
         findingsBoxParam: {
             title: "Findings",
@@ -1434,15 +1430,13 @@ export const HUTCHINSON_PAULSTRA_PROJECT = {
           title: "Roles & Responsibilities",
           description: "My responsibilities throughout the project, from system design to hardware troubleshooting.",
           list: [
-            "Designed and implemented the noise mitigation model using MATLAB.",
-            "Programmed and integrated the model into an embedded MCU, ensuring efficient real-time processing.",
-            "Automated the input parameter system to simplify user interaction with the embedded system.",
-            "Selected and programmed the appropriate microcontroller boards to meet project specifications.",
-            "Modeled sensor transfer functions and filter coefficients in MATLAB/Simulink for accurate signal processing.",
-            "Developed a Qt-based interface for real-time hardware troubleshooting and analysis.",
-            "Performed comparative analysis of various noise mitigation solutions and documented error rates.",
-            "Authored a detailed software installation guide for easier deployment and configuration."
-          ],
+            "Embedded Systems Developer",
+            "Automation Design",
+            "Microcontroller Programmer",
+            "Signal Processing",
+            "Interface Developer",
+            "Comparative Analyst",
+            ],
         },
         specificationsBoxParam: {
           title: "Technical Specifications",
@@ -1491,7 +1485,7 @@ export const HUTCHINSON_PAULSTRA_PROJECT = {
     FifthSection: {
         researchBoxParam: {
             title: "Research",
-            description: "Conducted research on noise mitigation algorithms, sensor function modeling, and embedded systems optimization for real-time processing and automation."
+            description: "To develop a robust solution for noise mitigation and embedded systems, I started by exploring MATLAB's powerful tools for modeling and filtering systems, which are crucial for effective noise management. I researched the importance of selecting the right microcontroller to ensure real-time processing and functionality in embedded systems. || Automating input systems was identified as essential for enhancing user experience and simplifying interactions with complex embedded technologies. Additionally, I investigated how using Qt for hardware troubleshooting can provide real-time insights, significantly improving diagnostics and maintenance processes."
         },
         findingsBoxParam: {
             title: "Findings",
@@ -1530,7 +1524,7 @@ export const HUTCHINSON_PAULSTRA_PROJECT = {
     MobileDemoSection: {
         descriptionBoxParam: {
             title: "Mobile Demo Overview",
-            description: "This section provides a comprehensive overview of the mobile demo related to the Hospital Management desktop App project. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
+            description: "This section provides a comprehensive overview of the mobile demo related to the project. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
             link: "https://example.com/mobile-demo", // Replace with the actual link to the demo
             github: "https://github.com/your-repository", // Replace with the actual GitHub repository link
             note: "Please check the demo and repository for detailed insights into the app's functionality and code implementation."
@@ -1607,7 +1601,7 @@ export const ALSTOM_APTIS_PROJECT = {
             tag: "Analyzed electric bus logs, collaborated with support, development, and test teams, and produced detailed reports addressing client concerns and incident diagnostics.",
         },
         descriptionBoxParams: {
-            description: "In this role, I worked closely with the support, development, and test teams to analyze logs from faulty electric buses. My responsibilities included producing reports that addressed client concerns, diagnosing issues, and escalating them to the development team. I started as an assistant and, after four months, was promoted to manage site operations in Grenoble, Paris, and La Rochelle. I also led testing campaigns for new software and analyzed CAN bus data to identify causes of incidents reported by clients.",
+            description: "In this role, I worked closely with the support, development, and test teams to analyze logs from faulty electric buses. My responsibilities included producing reports that addressed client concerns, diagnosing issues, and escalating them to the development team. || I started as an assistant and, after four months, was promoted to manage site operations in Grenoble, Paris, and La Rochelle. I also led testing campaigns for new software and analyzed CAN bus data to identify causes of incidents reported by clients.",
         },
     },
     SecondSection: {
@@ -1619,7 +1613,7 @@ export const ALSTOM_APTIS_PROJECT = {
                 "Provided detailed reports to development teams for further investigation and problem resolution.",
                 "Led static and dynamic testing campaigns for new software releases, ensuring performance reliability.",
                 "Collected and analyzed CAN bus data from vehicle black boxes to diagnose incidents reported by clients.",
-                "Promoted after four months to manage bus sites in Grenoble, Paris, and La Rochelle.",
+                "Managed multiple bus sites like Grenoble, Paris, and La Rochelle.",
                 "Collaborated with clients and compiled detailed analysis reports that addressed their concerns and provided expert assessments.",
                 "Facilitated clear communication between clients and the technical teams, ensuring actionable insights."
             ],
@@ -1628,12 +1622,14 @@ export const ALSTOM_APTIS_PROJECT = {
             title: "Roles & Responsibilities",
             description: "Responsibilities throughout the electric bus log analysis and CAN data diagnosis project.",
             list: [
-                "Analyzed electric bus logs to identify and diagnose issues.",
-                "Produced detailed reports for both clients and the development team to escalate issues and drive resolution.",
-                "Led dynamic and static testing campaigns for new software updates.",
-                "Collected and analyzed CAN bus data from black boxes to determine the causes of accidents and incidents.",
-                "Promoted to manage site operations in Grenoble, Paris, and La Rochelle, ensuring smooth workflows and operations.",
-                "Communicated with clients to provide expert analysis and addressed their concerns effectively."
+                "Data Analyst",
+                "Diagnostic Engineer",
+                "Technical Writer",
+                "Report Writting",
+                "Test Engineer",
+                "Site Operations Manager",
+                "Client Relations Manager",
+                "Technical Consultant"
             ],
         },
         specificationsBoxParam: {
@@ -1682,7 +1678,7 @@ export const ALSTOM_APTIS_PROJECT = {
     FifthSection: {
         researchBoxParam: {
             title: "Research",
-            description: "Research conducted on CAN bus diagnostics, electric vehicle data logs, and methods for testing software performance in dynamic environments.",
+            description: "To address the challenges in vehicle diagnostics and software updates, I began by analyzing the critical role of CAN bus data in providing insights into vehicle faults and incidents. My research emphasized the necessity of accurate log analysis for diagnosing faults in electric vehicles, which is vital for improving client satisfaction. I also explored the importance of dynamic and static testing to ensure the reliability of software updates before deployment. || Additionally, effective communication between technical teams and clients was identified as a key factor in enhancing issue resolution and building trust.",
         },
         findingsBoxParam: {
             title: "Findings",
@@ -1721,7 +1717,7 @@ export const ALSTOM_APTIS_PROJECT = {
     MobileDemoSection: {
         descriptionBoxParam: {
             title: "Mobile Demo Overview",
-            description: "This section provides a comprehensive overview of the mobile demo related to the Hospital Management desktop App project. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
+            description: "This section provides a comprehensive overview of the mobile demo related to the App project. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
             link: "https://example.com/mobile-demo", // Replace with the actual link to the demo
             github: "https://github.com/your-repository", // Replace with the actual GitHub repository link
             note: "Please check the demo and repository for detailed insights into the app's functionality and code implementation."

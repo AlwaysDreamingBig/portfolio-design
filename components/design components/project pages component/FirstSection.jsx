@@ -35,7 +35,7 @@ export function FirstSection({BigTitle, Tag, Text}) {
   ];
 
   return (
-    (<BentoGrid className="mx-auto md:grid-cols-2 md:auto-rows-[28rem]">
+    (<BentoGrid className="mx-auto md:grid-cols-2 lg:auto-rows-[28rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

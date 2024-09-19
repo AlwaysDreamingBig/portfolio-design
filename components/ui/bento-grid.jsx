@@ -77,7 +77,7 @@ export const BentoGridItem = ({
             {overviewTitle}
           </div>
 
-          <div className="font-sans font-light text-white text-lg dark:text-neutral-300 grid grid-cols-2 gap-10">
+          <div className="font-sans font-light text-white text-lg dark:text-neutral-300 md:grid grid-cols-2 gap-10">
                 <div className="text-justify font-sans font-light text-white dark:text-neutral-300 leading-loose">
                   {overviewText[0]}
                 </div>
@@ -95,7 +95,7 @@ export const BentoGridItem = ({
 
           <div className="text-justify font-sans font-light text-white dark:text-neutral-300 text-base">
             {
-              <div className="space-y-4 px-4">
+              <div className="space-y-4 xl:px-20 lg:px-10 px-2">
                 {paragraphsRedearch.map((para, index) => (
                   <p key={index} className="leading-loose">{para}</p>
                 ))}
