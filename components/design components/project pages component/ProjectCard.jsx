@@ -51,7 +51,7 @@ export default function ProjectCard({ title, text, images = [] }) {
         {/* Scrollable Image Container */}
         <div
           ref={imageContainerRef}
-          className={`flex space-x-4 overflow-x-scroll scrollbar-hide max-w-full ${images.length<3 ? 'sm:items-center sm:justify-center' : ''}`}
+          className={`flex space-x-4 overflow-x-scroll scrollbar-hide max-w-full ${images.length < 4 ? 'sm:items-center sm:justify-center' : ''}`}
         >
           {images.map((image, index) => (
             <div key={index} className='min-w-[400px] h-[450px] relative'>

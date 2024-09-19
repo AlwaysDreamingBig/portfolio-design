@@ -1,4 +1,5 @@
 
+import { Client1, Client2, Client3, MF1, MF2, fuota1, fuota2, fuota3, fuota4, fuota5, fuota6, fuota7, fuota9, AWS1, AWS2, AWS3, AWS5, AWS6, TreeG, TreeG3, TreeG4, TreeG5, TreeG6, TreeG7, TreeG8 } from '@/assets/images';
 import { FaRocket, FaCode, FaMobileAlt, FaCog, FaStore, FaShoePrints, FaLock, FaHome, FaDatabase, FaChartLine, FaHospital, FaPills, FaFacebook, FaGoogle, FaBrain, FaPython, FaLaptopCode, FaProjectDiagram, FaEnvelope, FaMicrochip, FaRobot, FaCogs, FaFileCode, FaDiagnoses, FaFileAlt, FaTools, FaBusAlt } from 'react-icons/fa';
 
 export const SIEMENS = {
@@ -110,27 +111,27 @@ export const SIEMENS = {
           {
             title: "FUOTA Implementation",
             text: "As part of the transition from 3G to 4G MAG8000 models, I designed and implemented the Firmware Update Over The Air (FUOTA) feature. FUOTA enables remote firmware updates, which significantly enhances the efficiency of maintenance by eliminating the need for physical device intervention. || This feature allows for seamless and timely updates, ensuring that the 4G models remain current with the latest firmware improvements and security patches. The implementation involved developing a robust communication protocol and integrating it with the existing system architecture. The visual illustrations include diagrams of the FUOTA process, flowcharts showing the update workflow, and interface screenshots to demonstrate the user experience.",
-            images: ["fuota_diagram.png", "fuota_flowchart.png", "fuota_interface.png"]
+            images: [fuota1, fuota2, fuota3, fuota4, fuota5, fuota6, fuota7, fuota9]
           },
           {
             title: "AWS Security Mechanisms",
             text: "In response to the need for secure firmware updates, I developed an AWS-based architecture for firmware signing and key protection. This system enhances the security of the 4G MAG8000 models by ensuring that firmware updates are authenticated and tamper-proof. || The AWS architecture includes mechanisms for securely managing cryptographic keys and verifying the integrity of firmware before installation. This solution mitigates risks associated with firmware updates and protects against unauthorized access or tampering. Illustrations include architecture diagrams, security flowcharts, and key protection mechanisms, showcasing the comprehensive approach to securing firmware updates.",
-            images: ["aws_architecture.png", "aws_security_flow.png", "aws_key_protection.png"]
+            images: [AWS1, AWS2, AWS3, AWS5, AWS6]
           },
           {
             title: "3G Firmware Maintenance",
             text: "Maintaining the legacy 3G MAG8000 firmware was a critical task during the transition to 4G. This involved addressing a growing number of reported bugs and implementing performance improvements to stabilize the system. || Bug fixes were prioritized based on severity and impact, ensuring that critical issues were resolved promptly. Additionally, performance enhancements were made to extend the usability of the 3G models until the full transition to 4G was complete. The provided images illustrate the process of applying updates, fixing bugs, and improving performance, highlighting the efforts taken to ensure continued functionality and reliability of the 3G devices.",
-            images: ["3g_firmware_updates.png", "3g_bug_fixes.png", "3g_performance_improvements.png"]
+            images: [TreeG, TreeG3, TreeG4, TreeG5, TreeG6, TreeG7, TreeG8]
           },
           {
             title: "Production-Level Processes",
             text: "To streamline the deployment of both 3G and 4G MAG8000 models, I designed and implemented production-level processes. This included creating detailed flowcharts and automating various aspects of production to improve efficiency and consistency. || The updated processes ensured that the production and deployment of the water meters were managed effectively, reducing errors and accelerating the timeline for bringing new models to market. Automated update tools were developed to handle routine tasks, further optimizing the production workflow. The accompanying illustrations show production flowcharts, automated updater programs, and process improvements.",
-            images: ["production_flowchart.png", "production_process.png", "automated_updaters.png"]
+            images: [MF1, MF2]
           },
           {
             title: "Client Assistance and Documentation",
             text: "Providing support to clients and creating comprehensive documentation were essential components of the project. Detailed user guides, troubleshooting tips, and training materials were developed to assist clients with the migration to the new 4G models. || This documentation aimed to facilitate a smooth transition and address any potential issues that clients might encounter. The support included hands-on training sessions and ongoing assistance to ensure that clients could effectively manage and utilize the new features of the MAG8000 4G models. Images include examples of user guides, training materials, and client documentation.",
-            images: ["client_documentation.png", "user_guide.png", "training_materials.png"]
+            images: [Client1, Client2, Client3]
           }
         ]
       },    

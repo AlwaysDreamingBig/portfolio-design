@@ -25,7 +25,7 @@ const demoContent = (
     </video>
   );
 
-  export default function PersonalProject() {
+  export default function siemens() {
 
     useEffect(() => {
       AOS.init({
@@ -45,7 +45,7 @@ const demoContent = (
   return (
     <div className='space-y-20'>
 
-      <ScrollToTopButton />
+    <ScrollToTopButton />
 
       <section>
         {/* Image with responsive behavior */}
@@ -97,9 +97,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-400 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+              FIRMWARE UPDATE OVER THE AIR IS A KEY FUNCTIONALITY THAT PROVIDES THE POSSIBILITY TO 
+              DO REMOTE UPDATES FOR A LARGE NUMBER OF DEVICES.
           </p>
       </section>
 
@@ -127,9 +128,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-200 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-200 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+              THE 3G MAG8000 BEING AND OLD MODEL HAS BUILT A RELIABLE RELATION BETWEEN SIEMENS
+              AND ITS CLIENT. IT WAS A REAL CHALLENGE.
           </p>
       </section>
 
