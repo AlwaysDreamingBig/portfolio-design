@@ -24,7 +24,7 @@ export default function ProjectCard({ title, text, images = [] }) {
   return (
     <div className='grid grid-cols-1 gap-4 max-w-8xl p-4 mx-auto md:grid-rows-2'>
       {/* Title and Text */}
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:px-28'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-2 lg:px-28'>
         <div className='text-blue-500 text-2xl p-8'>
           {title}
         </div>
@@ -51,7 +51,7 @@ export default function ProjectCard({ title, text, images = [] }) {
         {/* Scrollable Image Container */}
         <div
           ref={imageContainerRef}
-          className='flex space-x-4 overflow-x-scroll scrollbar-hide max-w-full'
+          className={`flex space-x-4 overflow-x-scroll scrollbar-hide max-w-full ${images.length<3 ? 'sm:items-center sm:justify-center' : ''}`}
         >
           {images.map((image, index) => (
             <div key={index} className='min-w-[400px] h-[450px] relative'>
