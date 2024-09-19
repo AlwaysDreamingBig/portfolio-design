@@ -27,7 +27,7 @@ export const nav = [
   ];
 
 import { Bungee } from "next/font/google";
-  import { itgstoreLogo, paulstraLogo, siemensLogo, alstomLogo, lesBrouilles, flowImg, aptisBus, paulstraImg1, chatbotImg, bugsbunny, HoospitalMan, HPMan, AIOT, Landlord, android17, siemensLogo2, paulstraLogo2 } from "../images";
+  import { itgstoreLogo, paulstraLogo, siemensLogo, alstomLogo, lesBrouilles, flowImg, aptisBus, paulstraImg1, chatbotImg, bugsbunny, HoospitalMan, HPMan, AIOT, Landlord, android17, siemensLogo2, paulstraLogo2, ShoeStore1 } from "../images";
 
   export const brands = [
     { src: itgstoreLogo, alt: 'ITGStore' },
@@ -121,6 +121,16 @@ import { Bungee } from "next/font/google";
       description: 'Design and create a responsive and fun website.',
       link: '/android17',
       titleClassName: 'text-white',
+    },
+    {
+      id: 9,
+      backgroundImage: ShoeStore1,
+      logoImage: bugsbunny,
+      title: 'Shoes Store Online platform',
+      tag: 'Web Development',
+      description: 'Design and develop a website for a shoes store.',
+      link: '/bunnyshoes',
+      titleClassName: '',
     },
     {
       id: 8,

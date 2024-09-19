@@ -306,26 +306,28 @@ export const SIEMENS = {
           title: "Project Implementation",
           tag: "Developing a Responsive React Website for Android-17"
         },
-        firstIllustrationBoxParam: {
-          title: "Responsive Design Implementation",
-          text: "The website for Android-17 was designed with a focus on responsiveness, ensuring it adapts to various screen sizes. The implementation included flexible grid layouts and media queries to achieve a seamless user experience on different devices. Illustrations include responsive design flowcharts, CSS media query examples, and screenshots demonstrating the website’s appearance on various devices.",
-          images: ["responsive_design_flowchart.png", "media_queries.png", "responsive_screenshots.png"]
-        },
-        secondIllustrationBoxParam: {
-          title: "React Component Architecture",
-          text: "React’s component-based architecture was used to build a modular and maintainable codebase for the Android-17 website. Components were designed to be reusable and easily manageable, facilitating better organization and scalability. Illustrations include component diagrams, state management flowcharts, and code snippets showcasing the React components in action.",
-          images: ["react_component_diagram.png", "state_management_flowchart.png", "react_code_snippets.png"]
-        },
-        thirdIllustrationBoxParam: {
-          title: "TailwindCSS Integration",
-          text: "TailwindCSS was utilized for styling the website, providing a modern and consistent look. The integration process involved configuring TailwindCSS with React and applying utility classes to design the user interface. Illustrations include TailwindCSS configuration files, styling examples, and before-and-after screenshots demonstrating the impact of TailwindCSS on the website’s design.",
-          images: ["tailwindcss_config.png", "styling_examples.png", "before_after_screenshots.png"]
-        },
-        fourthIllustrationBoxParam: {
-          title: "JavaScript Interactivity",
-          text: "JavaScript was used to add interactivity to the website, including dynamic elements and smooth transitions. This involved writing scripts to handle user interactions and enhance the gaming experience. Illustrations include JavaScript code snippets, interaction flowcharts, and screenshots demonstrating interactive features on the website.",
-          images: ["javascript_code_snippets.png", "interaction_flowchart.png", "interactive_screenshots.png"]
-        },
+        illustrationBoxes: [
+            {
+                title: "Responsive Design Implementation",
+                text: "The website for Android-17 was designed with a focus on responsiveness, ensuring it adapts to various screen sizes. The implementation included flexible grid layouts and media queries to achieve a seamless user experience on different devices. Illustrations include responsive design flowcharts, CSS media query examples, and screenshots demonstrating the website’s appearance on various devices.",
+                images: ["responsive_design_flowchart.png", "media_queries.png", "responsive_screenshots.png"]
+            },
+            {
+                title: "React Component Architecture",
+                text: "React’s component-based architecture was used to build a modular and maintainable codebase for the Android-17 website. Components were designed to be reusable and easily manageable, facilitating better organization and scalability. Illustrations include component diagrams, state management flowcharts, and code snippets showcasing the React components in action.",
+                images: ["react_component_diagram.png", "state_management_flowchart.png", "react_code_snippets.png"]
+            },
+            {
+                title: "TailwindCSS Integration",
+                text: "TailwindCSS was utilized for styling the website, providing a modern and consistent look. The integration process involved configuring TailwindCSS with React and applying utility classes to design the user interface. Illustrations include TailwindCSS configuration files, styling examples, and before-and-after screenshots demonstrating the impact of TailwindCSS on the website’s design.",
+                images: ["tailwindcss_config.png", "styling_examples.png", "before_after_screenshots.png"]
+            },
+            {
+                title: "JavaScript Interactivity",
+                text: "JavaScript was used to add interactivity to the website, including dynamic elements and smooth transitions. This involved writing scripts to handle user interactions and enhance the gaming experience. Illustrations include JavaScript code snippets, interaction flowcharts, and screenshots demonstrating interactive features on the website.",
+                images: ["javascript_code_snippets.png", "interaction_flowchart.png", "interactive_screenshots.png"]
+            },
+        ],
     },   
     MobileDemoSection: {
         descriptionBoxParam: {
@@ -348,28 +350,28 @@ export const SIEMENS = {
             images: ["laptop_screenshot1.png", "laptop_screenshot2.png", "laptop_screenshot3.png"], // Replace with actual image filenames
         },
     },  
-    ImprovementSection: {
-        firstImprovementBoxParam: {
+    ImprovementSection: [
+        {
           title: "Enhanced Responsiveness",
           description: "Optimized the website’s responsiveness to ensure a consistent and smooth experience across all device sizes, from mobile phones to large desktop screens.",
           icon: <FaRocket /> ,
         },
-        secondImprovementBoxParam: {
+        {
           title: "Improved Interactivity",
           description: "Developed interactive features using JavaScript to enhance user engagement and provide a more dynamic gaming experience on the website.",
           icon: <FaCode /> ,
         },
-        thirdImprovementBoxParam: {
+        {
           title: "TailwindCSS Styling",
           description: "Leveraged TailwindCSS for efficient and modern styling, resulting in a visually appealing and easy-to-maintain website design.",
           icon: <FaMobileAlt /> ,
         },
-        fourthImprovementBoxParam: {
+        {
           title: "React Component Efficiency",
           description: "Implemented a modular React component architecture to streamline development and make future updates more manageable.",
           icon: <FaCog /> ,
         },
-    },
+    ],
     SummarySection: {
         summaryBoxParam: {
           title: "Project Summary",
@@ -400,7 +402,7 @@ export const SIEMENS = {
    * /**----------------------------------------/**----------------------------------------/**----------------------------------------/**----------------------------------------
    */
 
-const BUNNY_SHOES = {
+export const BUNNY_SHOES = {
     FirstSection: {
       titleBoxParams: {
         title: "BunnyShoes Store Website",
@@ -497,26 +499,28 @@ const BUNNY_SHOES = {
             title: "Project Implementation",
             tag: "BunnyShoes Store Website",
         },
-        firstIllustrationBoxParam: {
-            title: "Product Listings",
-            text: "The product listings page showcases a grid layout of available shoes, each with a thumbnail image, price, and brief description. Users can click on individual products to view detailed information. Illustrations include screenshots of the product listings page and the grid layout.",
-            images: ["product_listings_page.png", "product_grid_layout.png"]
-        },
-        secondIllustrationBoxParam: {
-            title: "Product Details",
-            text: "The product details page provides in-depth information about each shoe, including high-quality images, detailed descriptions, and purchase options. This page is designed to offer a comprehensive view of each product. Illustrations include screenshots of the product details page and close-ups of key elements.",
-            images: ["product_details_page.png", "product_details_closeup.png"]
-        },
-        thirdIllustrationBoxParam: {
-            title: "Shopping Cart",
-            text: "The shopping cart feature allows users to view and manage their selected items. It includes functionalities for updating quantities, removing items, and proceeding to checkout. Visuals include screenshots of the shopping cart and its various interactive elements.",
-            images: ["shopping_cart_page.png", "shopping_cart_interactions.png"]
-        },
-        fourthIllustrationBoxParam: {
-            title: "TailwindCSS Integration",
-            text: "TailwindCSS was used to style the website, providing a modern and cohesive design. Illustrations include code snippets showcasing TailwindCSS utility classes and screenshots demonstrating the final design aesthetics.",
-            images: ["tailwind_code_snippet.png", "tailwind_store_design.png"]
-        },
+        illustrationBoxes: [
+            {
+                title: "Product Listings",
+                text: "The product listings page showcases a grid layout of available shoes, each with a thumbnail image, price, and brief description. Users can click on individual products to view detailed information. Illustrations include screenshots of the product listings page and the grid layout.",
+                images: ["product_listings_page.png", "product_grid_layout.png"]
+            },
+            {
+                title: "Product Details",
+                text: "The product details page provides in-depth information about each shoe, including high-quality images, detailed descriptions, and purchase options. This page is designed to offer a comprehensive view of each product. Illustrations include screenshots of the product details page and close-ups of key elements.",
+                images: ["product_details_page.png", "product_details_closeup.png"]
+            },
+            {
+                title: "Shopping Cart",
+                text: "The shopping cart feature allows users to view and manage their selected items. It includes functionalities for updating quantities, removing items, and proceeding to checkout. Visuals include screenshots of the shopping cart and its various interactive elements.",
+                images: ["shopping_cart_page.png", "shopping_cart_interactions.png"]
+            },
+            {
+                title: "TailwindCSS Integration",
+                text: "TailwindCSS was used to style the website, providing a modern and cohesive design. Illustrations include code snippets showcasing TailwindCSS utility classes and screenshots demonstrating the final design aesthetics.",
+                images: ["tailwind_code_snippet.png", "tailwind_store_design.png"]
+            },
+        ],
     },
     MobileDemoSection: {
         descriptionBoxParam: {
@@ -539,28 +543,28 @@ const BUNNY_SHOES = {
             images: ["laptop_screenshot1.png", "laptop_screenshot2.png", "laptop_screenshot3.png"], // Replace with actual image filenames
         },
     },  
-    ImprovementSection: {
-        firstImprovementBoxParam: {
+    ImprovementSection: [
+        {
             title: "Enhanced User Interface",
             description: "Developed an attractive and functional interface for desktop users, focusing on ease of navigation and clear product presentation.",
             icon: <FaStore /> ,
         },
-        secondImprovementBoxParam: {
+        {
             title: "Dynamic Shopping Cart",
             description: "Implemented a fully functional shopping cart with features for managing product quantities and proceeding to checkout.",
             icon: <FaShoePrints /> ,
         },
-        thirdImprovementBoxParam: {
+        {
             title: "JavaScript Integration",
             description: "Used JavaScript to handle dynamic content updates and interactive features, enhancing the overall user experience.",
             icon: <FaCode /> ,
         },
-        fourthImprovementBoxParam: {
+        {
             title: "TailwindCSS Styling",
             description: "Utilized TailwindCSS for modern, consistent styling, ensuring a cohesive and visually appealing design.",
             icon: <FaCog /> ,
         },
-    },
+    ],
     SummarySection: {
         summaryBoxParam: {
             title: "Project Summary",
@@ -591,7 +595,7 @@ const BUNNY_SHOES = {
    */
 
 
-const LANDLORD = {
+export const LANDLORD = {
     FirstSection: {
       titleBoxParams: {
         title: "LANDLORD - Real Estate Web App",
@@ -693,31 +697,33 @@ const LANDLORD = {
             title: "Project Implementation",
             tag: "LANDLORD - Full-Stack MERN Real Estate App",
         },
-        firstIllustrationBoxParam: {
-            title: "Property Listings",
-            text: "The property listings page displays available properties with essential details like images, prices, and brief descriptions. Users can filter and search for properties based on various criteria. Illustrations include screenshots of the property listings page and search functionalities.",
-            images: ["property_listings_page.png", "property_search_functionality.png"]
-        },
-        secondIllustrationBoxParam: {
-            title: "Detailed Property Page",
-            text: "The detailed property page provides in-depth information about each listing, including high-resolution images, comprehensive descriptions, and contact options. This page is designed to offer a thorough view of each property. Illustrations include screenshots of the property details page and its key features.",
-            images: ["property_details_page.png", "property_details_features.png"]
-        },
-        thirdIllustrationBoxParam: {
-            title: "Admin Panel",
-            text: "The admin panel allows administrators to manage property listings, review user accounts, and oversee transactions. It includes features for adding, updating, and deleting property listings. Visuals include screenshots of the admin panel interface and management functionalities.",
-            images: ["admin_panel.png", "admin_management_features.png"]
-        },
-        fourthIllustrationBoxParam: {
-            title: "Google Authentication Integration",
-            text: "Firebase was used to integrate Google authentication, enabling users to securely log in and manage their accounts. Illustrations include code snippets and screenshots demonstrating the authentication process and user login flow.",
-            images: ["firebase_authentication_code.png", "google_login_flow.png"]
-        },
-        fifthIllustrationBoxParam: {
-            title: "State Management with Redux",
-            text: "Redux was utilized for managing application state, ensuring consistent data flow and efficient handling of user interactions. Illustrations include Redux state management diagrams and code snippets showcasing the implementation.",
-            images: ["redux_state_management.png", "redux_code_snippets.png"]
-        },
+        illustrationBoxes: [
+            {
+                title: "Property Listings",
+                text: "The property listings page displays available properties with essential details like images, prices, and brief descriptions. Users can filter and search for properties based on various criteria. Illustrations include screenshots of the property listings page and search functionalities.",
+                images: ["property_listings_page.png", "property_search_functionality.png"]
+            },
+            {
+                title: "Detailed Property Page",
+                text: "The detailed property page provides in-depth information about each listing, including high-resolution images, comprehensive descriptions, and contact options. This page is designed to offer a thorough view of each property. Illustrations include screenshots of the property details page and its key features.",
+                images: ["property_details_page.png", "property_details_features.png"]
+            },
+            {
+                title: "Admin Panel",
+                text: "The admin panel allows administrators to manage property listings, review user accounts, and oversee transactions. It includes features for adding, updating, and deleting property listings. Visuals include screenshots of the admin panel interface and management functionalities.",
+                images: ["admin_panel.png", "admin_management_features.png"]
+            },
+            {
+                title: "Google Authentication Integration",
+                text: "Firebase was used to integrate Google authentication, enabling users to securely log in and manage their accounts. Illustrations include code snippets and screenshots demonstrating the authentication process and user login flow.",
+                images: ["firebase_authentication_code.png", "google_login_flow.png"]
+            },
+            {
+                title: "State Management with Redux",
+                text: "Redux was utilized for managing application state, ensuring consistent data flow and efficient handling of user interactions. Illustrations include Redux state management diagrams and code snippets showcasing the implementation.",
+                images: ["redux_state_management.png", "redux_code_snippets.png"]
+            },
+        ],
     },
     MobileDemoSection: {
         descriptionBoxParam: {
@@ -740,28 +746,28 @@ const LANDLORD = {
             images: ["laptop_screenshot1.png", "laptop_screenshot2.png", "laptop_screenshot3.png"], // Replace with actual image filenames
         },
     },  
-    ImprovementSection: {
-        firstImprovementBoxParam: {
+    ImprovementSection: [
+        {
             title: "Enhanced Authentication",
             description: "Implemented Google authentication with Firebase, providing secure and convenient user login and account management.",
             icon: <FaLock /> ,
         },
-        secondImprovementBoxParam: {
+        {
             title: "Dynamic Property Management",
             description: "Developed dynamic property management features including listings, details, and admin controls, facilitating efficient real estate operations.",
             icon: <FaHome /> ,
         },
-        thirdImprovementBoxParam: {
+        {
             title: "Efficient State Management",
             description: "Utilized Redux for effective state management, ensuring consistent data flow and improved application performance.",
             icon: <FaCode /> ,
         },
-        fourthImprovementBoxParam: {
+        {
             title: "Robust Backend Integration",
             description: "Built a reliable backend with Node.js and Express, handling data operations and API requests seamlessly.",
             icon: <FaDatabase /> ,
         },
-    },
+    ],
     SummarySection: {
         summaryBoxParam: {
             title: "Project Summary",
@@ -792,7 +798,7 @@ const LANDLORD = {
    */
 
 
-const HOSPITAL_MANAGEMENT = {
+export const HOSPITAL_MANAGEMENT = {
     FirstSection: {
       titleBoxParams: {
         title: "Hospital Management System",
@@ -893,31 +899,33 @@ const HOSPITAL_MANAGEMENT = {
             title: "Project Implementation",
             tag: "Hospital Management System - Desktop Application",
         },
-        firstIllustrationBoxParam: {
-            title: "Dashboard Overview",
-            text: "The dashboard provides a central view of hospital operations, including patient management, appointment scheduling, billing, and pharmacy inventory. Illustrations include screenshots of the dashboard interface and key features.",
-            images: ["dashboard_overview.png", "dashboard_features.png"]
-        },
-        secondIllustrationBoxParam: {
-            title: "Patient Records Management",
-            text: "The patient records module allows for comprehensive management of patient information, including medical history, treatment plans, and contact details. Visuals include screenshots of the patient records interface and data entry forms.",
-            images: ["patient_records_management.png", "patient_records_interface.png"]
-        },
-        thirdIllustrationBoxParam: {
-            title: "Appointment Scheduling",
-            text: "The appointment scheduling module facilitates efficient booking and management of patient appointments. Illustrations include screenshots of the scheduling interface and calendar view.",
-            images: ["appointment_scheduling.png", "appointment_calendar.png"]
-        },
-        fourthIllustrationBoxParam: {
-            title: "Billing System",
-            text: "The billing module handles invoicing, payment processing, and financial reporting. Visuals include screenshots of the billing interface and reporting tools.",
-            images: ["billing_system.png", "billing_reports.png"]
-        },
-        fifthIllustrationBoxParam: {
-            title: "Pharmacy Management",
-            text: "The pharmacy management module tracks inventory, manages prescriptions, and processes pharmacy-related transactions. Illustrations include screenshots of the pharmacy management interface and inventory tracking tools.",
-            images: ["pharmacy_management.png", "pharmacy_inventory.png"]
-        },
+        illustrationBoxes: [
+            {
+                title: "Dashboard Overview",
+                text: "The dashboard provides a central view of hospital operations, including patient management, appointment scheduling, billing, and pharmacy inventory. Illustrations include screenshots of the dashboard interface and key features.",
+                images: ["dashboard_overview.png", "dashboard_features.png"]
+            },
+            {
+                title: "Patient Records Management",
+                text: "The patient records module allows for comprehensive management of patient information, including medical history, treatment plans, and contact details. Visuals include screenshots of the patient records interface and data entry forms.",
+                images: ["patient_records_management.png", "patient_records_interface.png"]
+            },
+            {
+                title: "Appointment Scheduling",
+                text: "The appointment scheduling module facilitates efficient booking and management of patient appointments. Illustrations include screenshots of the scheduling interface and calendar view.",
+                images: ["appointment_scheduling.png", "appointment_calendar.png"]
+            },
+            {
+                title: "Billing System",
+                text: "The billing module handles invoicing, payment processing, and financial reporting. Visuals include screenshots of the billing interface and reporting tools.",
+                images: ["billing_system.png", "billing_reports.png"]
+            },
+            {
+                title: "Pharmacy Management",
+                text: "The pharmacy management module tracks inventory, manages prescriptions, and processes pharmacy-related transactions. Illustrations include screenshots of the pharmacy management interface and inventory tracking tools.",
+                images: ["pharmacy_management.png", "pharmacy_inventory.png"]
+            },
+        ],
     },
     MobileDemoSection: {
         descriptionBoxParam: {
@@ -940,28 +948,28 @@ const HOSPITAL_MANAGEMENT = {
             images: ["laptop_screenshot1.png", "laptop_screenshot2.png", "laptop_screenshot3.png"], // Replace with actual image filenames
         },
     }, 
-    ImprovementSection: {
-        firstImprovementBoxParam: {
+    ImprovementSection: [
+        {
             title: "Comprehensive Dashboard",
             description: "Developed a central dashboard integrating key hospital functions for real-time monitoring and management.",
             icon: <FaChartLine /> ,
         },
-        secondImprovementBoxParam: {
+        {
             title: "Secure Data Management",
             description: "Implemented robust data security and management practices using Java and MySQL to handle sensitive patient and pharmacy information.",
             icon: <FaDatabase /> ,
         },
-        thirdImprovementBoxParam: {
+        {
             title: "Interactive User Interface",
             description: "Designed and implemented an interactive and user-friendly interface with JavaFX, enhancing usability and user experience.",
             icon: <FaHospital /> ,
         },
-        fourthImprovementBoxParam: {
+        {
             title: "Pharmacy Management Integration",
             description: "Developed a comprehensive module for managing pharmacy inventory, prescriptions, and transactions.",
             icon: <FaPills /> ,
         },
-    },
+    ],  
     SummarySection: {
         summaryBoxParam: {
             title: "Project Summary",
@@ -992,7 +1000,7 @@ const HOSPITAL_MANAGEMENT = {
    */
 
 
-const AI_CHATBOT = {
+export const AI_CHATBOT = {
     FirstSection: {
       titleBoxParams: {
         title: "AI Chatbot Development",
@@ -1091,7 +1099,7 @@ const AI_CHATBOT = {
     MobileDemoSection: {
         descriptionBoxParam: {
             title: "Mobile Demo Overview",
-            description: "This section provides a comprehensive overview of the mobile demo related to the Hospital Management desktop App project. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
+            description: "This section provides a comprehensive overview of the mobile demo related to the AI Chatbot project. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
             link: "https://example.com/mobile-demo", // Replace with the actual link to the demo
             github: "https://github.com/your-repository", // Replace with the actual GitHub repository link
             note: "Please check the demo and repository for detailed insights into the app's functionality and code implementation."
@@ -1114,26 +1122,28 @@ const AI_CHATBOT = {
             title: "Project Implementation",
             tag: "AI Chatbot Development - Multi-Approach System",
         },
-        firstIllustrationBoxParam: {
-            title: "Rule-Based Chatbot",
-            text: "Implemented with Facebook’s chatbot tool, this chatbot handled predefined queries and simple task automation. Illustrations include screenshots of the chatbot interface and sample interactions.",
-            images: ["facebook_chatbot.png", "chatbot_conversation_1.png"]
-        },
-        secondIllustrationBoxParam: {
-            title: "Machine Learning Chatbot",
-            text: "Developed using Google Dialogflow, this chatbot leveraged machine learning for intent detection and user input adaptation. Visuals include interface designs and example conversations showcasing adaptability.",
-            images: ["google_dialogflow_chatbot.png", "ml_chatbot_conversation.png"]
-        },
-        thirdIllustrationBoxParam: {
-            title: "Deep Learning Chatbot",
-            text: "Built from scratch with Python, this chatbot used deep learning to generate context-aware responses. Illustrations include model architecture diagrams, training process snapshots, and chatbot interactions.",
-            images: ["deep_learning_chatbot.png", "python_chatbot_conversation.png"]
-        },
+        illustrationBoxes: [
+            {
+                title: "Rule-Based Chatbot",
+                text: "Implemented with Facebook’s chatbot tool, this chatbot handled predefined queries and simple task automation. Illustrations include screenshots of the chatbot interface and sample interactions.",
+                images: ["facebook_chatbot.png", "chatbot_conversation_1.png"]
+            },
+            {
+                title: "Machine Learning Chatbot",
+                text: "Developed using Google Dialogflow, this chatbot leveraged machine learning for intent detection and user input adaptation. Visuals include interface designs and example conversations showcasing adaptability.",
+                images: ["google_dialogflow_chatbot.png", "ml_chatbot_conversation.png"]
+            },
+            {
+                title: "Deep Learning Chatbot",
+                text: "Built from scratch with Python, this chatbot used deep learning to generate context-aware responses. Illustrations include model architecture diagrams, training process snapshots, and chatbot interactions.",
+                images: ["deep_learning_chatbot.png", "python_chatbot_conversation.png"]
+            },
+        ],
     },
     MobileDemoSection: {
         descriptionBoxParam: {
             title: "Mobile Demo Overview",
-            description: "This section provides a comprehensive overview of the mobile demo related to the Hospital Management desktop App project. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
+            description: "This section provides a comprehensive overview of the mobile demo related to the Chatbots Apps. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
             link: "https://example.com/mobile-demo", // Replace with the actual link to the demo
             github: "https://github.com/your-repository", // Replace with the actual GitHub repository link
             note: "Please check the demo and repository for detailed insights into the app's functionality and code implementation."
@@ -1151,28 +1161,28 @@ const AI_CHATBOT = {
             images: ["laptop_screenshot1.png", "laptop_screenshot2.png", "laptop_screenshot3.png"], // Replace with actual image filenames
         },
     }, 
-    ImprovementSection: {
-        firstImprovementBoxParam: {
+    ImprovementSection: [
+        {
             title: "Rule-Based Efficiency",
             description: "Created a simple and efficient rule-based chatbot with Facebook’s tools for handling specific user queries.",
             icon: <FaFacebook /> ,
         },
-        secondImprovementBoxParam: {
+        {
             title: "Machine Learning Adaptability",
             description: "Enhanced chatbot performance by integrating machine learning algorithms for user interaction adaptability using Google Dialogflow.",
             icon: <FaGoogle /> ,
         },
-        thirdImprovementBoxParam: {
+        {
             title: "Deep Learning Autonomy",
             description: "Developed a highly autonomous chatbot using deep learning techniques, allowing for dynamic and context-aware conversations.",
             icon: <FaBrain /> ,
         },
-        fourthImprovementBoxParam: {
+        {
             title: "Custom Model Building",
             description: "Built a deep learning model from scratch using Python and TensorFlow, showcasing advanced AI chatbot capabilities.",
             icon: <FaPython /> ,
         },
-    },
+    ],
     SummarySection: {
         summaryBoxParam: {
             title: "Project Summary",
@@ -1205,7 +1215,7 @@ const AI_CHATBOT = {
    */
 
 
-const PERSONAL_PORTFOLIO = {
+export const PERSONAL_PORTFOLIO = {
     FirstSection: {
       titleBoxParams: {
         title: "Personal Portfolio Website",
@@ -1323,7 +1333,7 @@ const PERSONAL_PORTFOLIO = {
     MobileDemoSection: {
         descriptionBoxParam: {
             title: "Mobile Demo Overview",
-            description: "This section provides a comprehensive overview of the mobile demo related to the Hospital Management desktop App project. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
+            description: "This section provides a comprehensive overview of the mobile demo related to the Chatbot Apps. It highlights the key features and functionalities demonstrated in the mobile app, showcasing how it integrates with the MAG8000 series for enhanced user interaction and management. The demo illustrates the remote update capabilities, user interface improvements, and real-time data access.",
             link: "https://example.com/mobile-demo", // Replace with the actual link to the demo
             github: "https://github.com/your-repository", // Replace with the actual GitHub repository link
             note: "Please check the demo and repository for detailed insights into the app's functionality and code implementation."
@@ -1395,7 +1405,7 @@ const PERSONAL_PORTFOLIO = {
    */
 
 
-const HUTCHINSON_PAULSTRA_PROJECT = {
+export const HUTCHINSON_PAULSTRA_PROJECT = {
     FirstSection: {
       titleBoxParams: {
         title: "Noise Mitigation Model and Embedded System Implementation",
@@ -1499,21 +1509,23 @@ const HUTCHINSON_PAULSTRA_PROJECT = {
             title: "Project Implementation",
             tag: "Noise Mitigation Model - Embedded System Integration and Interface Development",
         },
-        firstIllustrationBoxParam: {
-            title: "MATLAB Noise Model",
-            text: "The noise mitigation model was developed and fine-tuned using MATLAB. The model simulates real-time noise reduction based on input parameters and sensor data.",
-            images: ["matlab_model.png", "noise_model_diagram.png"]
-        },
-        secondIllustrationBoxParam: {
-            title: "Embedded System Integration",
-            text: "The noise mitigation model was successfully integrated into the embedded MCU. This involved writing efficient algorithms and ensuring real-time data processing.",
-            images: ["embedded_mcu_integration.png", "programming_mcu.png"]
-        },
-        thirdIllustrationBoxParam: {
-            title: "Qt-Based Troubleshooting Interface",
-            text: "A Qt-based interface was developed to monitor hardware and provide real-time feedback for troubleshooting and performance optimization.",
-            images: ["qt_interface.png", "real_time_diagnostics.png"]
-        },
+        illustrationBoxes: [
+            {
+                title: "MATLAB Noise Model",
+                text: "The noise mitigation model was developed and fine-tuned using MATLAB. The model simulates real-time noise reduction based on input parameters and sensor data.",
+                images: ["matlab_model.png", "noise_model_diagram.png"]
+            },
+            {
+                title: "Embedded System Integration",
+                text: "The noise mitigation model was successfully integrated into the embedded MCU. This involved writing efficient algorithms and ensuring real-time data processing.",
+                images: ["embedded_mcu_integration.png", "programming_mcu.png"]
+            },
+            {
+                title: "Qt-Based Troubleshooting Interface",
+                text: "A Qt-based interface was developed to monitor hardware and provide real-time feedback for troubleshooting and performance optimization.",
+                images: ["qt_interface.png", "real_time_diagnostics.png"]
+            },
+        ],
     },
     MobileDemoSection: {
         descriptionBoxParam: {
@@ -1536,28 +1548,28 @@ const HUTCHINSON_PAULSTRA_PROJECT = {
             images: ["laptop_screenshot1.png", "laptop_screenshot2.png", "laptop_screenshot3.png"], // Replace with actual image filenames
         },
     }, 
-    ImprovementSection: {
-        firstImprovementBoxParam: {
+    ImprovementSection: [
+        {
             title: "Real-Time Processing",
             description: "Optimized algorithms for real-time noise mitigation and signal processing in embedded systems.",
             icon: <FaMicrochip /> ,
         },
-        secondImprovementBoxParam: {
+        {
             title: "Automated Input System",
             description: "Implemented an automated input parameter system for seamless user interaction.",
             icon: <FaRobot /> ,
         },
-        thirdImprovementBoxParam: {
+        {
             title: "Hardware Diagnostics",
             description: "Developed a Qt-based interface for real-time hardware troubleshooting and diagnostics.",
             icon: <FaCogs /> ,
         },
-        fourthImprovementBoxParam: {
+        {
             title: "Documentation & Guides",
             description: "Authored a detailed installation guide for software deployment and configuration.",
             icon: <FaFileCode /> ,
         },
-    },
+    ],
     SummarySection: {
         summaryBoxParam: {
             title: "Project Summary",
@@ -1588,7 +1600,7 @@ const HUTCHINSON_PAULSTRA_PROJECT = {
    */
 
   
-const ALSTOM_APTIS_PROJECT = {
+export const ALSTOM_APTIS_PROJECT = {
     FirstSection: {
         titleBoxParams: {
             title: "Analyst Engineer - ALSTOM APTIS Electric Bus Analysis",
@@ -1688,21 +1700,23 @@ const ALSTOM_APTIS_PROJECT = {
             title: "Project Implementation",
             tag: "Electric Bus Log Analysis, CAN Data Diagnosis, and Software Testing",
         },
-        firstIllustrationBoxParam: {
-            title: "Electric Bus Log Analysis",
-            text: "Analyzed complex logs from electric buses to diagnose issues and provide development teams with actionable data.",
-            images: ["electric_bus_log_analysis.png", "faulty_bus_report.png"]
-        },
-        secondIllustrationBoxParam: {
-            title: "CAN Bus Data Diagnosis",
-            text: "Collected and analyzed CAN bus data from vehicle black boxes to diagnose incidents and accidents reported by clients.",
-            images: ["can_bus_data.png", "vehicle_black_box_diagnostics.png"]
-        },
-        thirdIllustrationBoxParam: {
-            title: "Dynamic & Static Software Testing",
-            text: "Led dynamic and static testing campaigns for new software releases to ensure robust performance and reliability in electric buses.",
-            images: ["software_testing_campaign.png", "dynamic_static_testing.png"]
-        },
+        illustrationBoxes: [
+            {
+                title: "Electric Bus Log Analysis",
+                text: "Analyzed complex logs from electric buses to diagnose issues and provide development teams with actionable data.",
+                images: ["electric_bus_log_analysis.png", "faulty_bus_report.png"]
+            },
+            {
+                title: "CAN Bus Data Diagnosis",
+                text: "Collected and analyzed CAN bus data from vehicle black boxes to diagnose incidents and accidents reported by clients.",
+                images: ["can_bus_data.png", "vehicle_black_box_diagnostics.png"]
+            },
+            {
+                title: "Dynamic & Static Software Testing",
+                text: "Led dynamic and static testing campaigns for new software releases to ensure robust performance and reliability in electric buses.",
+                images: ["software_testing_campaign.png", "dynamic_static_testing.png"]
+            },
+        ],
     },
     MobileDemoSection: {
         descriptionBoxParam: {
@@ -1725,28 +1739,28 @@ const ALSTOM_APTIS_PROJECT = {
             images: ["laptop_screenshot1.png", "laptop_screenshot2.png", "laptop_screenshot3.png"], // Replace with actual image filenames
         },
     }, 
-    ImprovementSection: {
-        firstImprovementBoxParam: {
+    ImprovementSection: [
+        {
             title: "Diagnostic Accuracy",
             description: "Developed advanced techniques to improve diagnostic accuracy using electric bus logs and CAN data.",
             icon: <FaDiagnoses /> ,
         },
-        secondImprovementBoxParam: {
+        {
             title: "Client Communication",
             description: "Enhanced communication strategies to facilitate clearer and more actionable discussions with clients.",
             icon: <FaFileAlt /> ,
         },
-        thirdImprovementBoxParam: {
+        {
             title: "Software Testing",
             description: "Optimized testing methods to ensure the reliability of new software updates before deployment.",
             icon: <FaTools /> ,
         },
-        fourthImprovementBoxParam: {
+        {
             title: "Site Management",
             description: "Successfully managed multiple sites (Grenoble, Paris, La Rochelle), ensuring smooth operations and timely diagnostics.",
             icon: <FaBusAlt /> ,
         },
-    },
+    ],
     SummarySection: {
         summaryBoxParam: {
             title: "Project Summary",

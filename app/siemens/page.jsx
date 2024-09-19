@@ -15,6 +15,7 @@ import MangorianBento from '@/components/design components/project pages compone
 import { SIEMENS } from '@/assets/constants/projects'
 import { flowImg } from '@/assets/images'
 import Image from 'next/image';
+import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
 
 
 const demoContent = (
@@ -43,6 +44,8 @@ const demoContent = (
 
   return (
     <div className='space-y-20'>
+
+      <ScrollToTopButton />
 
       <section>
         {/* Image with responsive behavior */}
