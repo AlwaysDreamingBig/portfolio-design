@@ -13,6 +13,7 @@ export default function work() {
         <PageTitleText 
           text1='WORK'
           text2='EXPERIENCE'
+          typedText={["Explore my journey through the years...", "Let's Build Something Amazing!"]}
         />
 
         <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
