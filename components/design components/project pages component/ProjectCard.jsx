@@ -22,7 +22,7 @@ export default function ProjectCard({ title, text, images = [] }) {
   const paragraphsText = text.split('||');
 
   return (
-    <div className='grid grid-cols-1 gap-4 max-w-8xl p-4 mx-auto md:grid-rows-2'>
+    <div className={`grid grid-cols-1 gap-4 max-w-8xl p-4 mx-auto ${images.length === 0 ? 'md:grid-rows-1' : 'md:grid-rows-2'}`}>
       {/* Title and Text */}
       <div className='grid grid-cols-1 md:grid-cols-2 gap-2 lg:px-28'>
         <div className='text-blue-500 text-2xl p-8'>
@@ -39,7 +39,7 @@ export default function ProjectCard({ title, text, images = [] }) {
       </div>
 
       {/* Image Slider */}
-      <div className='relative p-4'>
+      <div className={`relative p-4 ${images.length === 0 ? 'hidden' : ''} `}>
         {/* Left button */}
         <button
           onClick={scrollLeft}
