@@ -59,6 +59,28 @@ import TreeG8 from './Updater.JPG';
 import Client1 from './3G_analyse.JPG';
 import Client2 from './logs.JPG';
 import Client3 from './ClientUI.JPG';
+import aptisClient1 from './1726937901583.jpg';
+import aptisClient2 from './aptisclient2.jpg';
+import aptisMaintenance1 from './1726937901606.jpg';
+import aptisMaintenance2 from './1726937901630.jpg';
+import aptisMaintenance3 from './1726937901724.jpg';
+import aptisMaintenance4 from './1726938860563.jpg';
+import aptisMaintenance5 from './1726938860584.jpg';
+import aptisMaintenance6 from './1726938860668.jpg';
+import aptisMaintenance10 from './1726938860710.jpg';
+import aptisMaintenance11 from './1726938860794.jpg';
+import aptisTest1 from './1726937901653.jpg';
+import aptisTest2 from './1726938860626.jpg';
+import aptisTest3 from './1726938860774.jpg';
+import aptisTest4 from './test4.jpg';
+import aptisTechsup1 from './1726937901702.jpg';
+import aptisTechsup2 from './1726937901773.jpg';
+import aptisAnalyze1 from './1726938860647.jpg';
+import aptisAnalyze2 from './1726938860879.jpg';
+import aptisAnalyze3 from './canalyzer4.jpg';
+import aptisAnalyze4 from './canalyzer5.jpg';
+import aptisAnalyze5 from './canalyzer6.jpg';
+
 
 export {
   bugsbunny, itgstoreLogo, paulstraLogo, alstomLogo, siemensLogo, siemensLogo2, paulstraLogo2, lesBrouilles,
@@ -66,5 +88,9 @@ export {
   android17Img2, android17Img3, HPImg1, HPImg2, HPImg3, HPImg4, ShoeStore1, ShoeStore2, ShoeStore3, ShoeStore4, 
   RElstate1, RElstate2, RElstate3, RElstate4, Portfolio1, Portfolio2, Portfolio3, Portfolio4, fuota1, fuota2, 
   fuota3, fuota4, fuota5, fuota6, fuota7, fuota9, AWS1, AWS2, AWS3, AWS5, AWS6, MF1, MF2, TreeG, TreeG3, 
-  TreeG4, TreeG5, TreeG6, TreeG7, TreeG8, Client1, Client2, Client3
+  TreeG4, TreeG5, TreeG6, TreeG7, TreeG8, Client1, Client2, Client3, aptisClient1, aptisClient2, aptisMaintenance1, 
+  aptisMaintenance2, aptisMaintenance3, aptisMaintenance4, aptisMaintenance5, aptisMaintenance6, aptisMaintenance10,
+  aptisMaintenance11, aptisTest1, aptisTest2, aptisTest3, aptisTest4, aptisTechsup1, aptisTechsup2, aptisAnalyze1, 
+  aptisAnalyze2, aptisAnalyze3, aptisAnalyze4, aptisAnalyze5
 };
+
