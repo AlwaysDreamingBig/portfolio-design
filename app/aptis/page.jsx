@@ -97,9 +97,11 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-400 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-yellow-700 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+              APTIS BUS IS AN ELECTRICAL BUS DESIGNED BY ALSTOM,
+              THEY ARE ROBUST AND BASED ON THE INTERACTION OF MULTIPLE MCUs 
+              AND A SINGLE CENTRAL UNIT.
           </p>
       </section>
 
@@ -127,9 +129,11 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-200 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-yellow-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+              
+            "IT IS CRUCIAL TO CONDUCT PRECISE ANALYSES IN ORDER TO DETERMINE
+            THE CONTEXT OF INCIDENTS AND DEDUCE THE RESPONSIBILITIES OF THE DIFFERENT PARTIES."
           </p>
       </section>
 

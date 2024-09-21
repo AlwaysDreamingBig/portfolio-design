@@ -1,5 +1,11 @@
 
-import { Client1, Client2, Client3, MF1, MF2, fuota1, fuota2, fuota3, fuota4, fuota5, fuota6, fuota7, fuota9, AWS1, AWS2, AWS3, AWS5, AWS6, TreeG, TreeG3, TreeG4, TreeG5, TreeG6, TreeG7, TreeG8 } from '@/assets/images';
+import { Client1, Client2, Client3, MF1, MF2, fuota1, fuota2, fuota3, fuota4, fuota5, fuota6, fuota7, fuota9, AWS1, AWS2, 
+        AWS3, AWS5, AWS6, TreeG, TreeG3, TreeG4, TreeG5, TreeG6, TreeG7, TreeG8, aptisClient1, aptisClient2, aptisMaintenance1, 
+        aptisMaintenance2, aptisMaintenance3, aptisMaintenance4, aptisMaintenance5, aptisMaintenance6, aptisMaintenance10,
+        aptisMaintenance11, aptisTest1, aptisTest2, aptisTest3, aptisTest4, aptisTechsup1, aptisTechsup2, aptisAnalyze1, 
+        aptisAnalyze2, aptisAnalyze3, aptisAnalyze4, aptisAnalyze5
+ } from '@/assets/images';
+
 import { FaRocket, FaCode, FaMobileAlt, FaCog, FaStore, FaShoePrints, FaLock, FaHome, FaDatabase, FaChartLine, FaHospital, FaPills, FaFacebook, FaGoogle, FaBrain, FaPython, FaLaptopCode, FaProjectDiagram, FaEnvelope, FaMicrochip, FaRobot, FaCogs, FaFileCode, FaDiagnoses, FaFileAlt, FaTools, FaBusAlt } from 'react-icons/fa';
 
 export const SIEMENS = {
@@ -1695,23 +1701,33 @@ export const ALSTOM_APTIS_PROJECT = {
     SixthSection: {
         headingBoxParam: {
             title: "Project Implementation",
-            tag: "Electric Bus Log Analysis, CAN Data Diagnosis, and Software Testing",
+            tag: "Electric Bus Log Analysis & Report, CAN Data Diagnosis, and Software Testing",
         },
         illustrationBoxes: [
             {
-                title: "Electric Bus Log Analysis",
-                text: "Analyzed complex logs from electric buses to diagnose issues and provide development teams with actionable data.",
-                images: ["electric_bus_log_analysis.png", "faulty_bus_report.png"]
+                title: "Analysis of Black Box Data (CAN using Canalyzer)",
+                text: "I was responsible for analyzing the data retrieved from the iptronik black boxes installed on the electric buses. Using Canalyzer, I conducted in-depth analyses of the CAN (Controller Area Network) data to identify and diagnose potential faults or inefficiencies. || By studying the recordings of the electric buses’ systems, I was able to determine the circumstances and root causes of vehicle malfunctions. This process provided valuable insights into both recurring issues and isolated incidents, which played a crucial role in improving vehicle reliability and performance. The data-driven approach I employed helped inform critical decisions related to system upgrades and maintenance practices.",
+                images: [aptisAnalyze1, aptisAnalyze2, aptisAnalyze3, aptisAnalyze4, aptisAnalyze5]
             },
             {
-                title: "CAN Bus Data Diagnosis",
-                text: "Collected and analyzed CAN bus data from vehicle black boxes to diagnose incidents and accidents reported by clients.",
-                images: ["can_bus_data.png", "vehicle_black_box_diagnostics.png"]
+                title: "Maintenance Operations for Three Bus Fleets (RATP, La Rochelle, Grenoble)",
+                text: "During my time at Alstom Aptis, I oversaw the maintenance operations for three separate electric bus fleets in RATP, La Rochelle, and Grenoble. This involved coordinating and conducting routine checks, troubleshooting vehicle issues, and ensuring that each bus was performing at optimal capacity. || My role was integral in maintaining the overall health and efficiency of these buses, as I managed scheduled maintenance, resolved unexpected mechanical or software-related problems, and worked with the technical teams to implement solutions that minimized downtime. Through these efforts, we ensured a high level of operational reliability across the fleet.",
+                images: [aptisMaintenance1, aptisMaintenance2, aptisMaintenance3, aptisMaintenance4, aptisMaintenance5, aptisMaintenance6, aptisMaintenance10, aptisMaintenance11]
             },
             {
-                title: "Dynamic & Static Software Testing",
-                text: "Led dynamic and static testing campaigns for new software releases to ensure robust performance and reliability in electric buses.",
-                images: ["software_testing_campaign.png", "dynamic_static_testing.png"]
+                title: "Evaluation of Responsibilities in Case of Accidents",
+                text: "An important part of my responsibilities involved evaluating the causes of accidents and determining liability. By analyzing vehicle data, environmental conditions, and other factors surrounding each incident, I helped establish whether the fault lay with Alstom or the client. This required a careful assessment of the vehicle's technical status at the time of the accident, as well as a thorough understanding of operational protocols. || The conclusions drawn from these evaluations were essential for addressing client concerns, ensuring compliance with safety standards, and maintaining the company’s reputation.",
+                images: []
+            },
+            {
+                title: "Client Technical Support: After Sale Service",
+                text: "As part of the client support team, I provided technical expertise to clients when incidents occurred, or questions arose regarding vehicle performance. I collaborated closely with customers, offering clear, detailed responses to their concerns, and ensuring they understood the technical aspects involved in any reported issues. || This client-facing role demanded strong communication skills and a deep knowledge of the electric bus systems, as I was the point of contact for resolving client issues and ensuring that their fleet met operational expectations.",
+                images: [aptisTechsup1, aptisTechsup2, aptisClient1, aptisClient2]
+            },
+            {
+                title: "Integration Testing for Embedded Software",
+                text: "In my role, I also led integration tests (dynamic and static tests on road) for new embedded software on the electric buses. This involved verifying that the software updates were compatible with the existing systems and met the necessary performance standards. || I conducted tests to identify potential conflicts or bugs and worked with the development team to resolve these issues. The successful integration of these updates ensured that the buses continued to operate efficiently, while incorporating the latest technological advancements.",
+                images: [aptisTest1, aptisTest2, aptisTest3, aptisTest4]
             },
         ],
     },
