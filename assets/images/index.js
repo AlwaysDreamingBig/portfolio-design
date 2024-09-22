@@ -80,7 +80,31 @@ import aptisAnalyze2 from './1726938860879.jpg';
 import aptisAnalyze3 from './canalyzer4.jpg';
 import aptisAnalyze4 from './canalyzer5.jpg';
 import aptisAnalyze5 from './canalyzer6.jpg';
-
+import Hutchech1 from './Hutchech1.jpg';
+import Hutchech2 from './Hutchech2.jpg';
+import Hutchech3 from './Hutchech3.jpg';
+import Hutchech4 from './Hutchech4.jpg';
+import Hutchech5 from './Hutchech5.jpg';
+import Hutchech6 from './Hutchech6.jpg';
+import hutchInteg1 from './hutchInteg1.jpg';
+import hutchInteg2 from './hutchInteg2.jpg';
+import hutchInteg3 from './hutchInteg3.jpg';
+import hutchInteg4 from './hutchInteg4.jpg';
+import hutchInteg5 from './hutchInteg5.jpg';
+import HutchMat1 from './HutchMat1.jpg';
+import HutchMat2 from './HutchMat2.jpg';
+import HutchMat3 from './HutchMat3.jpg';
+import HutchMat4 from './HutchMat4.jpg';
+import HutchMat5 from './HutchMat5.jpg';
+import HutchQT1 from './HutchQT1.jpg';
+import HutchQT2 from './HutchQT2.jpg';
+import hutchSimul1 from './hutchSimul1.jpg';
+import hutchSimul2 from './hutchSimul2.jpg';
+import hutchSimul3 from './hutchSimul3.jpg';
+import hutchSimul4 from './hutchSimul4.jpg';
+import hutchSimul5 from './hutchSimul5.jpg';
+import hutchSimul6 from './hutchSimul6.jpg';
+import hutchSimul7 from './hutchSimul7.jpg';
 
 export {
   bugsbunny, itgstoreLogo, paulstraLogo, alstomLogo, siemensLogo, siemensLogo2, paulstraLogo2, lesBrouilles,
@@ -91,6 +115,10 @@ export {
   TreeG4, TreeG5, TreeG6, TreeG7, TreeG8, Client1, Client2, Client3, aptisClient1, aptisClient2, aptisMaintenance1, 
   aptisMaintenance2, aptisMaintenance3, aptisMaintenance4, aptisMaintenance5, aptisMaintenance6, aptisMaintenance10,
   aptisMaintenance11, aptisTest1, aptisTest2, aptisTest3, aptisTest4, aptisTechsup1, aptisTechsup2, aptisAnalyze1, 
-  aptisAnalyze2, aptisAnalyze3, aptisAnalyze4, aptisAnalyze5
+  aptisAnalyze2, aptisAnalyze3, aptisAnalyze4, aptisAnalyze5,
+  Hutchech1, Hutchech2, Hutchech3, Hutchech4, Hutchech5, Hutchech6,
+  hutchInteg1, hutchInteg2, hutchInteg3, hutchInteg4, hutchInteg5,
+  HutchMat1, HutchMat2, HutchMat3, HutchMat4, HutchMat5,
+  HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7
 };
 
