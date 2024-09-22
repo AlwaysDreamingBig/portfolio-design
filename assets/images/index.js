@@ -105,6 +105,22 @@ import hutchSimul4 from './hutchSimul4.jpg';
 import hutchSimul5 from './hutchSimul5.jpg';
 import hutchSimul6 from './hutchSimul6.jpg';
 import hutchSimul7 from './hutchSimul7.jpg';
+import LLCookies from './LLCookies.jpg';
+import LLCreateListing from './LLCreateListing.jpg';
+import LLFirebase from './LLFirebase.jpg';
+import LLGoogle from './LLGoogle.jpg';
+import LLListing from './LLListing.jpg';
+import LLListingFn from './LLListingFn.jpg';
+import LLListingModel from './LLListingModel.jpg';
+import LLMessage from './LLMessage.jpg';
+import LLMongodbco from './LLMongodbco.jpg';
+import LLRedux from './LLRedux.jpg';
+import LLSignIn from './LLSignIn.jpg';
+import LLSignUp from './LLSignUp.jpg';
+import LLUpdateListing from './LLUpdateListing.jpg';
+import LLUser from './LLUser.jpg';
+import LLUserFn from './LLUserFn.jpg';
+import LLUserModel from './LLUserModel.jpg';
 
 export {
   bugsbunny, itgstoreLogo, paulstraLogo, alstomLogo, siemensLogo, siemensLogo2, paulstraLogo2, lesBrouilles,
@@ -119,6 +135,8 @@ export {
   Hutchech1, Hutchech2, Hutchech3, Hutchech4, Hutchech5, Hutchech6,
   hutchInteg1, hutchInteg2, hutchInteg3, hutchInteg4, hutchInteg5,
   HutchMat1, HutchMat2, HutchMat3, HutchMat4, HutchMat5,
-  HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7
+  HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7,
+  LLCookies, LLCreateListing, LLFirebase, LLGoogle, LLListing, LLListingFn, LLListingModel, LLMessage, LLMongodbco, 
+  LLRedux, LLSignIn, LLSignUp, LLUpdateListing, LLUser, LLUserFn, LLUserModel
 };
 
