@@ -79,11 +79,15 @@ export const BentoGridItem = ({
 
           <div className="font-sans font-light text-white text-lg dark:text-neutral-300 md:grid grid-cols-2 gap-10">
                 <div className="text-justify font-sans font-light text-white dark:text-neutral-300 leading-loose">
-                  {overviewText[0]}
+                  {overviewText[0].split("||").map((para, index) => (
+                    <p key={index} className="leading-loose">{para}</p>
+                  ))}
                 </div>
 
                 <div className="text-justify font-sans font-light text-white dark:text-neutral-300 leading-loose">
-                  {overviewText[1]}
+                  {overviewText[1].split("||").map((para, index) => (
+                    <p key={index} className="leading-loose">{para}</p>
+                  ))}
                 </div>
               </div>
         </div>

@@ -58,8 +58,7 @@ export default function ProjectCard({ title, text, images = [] }) {
               <Image
                 src={image.src}
                 alt={`image-${index}`}
-                layout='fill'
-                objectFit='cover'
+                fill 
                 className='rounded-md'
               />
             </div>
