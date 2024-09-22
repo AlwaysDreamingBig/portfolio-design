@@ -97,9 +97,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-400 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-green-500 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+              THE BASE OBJECTIVE WAS DOING RESEARCH ON HOW TO DEVELOP AN EFFECTIVE
+              AI CHATBOT BACK IN 2020 AND INTEGRATE IT ON A WEBSITE.
           </p>
       </section>
 
@@ -127,9 +128,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-200 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-green-700 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+              WITH THE INFORMATION GATHERED, CAME THEN TRIED DESIGNING SOME PROTOTYPES,
+              TEST TO HAVE A BETTER UNDERSTANDING.
           </p>
       </section>
 
