@@ -53,9 +53,9 @@ const demoContent = (
           <Image
             src={paulstraImg1.src}
             alt="HUTCHINSON_PAULSTRA_PROJECT image background"
-            layout="fill"  // This makes the image fill the container
-            objectFit="cover"  // Ensures the image covers the area while maintaining aspect ratio
+            fill
             className="rounded-md"  // Example class, you can replace with your own
+            style={{ objectFit: 'cover' }}
           />
         </div>
       </section>
@@ -97,9 +97,9 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-400 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-purple-500 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+            "SOFTWARE DEVELOPMENT FOR MAINTENANCE AND TROUBLESHOOTING OF AN ACTIVE VIBRATION CONTROL SYSTEM FOR HELICOPTERS."
           </p>
       </section>
 
@@ -127,9 +127,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-200 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-purple-200 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+              THROUGH INNOVATIVE SOFTWARE DEVELOPMENT, WE’VE NOT ONLY ENHANCED THE PERFORMANCE OF 
+              THE ACTIVE VIBRATION CONTROL SYSTEM BUT ALSO PAVED THE WAY FOR GREATER COMFORT AND SAFETY IN HELICOPTER FLIGHT.
           </p>
       </section>
 

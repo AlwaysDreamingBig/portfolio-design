@@ -3,7 +3,11 @@ import { Client1, Client2, Client3, MF1, MF2, fuota1, fuota2, fuota3, fuota4, fu
         AWS3, AWS5, AWS6, TreeG, TreeG3, TreeG4, TreeG5, TreeG6, TreeG7, TreeG8, aptisClient1, aptisClient2, aptisMaintenance1, 
         aptisMaintenance2, aptisMaintenance3, aptisMaintenance4, aptisMaintenance5, aptisMaintenance6, aptisMaintenance10,
         aptisMaintenance11, aptisTest1, aptisTest2, aptisTest3, aptisTest4, aptisTechsup1, aptisTechsup2, aptisAnalyze1, 
-        aptisAnalyze2, aptisAnalyze3, aptisAnalyze4, aptisAnalyze5
+        aptisAnalyze2, aptisAnalyze3, aptisAnalyze4, aptisAnalyze5,
+        Hutchech1, Hutchech2, Hutchech3, Hutchech4, Hutchech5, Hutchech6,
+        hutchInteg1, hutchInteg2, hutchInteg3, hutchInteg4, hutchInteg5,
+        HutchMat1, HutchMat2, HutchMat3, HutchMat4, HutchMat5,
+        HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7
  } from '@/assets/images';
 
 import { FaRocket, FaCode, FaMobileAlt, FaCog, FaStore, FaShoePrints, FaLock, FaHome, FaDatabase, FaChartLine, FaHospital, FaPills, FaFacebook, FaGoogle, FaBrain, FaPython, FaLaptopCode, FaProjectDiagram, FaEnvelope, FaMicrochip, FaRobot, FaCogs, FaFileCode, FaDiagnoses, FaFileAlt, FaTools, FaBusAlt } from 'react-icons/fa';
@@ -1415,7 +1419,7 @@ export const HUTCHINSON_PAULSTRA_PROJECT = {
         tag: "Developed a noise mitigation model using MATLAB, which was implemented on an embedded MCU. Integrated automated input systems and worked autonomously on function development and hardware interface solutions.",
       },
       descriptionBoxParams: {
-        description: "I developed a noise mitigation model in MATLAB, which was integrated into an embedded microcontroller system. The project involved creating automated input parameter systems for users and programming microcontroller boards. I worked independently on the function's development and integration, demonstrating my ability to work autonomously on complex systems and embedded platforms.",
+        description: "HUTCHINSON designs, industrializes, and sells active vibration attenuation systems, requiring mechanical, electronic, and software expertise. To address the issue of helicopter blade vibration transmission into the cockpit and improve passenger comfort, PAULSTRA developed a solution based on a mechanical system (sensor, control unit, actuator) and software. This system detects disruptive vibrations and generates counter-vibrations, canceling them out through signal superposition. || My internship project involved working on the software part of this solution, making modifications and improving its performance (execution time, complexity, ease of use).",
       },
     },
     SecondSection: {
@@ -1461,8 +1465,8 @@ export const HUTCHINSON_PAULSTRA_PROJECT = {
     ThirdSection: {
         overviewBoxParam: {
             title: "Project Overview",
-            text1: "This project involved the development of a noise mitigation model in MATLAB, which was implemented on an embedded microcontroller system. The goal was to create an efficient and effective noise reduction solution that could be automated and controlled through a user-friendly input parameter system. I independently handled the entire process, from developing the noise model to integrating it with the MCU. Additionally, I developed a Qt-based interface to aid in hardware troubleshooting and system diagnostics.",
-            text2: "The project demonstrated my ability to work autonomously, develop complex algorithms, and integrate hardware and software systems in a cohesive, functional solution.",
+            text1: "Active vibration control is a closed-loop performance enhancement method that eliminates unwanted noise by superimposing a signal in antiphase with the original vibrations. The system consists of sensors and a control unit containing embedded software. || As the helicopter blades rotate, they generate a vibration signal that typically propagates into the cockpit. This signal is captured by sensors as velocity data and then transmitted to a system that produces an opposing signal. This counter-signal is sent to actuators, which generate an opposing vibration in the cockpit, effectively canceling out the original vibrations. HUTCHINSON’s Active Damping System (ADS) is based on this principle and significantly reduces vibrations.",
+            text2: "The corrective signal generation relies on the concept of an active skyhook, which involves a vibrating mass.As a result, the ADS solution drastically improves productivity by minimizing vibrations (as illustrated by the blue signal, representing vibration amplitude, which is reduced when the ADS system is active). || My work focused on three key areas related to the controller board for the ADS active system: selecting suitable hardware options (either existing boards based on TI DSP or alternatives like Raspberry Pi), developing embedded software with real-time filtering capabilities, and modifying the Human-Machine Interface (HMI) for configuration using the MCT tool.",
         },
     },
     FourthSection: {
@@ -1492,7 +1496,7 @@ export const HUTCHINSON_PAULSTRA_PROJECT = {
     FifthSection: {
         researchBoxParam: {
             title: "Research",
-            description: "To develop a robust solution for noise mitigation and embedded systems, I started by exploring MATLAB's powerful tools for modeling and filtering systems, which are crucial for effective noise management. I researched the importance of selecting the right microcontroller to ensure real-time processing and functionality in embedded systems. || Automating input systems was identified as essential for enhancing user experience and simplifying interactions with complex embedded technologies. Additionally, I investigated how using Qt for hardware troubleshooting can provide real-time insights, significantly improving diagnostics and maintenance processes."
+            description: "To develop a robust solution for noise mitigation and embedded systems, I started by exploring MATLAB's powerful tools for modeling and filtering systems, which are crucial for effective noise management. I researched the importance of selecting the right microcontroller to ensure real-time processing and functionality in embedded systems. || Automating input systems was identified as essential for enhancing user experience and simplifying interactions with complex embedded technologies. Additionally, I investigated how using Qt for hardware troubleshooting can provide real-time insights, significantly improving diagnostics and maintenance processes. || The first step involved studying the existing project, known as ADS_Lowcost, to gain a thorough understanding that would allow for modifications and improvements throughout the internship. The second phase focused on examining the functions of the controller board, particularly the digitization of the compensating filter within the control chain. The third phase entailed developing algorithms to be later implemented in the microcontroller board. Finally, the fourth phase consisted of testing and validation, which aimed to conduct a comparative study between the desired results and those actually obtained."
         },
         findingsBoxParam: {
             title: "Findings",
@@ -1512,19 +1516,34 @@ export const HUTCHINSON_PAULSTRA_PROJECT = {
         },
         illustrationBoxes: [
             {
+                title: "Technical Study & Architecture",
+                text: "To develop the Active Damping System (ADS), the project begins with defining its overall architecture and selecting appropriate technologies. The primary tools utilized include Matlab, which facilitates algorithm development and data visualization, and Simulink, which enables the testing and simulation of functions to verify algorithm accuracy. Code Blocks is used for translating existing Matlab algorithms into C, suitable for the Texas TSM board, while Code Composer Studio serves as the main development environment for interfacing with the microcontroller and executing the generated C code. || Once the code is integrated into the board, testing is conducted using Siglab to ensure functionality and correctness. Siglab provides curves that are compared to simulations, allowing for the assessment of the program's performance. This systematic approach to defining architecture and leveraging advanced technologies ensures a robust development process for the ADS project, ultimately enhancing the system's ability to mitigate vibrations effectively.",
+                images: [Hutchech1, Hutchech2, Hutchech3, Hutchech4, Hutchech5, Hutchech6]
+            },
+            {
+                title: "Hardware Design: Choice of The MCU",
+                text: "Once the code is integrated into the board, comprehensive testing is carried out using Siglab to ensure both functionality and correctness. Siglab generates detailed curves that represent the system's response, which are then compared to the expected results from simulations. This comparison is crucial, as it allows the development team to assess how well the actual performance aligns with the predicted outcomes, identifying any discrepancies or areas for improvement. || This rigorous testing process not only verifies the accuracy of the implemented algorithms but also evaluates the overall system behavior in real-world conditions. By systematically analyzing the data provided by Siglab, the team can make informed decisions about any necessary adjustments to the code or hardware configurations. This iterative approach ensures that the Active Damping System operates optimally, enhancing its ability to mitigate vibrations effectively. Ultimately, this thorough testing and validation phase solidifies the reliability of the ADS project, contributing to its success in providing a comfortable and stable environment for helicopter passengers.",
+                images: []
+            },
+            {
                 title: "MATLAB Noise Model",
-                text: "The noise mitigation model was developed and fine-tuned using MATLAB. The model simulates real-time noise reduction based on input parameters and sensor data.",
-                images: ["matlab_model.png", "noise_model_diagram.png"]
+                text: "Filter Simulation in Matlab: || This involves writing a Matlab code to test various digital filters that are part of the software. Specifically, it entails creating functions in Matlab to calculate the coefficients of different filters (notably the NOTCH filter) in the discrete domain using transfer functions. || Analysis of the Compensator Filter Coefficient Calculation: || The compensator filter is a key component of the controller in the system; it serves to flatten, or linearize, the transfer function of the actuator. The development of this filter is achieved using a filter digitization method that takes specific parameters as input. The initial ADS_lowcost software developed by HUTCHINSON relied on a Matlab script to calculate the various parameters. The goal was to develop a function directly on the control board that would calculate the desired parameters based on the actuator characteristics and requirements, eliminating the need to go through Matlab and thus speeding up the execution of the software. Initially, a simulation in Matlab was conducted to verify the consistency of the results for a given dataset and to explore a way to implement the desired solution directly on the DSP board.",
+                images: [HutchMat1, HutchMat2, HutchMat3, HutchMat4, HutchMat5]
             },
             {
                 title: "Embedded System Integration",
-                text: "The noise mitigation model was successfully integrated into the embedded MCU. This involved writing efficient algorithms and ensuring real-time data processing.",
-                images: ["embedded_mcu_integration.png", "programming_mcu.png"]
+                text: "Development of a Coefficient Calculation Algorithm: || After validating the basic Matlab code for the new method, my next task was to develop a C code that would replicate the functionality previously performed by the Matlab software. I needed to create C functions for various calculations that existed in the Matlab package but lacked equivalent implementations in C. This involved understanding their functionality and developing an equivalent in a different programming language. Specifically, I was able to create an algorithm based on the Durant-Kerner method, which calculates the roots of a polynomial of degree n. Ultimately, I provided a C script that performed tasks equivalent to those executed by the Matlab software, effectively migrating the functionality from one environment to another. || Integration on the DSP Board: The final step in the real-time software development involved integrating the C algorithm into the DSP microcontroller board, thereby eliminating the need for Matlab and consolidating the entire system in one location. This required further modifications to the C code to ensure it could be integrated with the Texas DSP board (TMS320F) using Code Composer Studio. I made direct changes to the software's source files, ensuring that existing blocks remained intact. Tests were conducted using Siglab to verify the consistency of the obtained results, confirming the successful integration of the algorithm.",
+                images: [hutchInteg1, hutchInteg2, hutchInteg3, hutchInteg4, hutchInteg5]
+            },
+            {
+                title: "Simulations & Results",
+                text: "Test and simulations done on Matlab, and with an analogic input signal using SigLab. By comparing the results and adjusting the parameters to refine the solution.",
+                images: [hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7]
             },
             {
                 title: "Qt-Based Troubleshooting Interface",
-                text: "A Qt-based interface was developed to monitor hardware and provide real-time feedback for troubleshooting and performance optimization.",
-                images: ["qt_interface.png", "real_time_diagnostics.png"]
+                text: "A Qt-based interface was developed to monitor hardware and provide real-time feedback for troubleshooting and performance optimization. This is mainly designed to provide a easy way to set the hardware specific properties as parameters for the different functions in the soft. || This ensures that a minimal effort shall be done by anyone after a maintenance operation on the antivibrator solution.",
+                images: [HutchQT1, HutchQT2]
             },
         ],
     },
