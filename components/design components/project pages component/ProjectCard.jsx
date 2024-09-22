@@ -54,12 +54,13 @@ export default function ProjectCard({ title, text, images = [] }) {
           className={`flex space-x-4 overflow-x-scroll scrollbar-hide max-w-full ${images.length < 4 ? 'sm:items-center sm:justify-center' : ''}`}
         >
           {images.map((image, index) => (
-            <div key={index} className='min-w-[400px] h-[450px] relative'>
+            <div key={index} className='min-w-[500px] h-[450px] relative'>
               <Image
                 src={image.src}
                 alt={`image-${index}`}
-                fill 
-                className='rounded-md'
+                fill
+                className="rounded-md"  // Example class, you can replace with your own
+                style={{ objectFit: 'cover' }}
               />
             </div>
           ))}

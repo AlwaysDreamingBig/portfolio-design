@@ -7,7 +7,9 @@ import { Client1, Client2, Client3, MF1, MF2, fuota1, fuota2, fuota3, fuota4, fu
         Hutchech1, Hutchech2, Hutchech3, Hutchech4, Hutchech5, Hutchech6,
         hutchInteg1, hutchInteg2, hutchInteg3, hutchInteg4, hutchInteg5,
         HutchMat1, HutchMat2, HutchMat3, HutchMat4, HutchMat5,
-        HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7
+        HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7,
+        LLCookies, LLCreateListing, LLFirebase, LLGoogle, LLListing, LLListingFn, LLListingModel, LLMessage, LLMongodbco, 
+        LLRedux, LLSignIn, LLSignUp, LLUpdateListing, LLUser, LLUserFn, LLUserModel, LLMongodb1, LLMongodb2
  } from '@/assets/images';
 
 import { FaRocket, FaCode, FaMobileAlt, FaCog, FaStore, FaShoePrints, FaLock, FaHome, FaDatabase, FaChartLine, FaHospital, FaPills, FaFacebook, FaGoogle, FaBrain, FaPython, FaLaptopCode, FaProjectDiagram, FaEnvelope, FaMicrochip, FaRobot, FaCogs, FaFileCode, FaDiagnoses, FaFileAlt, FaTools, FaBusAlt } from 'react-icons/fa';
@@ -709,29 +711,29 @@ export const LANDLORD = {
         },
         illustrationBoxes: [
             {
-                title: "Property Listings",
-                text: "The property listings page displays available properties with essential details like images, prices, and brief descriptions. Users can filter and search for properties based on various criteria. Illustrations include screenshots of the property listings page and search functionalities.",
-                images: ["property_listings_page.png", "property_search_functionality.png"]
+                title: "User Management",
+                text: "User Profiles: Tested the creation, updating, and deletion of user profiles to ensure that all personal information is securely stored and updated in real time. Verified that users can edit their profiles, including changing contact details, and that changes reflect instantly across the app. || Session Persistence: Tested session management, ensuring that users stay logged in across sessions or are logged out after inactivity. This ensures data security while offering a seamless experience. || ",
+                images: [LLUser, LLUserModel, LLSignIn, LLSignUp]
             },
             {
-                title: "Detailed Property Page",
-                text: "The detailed property page provides in-depth information about each listing, including high-resolution images, comprehensive descriptions, and contact options. This page is designed to offer a thorough view of each property. Illustrations include screenshots of the property details page and its key features.",
-                images: ["property_details_page.png", "property_details_features.png"]
+                title: "Listing Management",
+                text: "Property Creation and Editing: Verified that landlords can easily create new property listings by uploading images, descriptions, and setting prices. Tested the editing functionality to ensure landlords can modify listings and update details such as price or availability. || Search and Filtering: Tested the search functionality to ensure users can find properties based on various filters like location, price range, property type, and features. Ensured that the filtering works in real-time and displays accurate results || Media Management: Verified the seamless uploading, updating, and deleting of property images. Ensured the images are correctly displayed in the listings and that there is no loss of quality or loading issues.",
+                images: [ LLListing, LLListingModel, LLCreateListing, LLUpdateListing]
             },
             {
-                title: "Admin Panel",
-                text: "The admin panel allows administrators to manage property listings, review user accounts, and oversee transactions. It includes features for adding, updating, and deleting property listings. Visuals include screenshots of the admin panel interface and management functionalities.",
-                images: ["admin_panel.png", "admin_management_features.png"]
+                title: "Database Management with MongoDB",
+                text: "Scalability: MongoDB's flexible schema design allowed the app to handle a growing amount of data without performance issues. Tested the database's ability to store, retrieve, and update large sets of property listings, user data, and transaction histories efficiently. || Data Integrity: Verified that MongoDB maintains data integrity during CRUD (Create, Read, Update, Delete) operations. Ensured that updates to listings or user profiles are correctly reflected across the system without inconsistencies or data loss. || Indexing for Performance: Tested the implementation of indexes on frequently queried fields such as location, price, and property status. This optimization ensured fast query responses, even as the database size grew. || Security and Access Control: Validated the use of MongoDB’s built-in role-based access control (RBAC) to manage permissions. Ensured that sensitive data, such as user credentials and financial details, are securely stored and protected from unauthorized access.",
+                images: [LLMongodb1, LLMongodb2]
             },
             {
                 title: "Google Authentication Integration",
                 text: "Firebase was used to integrate Google authentication, enabling users to securely log in and manage their accounts. Illustrations include code snippets and screenshots demonstrating the authentication process and user login flow.",
-                images: ["firebase_authentication_code.png", "google_login_flow.png"]
+                images: [LLGoogle]
             },
             {
                 title: "State Management with Redux",
                 text: "Redux was utilized for managing application state, ensuring consistent data flow and efficient handling of user interactions. Illustrations include Redux state management diagrams and code snippets showcasing the implementation.",
-                images: ["redux_state_management.png", "redux_code_snippets.png"]
+                images: [LLCookies, LLRedux]
             },
         ],
     },
@@ -758,23 +760,23 @@ export const LANDLORD = {
     },  
     ImprovementSection: [
         {
-            title: "Enhanced Authentication",
-            description: "Implemented Google authentication with Firebase, providing secure and convenient user login and account management.",
+            title: "Role-Based Access Control",
+            description: "Checked that landlords and tenants have appropriate access rights. Landlords are able to create and manage property listings, while tenants can send inquiries, bookmark properties, and interact with landlords. Unauthorized access to certain features was blocked successfully.",
             icon: <FaLock /> ,
         },
         {
-            title: "Dynamic Property Management",
-            description: "Developed dynamic property management features including listings, details, and admin controls, facilitating efficient real estate operations.",
+            title: "Property Status Updates:",
+            description: "Validated the ability for landlords to change the status of listings (e.g., available, under review, rented) and ensured that these updates reflect instantly on the platform, providing accurate availability information to potential tenants.",
             icon: <FaHome /> ,
         },
         {
-            title: "Efficient State Management",
-            description: "Utilized Redux for effective state management, ensuring consistent data flow and improved application performance.",
+            title: "Data Backup and Recovery",
+            description: "Tested the database’s backup and recovery processes to ensure minimal downtime in the event of system failure. Simulated data loss scenarios and validated the effectiveness of MongoDB’s recovery mechanisms.",
             icon: <FaCode /> ,
         },
         {
-            title: "Robust Backend Integration",
-            description: "Built a reliable backend with Node.js and Express, handling data operations and API requests seamlessly.",
+            title: "Account Recovery",
+            description: "Validated password recovery and reset processes through email links, ensuring that users can regain access to their accounts securely in case of forgotten credentials.",
             icon: <FaDatabase /> ,
         },
     ],

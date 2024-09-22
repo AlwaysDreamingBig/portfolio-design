@@ -113,7 +113,9 @@ import LLListing from './LLListing.jpg';
 import LLListingFn from './LLListingFn.jpg';
 import LLListingModel from './LLListingModel.jpg';
 import LLMessage from './LLMessage.jpg';
-import LLMongodbco from './LLMongodbco.jpg';
+import LLMongodbco from './LLMongoDB.jpg';
+import LLMongodb1 from './LLMongoDB2.jpg';
+import LLMongodb2 from './LLMongoDB3.jpg';
 import LLRedux from './LLRedux.jpg';
 import LLSignIn from './LLSignIn.jpg';
 import LLSignUp from './LLSignUp.jpg';
@@ -137,6 +139,6 @@ export {
   HutchMat1, HutchMat2, HutchMat3, HutchMat4, HutchMat5,
   HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7,
   LLCookies, LLCreateListing, LLFirebase, LLGoogle, LLListing, LLListingFn, LLListingModel, LLMessage, LLMongodbco, 
-  LLRedux, LLSignIn, LLSignUp, LLUpdateListing, LLUser, LLUserFn, LLUserModel
+  LLRedux, LLSignIn, LLSignUp, LLUpdateListing, LLUser, LLUserFn, LLUserModel, LLMongodb1, LLMongodb2
 };
 
