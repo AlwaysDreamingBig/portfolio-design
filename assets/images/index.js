@@ -123,6 +123,29 @@ import LLUpdateListing from './LLUpdateListing.jpg';
 import LLUser from './LLUser.jpg';
 import LLUserFn from './LLUserFn.jpg';
 import LLUserModel from './LLUserModel.jpg';
+import HPApp1 from './HPApp1.jpg';
+import HPApp2 from './HPApp2.jpg';
+import HPApp3 from './HPApp3.jpg';
+import HPApp4 from './HPApp4.jpg';
+import HPApp5 from './HPApp5.jpg';
+import HPPatient1 from './HPPatient2.jpg';
+import HPPatient2 from './HPPatient1.jpg';
+import HPPatient3 from './HPPatient3.jpg';
+import HPPatient4 from './HPPatient4.jpg';
+import HPPharmacy from './HPPharmacy.jpg';
+import HPPharmacy1 from './HPPharmacy1.jpg';
+import HPPharmacy2 from './HPPharmacy2.jpg';
+import HPPharmacy3 from './HPPharmacy3.jpg';
+import HPStaff1 from './HPStaff1.jpg';
+import HPStaff2 from './HPStaff2.jpg';
+import HPStaff3 from './HPStaff3.jpg';
+import HPStaff4 from './HPStaff4.jpg';
+import HPUser1 from './HPUser1.jpg';
+import HPUser2 from './HPUser2.jpg';
+import HPUser3 from './HPUser3.jpg';
+import HPUser4 from './HPUser4.jpg';
+import HPUser5 from './HPUser5.jpg';
+import HPUser6 from './HPUser6.jpg';
 
 export {
   bugsbunny, itgstoreLogo, paulstraLogo, alstomLogo, siemensLogo, siemensLogo2, paulstraLogo2, lesBrouilles,
@@ -139,6 +162,8 @@ export {
   HutchMat1, HutchMat2, HutchMat3, HutchMat4, HutchMat5,
   HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7,
   LLCookies, LLCreateListing, LLFirebase, LLGoogle, LLListing, LLListingFn, LLListingModel, LLMessage, LLMongodbco, 
-  LLRedux, LLSignIn, LLSignUp, LLUpdateListing, LLUser, LLUserFn, LLUserModel, LLMongodb1, LLMongodb2
+  LLRedux, LLSignIn, LLSignUp, LLUpdateListing, LLUser, LLUserFn, LLUserModel, LLMongodb1, LLMongodb2, HPApp1, HPApp2, HPApp3, 
+  HPApp4, HPApp5, HPPatient1, HPPatient2, HPPatient3, HPPatient4, HPPharmacy, HPPharmacy1,
+  HPPharmacy2, HPPharmacy3, HPStaff1, HPStaff2, HPStaff3, HPStaff4, HPUser1, HPUser2, HPUser3, HPUser4, HPUser5, HPUser6
 };
 
