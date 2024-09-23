@@ -9,7 +9,10 @@ import { Client1, Client2, Client3, MF1, MF2, fuota1, fuota2, fuota3, fuota4, fu
         HutchMat1, HutchMat2, HutchMat3, HutchMat4, HutchMat5,
         HutchQT1, HutchQT2, hutchSimul1, hutchSimul2, hutchSimul3, hutchSimul4, hutchSimul5, hutchSimul6, hutchSimul7,
         LLCookies, LLCreateListing, LLFirebase, LLGoogle, LLListing, LLListingFn, LLListingModel, LLMessage, LLMongodbco, 
-        LLRedux, LLSignIn, LLSignUp, LLUpdateListing, LLUser, LLUserFn, LLUserModel, LLMongodb1, LLMongodb2
+        LLRedux, LLSignIn, LLSignUp, LLUpdateListing, LLUser, LLUserFn, LLUserModel, LLMongodb1, LLMongodb2,
+        HPApp1, HPApp2, HPApp3, 
+        HPApp4, HPApp5, HPPatient1, HPPatient2, HPPatient3, HPPatient4, HPPharmacy, HPPharmacy1,
+        HPPharmacy2, HPPharmacy3, HPStaff1, HPStaff2, HPStaff3, HPStaff4, HPUser1, HPUser2, HPUser3, HPUser4, HPUser5, HPUser6
  } from '@/assets/images';
 
 import { FaRocket, FaCode, FaMobileAlt, FaCog, FaStore, FaShoePrints, FaLock, FaHome, FaDatabase, FaChartLine, FaHospital, FaPills, FaFacebook, FaGoogle, FaBrain, FaPython, FaLaptopCode, FaProjectDiagram, FaEnvelope, FaMicrochip, FaRobot, FaCogs, FaFileCode, FaDiagnoses, FaFileAlt, FaTools, FaBusAlt } from 'react-icons/fa';
@@ -914,29 +917,44 @@ export const HOSPITAL_MANAGEMENT = {
         },
         illustrationBoxes: [
             {
-                title: "Dashboard Overview",
-                text: "The dashboard provides a central view of hospital operations, including patient management, appointment scheduling, billing, and pharmacy inventory. Illustrations include screenshots of the dashboard interface and key features.",
-                images: ["dashboard_overview.png", "dashboard_features.png"]
+                title: "Patient Management",
+                text: "The patient management module handles all patient-related data. It allows hospital staff to register new patients with complete personal details, contact information, and medical history. || For admitted patients, staff can update their records with new diagnoses, treatments, and medications prescribed. This module also includes functionality for discharging patients, generating discharge summaries, and managing follow-up appointments. The intuitive search function helps locate patient records quickly, making it easy to retrieve and update data as needed.",
+                images: [HPPatient1, HPPatient2, HPPatient3, HPPatient4]
             },
             {
-                title: "Patient Records Management",
-                text: "The patient records module allows for comprehensive management of patient information, including medical history, treatment plans, and contact details. Visuals include screenshots of the patient records interface and data entry forms.",
-                images: ["patient_records_management.png", "patient_records_interface.png"]
+                title: " UI/UX Design",
+                text: "The hospital management system’s user interface was built using JavaFX, focusing on creating a clean and easy-to-navigate design. The layout is designed for efficiency, with a dashboard view offering quick access to key features such as patient records, appointments, billing, and inventory. || Large buttons, clear typography, and consistent color schemes improve usability, reducing the learning curve for new users. The app uses responsive design principles, allowing it to be used comfortably on different screen sizes, whether on desktops or tablets. Thoughtful placement of features minimizes clicks and streamlines daily tasks for hospital staff.",
+                images: []
             },
             {
                 title: "Appointment Scheduling",
-                text: "The appointment scheduling module facilitates efficient booking and management of patient appointments. Illustrations include screenshots of the scheduling interface and calendar view.",
-                images: ["appointment_scheduling.png", "appointment_calendar.png"]
+                text: "The appointment scheduling system allows patients to book consultations with doctors. Staff can view and manage the availability of doctors, ensuring that time slots are assigned efficiently. || Automated reminders are generated for both doctors and patients to reduce no-shows. The system also supports scheduling for emergency cases, prioritizing them in the booking queue. All scheduled appointments are synced with the doctor and patient profiles, giving real-time updates on changes or cancellations.",
+                images: [HPApp1, HPApp2, HPApp3, HPApp4, HPApp5]
             },
             {
-                title: "Billing System",
-                text: "The billing module handles invoicing, payment processing, and financial reporting. Visuals include screenshots of the billing interface and reporting tools.",
-                images: ["billing_system.png", "billing_reports.png"]
+                title: "Doctor and Staff Management",
+                text: "This module focuses on managing profiles and schedules of doctors, nurses, and other hospital staff. Administrative users can add new staff members to the system, assign specific roles, and update their information. || The app helps in managing doctor schedules, including availability and specialties, making it easy to assign doctors based on their areas of expertise. It also tracks work shifts and handles staff requests for time off. This ensures that both the medical and administrative teams operate smoothly.",
+                images: [HPStaff1, HPStaff2, HPStaff3, HPStaff4]
+            },
+            {
+                title: "Database Management with MySQL",
+                text: " The application leverages a MySQL database to store and manage all the hospital’s data, ensuring fast retrieval and secure storage. Patient data, staff records, appointments, billing details, and inventory records are efficiently managed using CRUD (Create, Read, Update, Delete) operations. Data integrity and security are maintained by implementing user access control and regular database backups. With the structured relational model, the system handles complex queries for reporting and tracking hospital operations.",
+                images: []
             },
             {
                 title: "Pharmacy Management",
-                text: "The pharmacy management module tracks inventory, manages prescriptions, and processes pharmacy-related transactions. Illustrations include screenshots of the pharmacy management interface and inventory tracking tools.",
-                images: ["pharmacy_management.png", "pharmacy_inventory.png"]
+                text: "The Pharmacy Management module streamlines the hospital’s medication handling process by integrating inventory management, prescription handling, billing, and reporting into a unified system. || It provides real-time tracking of drug stock, ensuring medications are dispensed accurately and efficiently, while also generating alerts for low stock levels and impending expiry dates. With electronic prescriptions directly routed from doctors to the pharmacy, manual errors are minimized, speeding up prescription fulfillment. || Additionally, the module integrates with the hospital's billing system to automate invoicing for medications, and its batch tracking ensures safe and efficient stock management. Detailed drug information and reporting tools enhance patient safety and support informed decision-making, contributing to smoother operations and improved patient care quality.",
+                images: [HPPharmacy, HPPharmacy1, HPPharmacy2, HPPharmacy3]
+            },
+            {
+                title: "User Roles and Access Control",
+                text: "To ensure security and data privacy, the system has a robust user management feature that assigns different roles to users such as administrators, doctors, nurses, and reception staff. Administrators can create, update, and delete user profiles, assigning specific permissions based on their roles.|| Doctors have access to medical records, nurses can manage patient treatments, and admin staff can handle billing and appointments. This feature helps in securing sensitive medical and financial information, ensuring that only authorized personnel have access to it.",
+                images: [HPUser1, HPUser2, HPUser3, HPUser4, HPUser5, HPUser6]
+            },
+            {
+                title: " Inventory and Equipment Tracking, Room, Ambulance, Department Management",
+                text: "This feature tracks the hospital's medical supplies, equipment, and medications. It allows staff to monitor stock levels in real-time, set minimum thresholds for reordering, and prevent stockouts of essential items. Each piece of equipment or batch of medication is logged in the system, with records of their usage and current availability. Same goes for the rooms allocation and the different ambulances.|| Alerts are triggered when stock levels fall below the defined threshold, prompting timely restocking. This ensures that the hospital is always well-equipped to handle patient care without delays.",
+                images: []
             },
         ],
     },

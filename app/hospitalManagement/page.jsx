@@ -97,9 +97,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-400 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-cyan-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+            A LOOK INTO HOW WE BUILT A SIMPLE, YET EFFECTIVE HOSPITAL
+            MANAGEMENT SYSTEM THAT MAKES HEALTHCARE OPERATIONS RUN SMOOTHLY.
           </p>
       </section>
 
@@ -127,9 +128,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-200 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-cyan-700 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+            THIS PROJECT SHOWS HOW SMART SOFTWARE CAN MAKE A REAL 
+            DIFFERENCE IN MANAGING DAILY HOSPITAL TASKS WITH EASE.
           </p>
       </section>
 
