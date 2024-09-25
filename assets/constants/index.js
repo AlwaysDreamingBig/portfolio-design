@@ -145,3 +145,46 @@ import { Bungee } from "next/font/google";
   ];
   
   export const services = ['Embedded Development', 'Web Development', 'Other', ];
+
+  export const references = [
+    {
+      name: 'Till SOHIER',
+      role: 'Project Owner',
+      company: 'SIEMENS',
+      contact: 'aaddemail@gmail.com',
+      message: 'An excellent software engineer with a knack for solving complex problems.',
+      profilePic: 'https://media.licdn.com/dms/image/C4D03AQGDNuJhjK--HA/profile-displayphoto-shrink_200_200/0/1517594942420?e=2147483647&v=beta&t=CFzvAEBwiAEpNhaOgHw-kc_mUAQGbYS7Cn_y1D-TLhA' // Replace with actual URL
+    },
+    {
+      name: 'Rachid El MALKI',
+      role: 'Industrial Solutions Provider',
+      company: 'OPEX GROUP',
+      contact: 'aaddemail@gmail.com',
+      message: 'A creative genius with an eye for detail.',
+      profilePic: 'https://media.licdn.com/dms/image/C4D03AQEjUC57ipmWrg/profile-displayphoto-shrink_400_400/0/1612206781795?e=2147483647&v=beta&t=QPCLCkGSODiY9O6JAaItxejzD2RBr8d1E66FPwYE04g' // Replace with actual URL
+    },
+    {
+      name: 'Marksten Thorsten',
+      role: 'CPO',
+      company: 'SIEMENS',
+      contact: 'aaddemail@gmail.com',
+      message: 'A great team leader who keeps everything organized and on track.',
+      profilePic: 'https://via.placeholder.com/150' // Replace with actual URL
+    },
+    {
+      name: 'François DERIVAUX',
+      role: 'Team Manager',
+      company: 'Technology & Strategy',
+      contact: 'aaddemail@gmail.com',
+      message: 'A great team leader who keeps everything organized and on track.',
+      profilePic: 'https://via.placeholder.com/150' // Replace with actual URL
+    },
+    {
+      name: 'Sass Franck',
+      role: 'SIEMENS',
+      company: 'SIEMENS',
+      contact: 'aaddemail@gmail.com',
+      message: 'A creative genius with an eye for detail.',
+      profilePic: 'https://via.placeholder.com/150' // Replace with actual URL
+    },
+  ];
