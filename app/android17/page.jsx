@@ -56,9 +56,9 @@ const demoContent = (
           <Image
             src={android17.src}
             alt="ANDROID_17 image background"
-            layout="fill"  // This makes the image fill the container
-            objectFit="cover"  // Ensures the image covers the area while maintaining aspect ratio
+            fill
             className="rounded-md"  // Example class, you can replace with your own
+            style={{ objectFit: 'cover' }}
           />
         </div>
       </section>

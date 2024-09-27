@@ -56,9 +56,9 @@ const demoContent = (
           <Image
             src={HPMan.src}
             alt="HOSPITAL_MANAGEMENT image background"
-            layout="fill"  // This makes the image fill the container
-            objectFit="cover"  // Ensures the image covers the area while maintaining aspect ratio
+            fill
             className="rounded-md"  // Example class, you can replace with your own
+            style={{ objectFit: 'cover' }}
           />
         </div>
       </section>

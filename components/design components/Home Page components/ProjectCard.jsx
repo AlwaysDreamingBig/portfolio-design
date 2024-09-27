@@ -42,8 +42,8 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
         <Image
           src={backgroundImage.src}
           alt={title}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
           className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
