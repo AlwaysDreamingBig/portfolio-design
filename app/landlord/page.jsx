@@ -100,7 +100,7 @@ const demoContent = (
       <section className='lg:px-48 px-10 py-20 bg-red-600 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
             "THE REAL ESTATE WEB APP IS A FULL-STACK SOLUTION BUILT 
-            TO SIMPLIFY PROPERTY LISTINGS, USER MANAGEMENT, AND TRANSACTIONS USING REACT, REDUX, AND MONGODB."
+            TO SIMPLIFY PROPERTY LISTINGS, USER MANAGEMENT AND ACTIONS USING REACT, REDUX, AND MONGODB."
           </p>
       </section>
 
@@ -114,10 +114,10 @@ const demoContent = (
       </section>
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
-          <h1 className='text-center text-6xl mb-40'>
+          <h1 className='text-center mb-40'>
               {
                 <div>
-                  <p className='text-blue-600'> {sixthSection.headingBoxParam.title} </p>
+                  <p className='text-blue-600 sm:text-6xl text-4xl text-center'> {sixthSection.headingBoxParam.title} </p>
                   <p className='text-2xl italic text-gray-600 mt-10'> {sixthSection.headingBoxParam.tag} </p>
                 </div>
               }
@@ -130,7 +130,7 @@ const demoContent = (
 
       <section className='lg:px-48 px-10 py-20 bg-red-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-            "THIS PROJECT SHOWCASES THE POTENTIAL OF MODERN WEB TECHNOLOGIES TO CREATE A SCALABLE AND EFFICIENT PLATFORM."
+            "THIS PROJECT SHOWCASES THE POTENTIAL OF MODERN WEB TECH TO CREATE A SCALABLE AND EFFICIENT PLATFORM."
           </p>
       </section>
 

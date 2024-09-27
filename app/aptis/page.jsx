@@ -115,10 +115,10 @@ const demoContent = (
       </section>
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
-          <h1 className='text-center text-6xl mb-40'>
+          <h1 className='text-center mb-40'>
               {
                 <div>
-                  <p className='text-blue-600'> {sixthSection.headingBoxParam.title} </p>
+                  <p className='text-blue-600 sm:text-6xl text-4xl text-center'> {sixthSection.headingBoxParam.title} </p>
                   <p className='text-2xl italic text-gray-600 mt-10'> {sixthSection.headingBoxParam.tag} </p>
                 </div>
               }
@@ -133,7 +133,7 @@ const demoContent = (
           <p>
               
             "IT IS CRUCIAL TO CONDUCT PRECISE ANALYSES IN ORDER TO DETERMINE
-            THE CONTEXT OF INCIDENTS AND DEDUCE THE RESPONSIBILITIES OF THE DIFFERENT PARTIES."
+            THE CONTEXT OF INCIDENTS AND DEDUCE THE CAUSE<span className='hidden sm:block'> AND RESPONSIBILITIES</span> OF THE DIFFERENT PARTIES."
           </p>
       </section>
 

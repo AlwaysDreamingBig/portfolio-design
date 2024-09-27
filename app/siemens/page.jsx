@@ -97,9 +97,9 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-blue-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-400 mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              FIRMWARE UPDATE OVER THE AIR IS A KEY FUNCTIONALITY THAT PROVIDES THE POSSIBILITY TO 
+              FIRMWARE UPDATE OVER THE AIR IS A KEY FEATURE THAT PROVIDES THE POSSIBILITY TO 
               DO REMOTE UPDATES FOR A LARGE NUMBER OF DEVICES.
           </p>
       </section>
@@ -114,10 +114,10 @@ const demoContent = (
       </section>
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
-          <h1 className='text-center text-6xl mb-40'>
+          <h1 className='text-center mb-40'>
               {
                 <div>
-                  <p className='text-blue-600'> {sixthSection.headingBoxParam.title} </p>
+                  <p className='text-blue-600 sm:text-6xl text-4xl text-center'> {sixthSection.headingBoxParam.title} </p>
                   <p className='text-2xl italic text-gray-600 mt-10'> {sixthSection.headingBoxParam.tag} </p>
                 </div>
               }
@@ -128,7 +128,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-blue-200 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-200 mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
               THE 3G MAG8000 BEING AND OLD MODEL HAS BUILT A RELIABLE RELATION BETWEEN SIEMENS
               AND ITS CLIENT. IT WAS A REAL CHALLENGE.

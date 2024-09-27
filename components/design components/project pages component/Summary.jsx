@@ -16,13 +16,13 @@ function BentoCard({ title, text, items, expanded, onClick }) {
       <h3 className="text-xl font-bold mb-4 text-blue-500">{title}</h3>
       {expanded ? (
         <>
-          <p className="text-white dark:text-neutral-300 mb-4 text-justify">
+          <div className="text-white dark:text-neutral-300 mb-4 text-justify">
             <div className="space-y-4">
               {paragraphsText.map((para, index) => (
                 <p key={index} className="leading-loose">{para}</p>
               ))}
             </div>
-          </p>
+          </div>
           <ul className="space-y-2 list-disc mx-20 my-10">
             {items.map((item, index) => (
               <li key={index} className="text-orange-500 dark:text-neutral-300 text-lg">

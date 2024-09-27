@@ -16,6 +16,7 @@ import { ANDROID_17 } from '@/assets/constants/projects'
 import { android17 } from '@/assets/images'
 import Image from 'next/image';
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
+import FloatingDemoButton from '@/components/design components/FloatingDemoButton';
 
 
 const demoContent = (
@@ -113,10 +114,10 @@ const demoContent = (
       </section>
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
-          <h1 className='text-center text-6xl mb-40'>
+          <h1 className='text-center mb-40'>
               {
                 <div>
-                  <p className='text-blue-600'> {sixthSection.headingBoxParam.title} </p>
+                  <p className='text-blue-600 sm:text-6xl text-4xl text-center'> {sixthSection.headingBoxParam.title} </p>
                   <p className='text-2xl italic text-gray-600 mt-10'> {sixthSection.headingBoxParam.tag} </p>
                 </div>
               }
@@ -142,7 +143,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='border border-black rounded-lg p-2' data-aos="fade-up">
+      <section className='border border-black rounded-lg p-2' data-aos="fade-up" id="demo">
           <DemoLaptop 
               title="My Laptop Demo" 
               demoContent={demoContent} 
