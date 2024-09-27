@@ -326,22 +326,22 @@ export const SIEMENS = {
             {
                 title: "Responsive Design Implementation",
                 text: "The website for Android-17 was designed with a focus on responsiveness, ensuring it adapts to various screen sizes. The implementation included flexible grid layouts and media queries to achieve a seamless user experience on different devices. Illustrations include responsive design flowcharts, CSS media query examples, and screenshots demonstrating the website’s appearance on various devices.",
-                images: ["responsive_design_flowchart.png", "media_queries.png", "responsive_screenshots.png"]
+                images: []
             },
             {
                 title: "React Component Architecture",
                 text: "React’s component-based architecture was used to build a modular and maintainable codebase for the Android-17 website. Components were designed to be reusable and easily manageable, facilitating better organization and scalability. Illustrations include component diagrams, state management flowcharts, and code snippets showcasing the React components in action.",
-                images: ["react_component_diagram.png", "state_management_flowchart.png", "react_code_snippets.png"]
+                images: []
             },
             {
                 title: "TailwindCSS Integration",
                 text: "TailwindCSS was utilized for styling the website, providing a modern and consistent look. The integration process involved configuring TailwindCSS with React and applying utility classes to design the user interface. Illustrations include TailwindCSS configuration files, styling examples, and before-and-after screenshots demonstrating the impact of TailwindCSS on the website’s design.",
-                images: ["tailwindcss_config.png", "styling_examples.png", "before_after_screenshots.png"]
+                images: []
             },
             {
                 title: "JavaScript Interactivity",
                 text: "JavaScript was used to add interactivity to the website, including dynamic elements and smooth transitions. This involved writing scripts to handle user interactions and enhance the gaming experience. Illustrations include JavaScript code snippets, interaction flowcharts, and screenshots demonstrating interactive features on the website.",
-                images: ["javascript_code_snippets.png", "interaction_flowchart.png", "interactive_screenshots.png"]
+                images: []
             },
         ],
     },   
@@ -519,22 +519,22 @@ export const BUNNY_SHOES = {
             {
                 title: "Product Listings",
                 text: "The product listings page showcases a grid layout of available shoes, each with a thumbnail image, price, and brief description. Users can click on individual products to view detailed information. Illustrations include screenshots of the product listings page and the grid layout.",
-                images: ["product_listings_page.png", "product_grid_layout.png"]
+                images: []
             },
             {
                 title: "Product Details",
                 text: "The product details page provides in-depth information about each shoe, including high-quality images, detailed descriptions, and purchase options. This page is designed to offer a comprehensive view of each product. Illustrations include screenshots of the product details page and close-ups of key elements.",
-                images: ["product_details_page.png", "product_details_closeup.png"]
+                images: []
             },
             {
                 title: "Shopping Cart",
                 text: "The shopping cart feature allows users to view and manage their selected items. It includes functionalities for updating quantities, removing items, and proceeding to checkout. Visuals include screenshots of the shopping cart and its various interactive elements.",
-                images: ["shopping_cart_page.png", "shopping_cart_interactions.png"]
+                images: []
             },
             {
                 title: "TailwindCSS Integration",
                 text: "TailwindCSS was used to style the website, providing a modern and cohesive design. Illustrations include code snippets showcasing TailwindCSS utility classes and screenshots demonstrating the final design aesthetics.",
-                images: ["tailwind_code_snippet.png", "tailwind_store_design.png"]
+                images: []
             },
         ],
     },

@@ -100,9 +100,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-400 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-400 mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+            A WELL-CRAFTED PLATFORM IS ESSENTIAL FOR BRINGING FASHION AND 
+            FEATURE TOGETHER IN ONE SEAMLESS SHOPPING EXPERIENCE
           </p>
       </section>
 
@@ -130,9 +131,10 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-200 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-400 mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+            WITH AN INTUITIVE INTERFACE AND SLEEK DESIGN, 
+            BUNNYSHOES SETS A NEW STANDARD FOR E-COMMERCE ON DESKTOP.
           </p>
       </section>
 

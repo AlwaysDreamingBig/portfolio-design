@@ -100,9 +100,9 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-400 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-400 mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+            IN A WORLD WHERE GAMING AND DESIGN COLLIDE, CREATING AN IMMERSIVE ONLINE EXPERIENCE IS KEY TO ENGAGING USERS.
           </p>
       </section>
 
@@ -130,9 +130,9 @@ const demoContent = (
           />
       </section>
 
-      <section className='md:px-48 px-10 py-20 bg-blue-200 h-[70vh] mb-10 text-7xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-200 mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-              THE BIG TEXT DUNNO WHAT I WILL SAY BUT OK I WILL SAY IT ANYWAY
+            WITH SEAMLESS NAVIGATION AND STUNNING VISUALS, THIS PROJECT REDEFINES WHAT A GAMING WEBSITE CAN OFFER.
           </p>
       </section>
 
