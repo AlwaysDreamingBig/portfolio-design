@@ -136,22 +136,6 @@ const demoContent = (
       </section>
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
-          <DemoMobile 
-              title="My Awesome Project" 
-              website="https://example.com" 
-              note="This is a demo for the mobile app." 
-              demoContent={demoContent}
-          />
-      </section>
-
-      <section className='border border-black rounded-lg p-2' data-aos="fade-up">
-          <DemoLaptop 
-              title="My Laptop Demo" 
-              demoContent={demoContent} 
-          />
-      </section>
-
-      <section className='border border-black rounded-lg p-2' data-aos="fade-up">
           <Improvement improvements={improvements} />
       </section>
 

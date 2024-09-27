@@ -47,6 +47,8 @@ const demoContent = (
     <div className='space-y-20'>
 
       <ScrollToTopButton />
+      {/* Floating Button */}
+      <FloatingDemoButton />
 
       <section>
         {/* Image with responsive behavior */}

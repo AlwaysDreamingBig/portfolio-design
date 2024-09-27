@@ -16,6 +16,7 @@ import { HOSPITAL_MANAGEMENT } from '@/assets/constants/projects'
 import { HPMan } from '@/assets/images'
 import Image from 'next/image';
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
+import FloatingDemoButton from '@/components/design components/FloatingDemoButton';
 
 
 const demoContent = (
@@ -46,6 +47,8 @@ const demoContent = (
     <div className='space-y-20'>
 
       <ScrollToTopButton />
+      {/* Floating Button */}
+      <FloatingDemoButton />
 
       <section>
         {/* Image with responsive behavior */}
@@ -144,7 +147,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='border border-black rounded-lg p-2' data-aos="fade-up">
+      <section className='border border-black rounded-lg p-2' data-aos="fade-up" id="demo">
           <DemoLaptop 
               title="My Laptop Demo" 
               demoContent={demoContent} 
