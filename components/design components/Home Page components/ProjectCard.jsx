@@ -7,6 +7,8 @@ import { motion } from 'framer-motion';
 const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link, titleClassName }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
+  const [isClicked, setIsClicked] = useState(false);
+
 
     // Function to toggle the visibility
     const toggleVisibility = () => {
@@ -18,6 +20,12 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
       setIsVisible(true);
     }
 
+    const mobileClickedFn = () => {
+      setIsClicked(!isClicked);
+      setIsVisible(true);
+    }
+
+    console.log(isClicked);
   return (
     <motion.div
       className="relative flex items-center justify-between sm:p-10 text-white rounded-lg shadow-lg overflow-hidden h-[100vh] opacity-80 hover:opacity-100 transition duration-500"
@@ -25,10 +33,11 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
       whileTap={{ scale: 0.95 }}
       onHoverStart={mobileHoveredFn}
       onHoverEnd={() => setIsHovered(false)}
+      onClick={mobileClickedFn}
     >
       {/* Background Image Wrapper */}
       <div
-        className={`absolute inset-0 z-0 transition-opacity duration-500 ${isHovered ? 'opacity-0 sm:opacity-100' : 'opacity-100'}`}
+        className={`absolute inset-0 z-0 transition-opacity duration-500 ${isHovered ? 'opacity-0 sm:opacity-100' : 'opacity-100'} ${isClicked ? 'opacity-0 sm:opacity-100' : 'opacity-100'}`}
       >
         <Image
           src={backgroundImage.src}
@@ -42,8 +51,10 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
       {/* Content */}
       {isVisible && (
       <div
-        className={`relative flex flex-col md:w-2/3 xl:w-1/2 sxl:w-1/3 w-full sm:space-x-6 bg-black/20 h-full z-10 rounded-lg transition-opacity duration-500 sm:opacity-100 ${
+        className={`relative flex flex-col md:w-2/3 xl:w-1/2 sxl:w-1/3 w-full sm:space-x-6 bg-gray-800 h-full z-10 rounded-lg transition-opacity duration-500 sm:opacity-100 ${
           isHovered ? 'opacity-100 sm:opacity-100' : 'opacity-0 sm:opacity-100'
+        } ${
+          isClicked ? 'opacity-100 sm:opacity-100' : 'opacity-0 sm:opacity-100'
         }`}
       >
         {/* Logo */}
