@@ -51,7 +51,7 @@ const demoContent = (
         {/* Image with responsive behavior */}
         <div className="relative w-full h-[90vh] "> {/* Adjust height based on needs */}
           <Image
-            src={aptisBus.src}
+            src={aptisBus}
             alt="ALSTOM_APTIS_PROJECT image background"
             fill
             className="rounded-md"  // Example class, you can replace with your own

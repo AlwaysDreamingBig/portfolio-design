@@ -27,7 +27,7 @@ const BentoEducation = ({ level }) => {
           </ul>
 
           <Image 
-            src={universityData.thumbnailImage.src} 
+            src={universityData.thumbnailImage} 
             alt={`${universityData.name} Logo`} 
             width={200} // Corresponds to w-24 (24 * 4px = 96px)
             height={200} // Corresponds to h-24 (24 * 4px = 96px)
@@ -53,7 +53,7 @@ const BentoEducation = ({ level }) => {
           </ul>
 
           <Image 
-            src={ecoleData.thumbnailImage.src} 
+            src={ecoleData.thumbnailImage} 
             alt={`${ecoleData.name} Logo`} 
             width={120} // Corresponds to w-24 (24 * 4px = 96px)
             height={120} // Corresponds to h-24 (24 * 4px = 96px)

@@ -25,12 +25,14 @@ export default function DemoMobile({ title, website, note, demoContent }) {
     <div className='grid grid-cols-1 md:grid-cols-2 gap-8 p-8'>
       {/* Left Section: Text, Website, FYI Note */}
       <div className='flex flex-col space-y-4'>
-        <h2 className='text-2xl font-bold'>{title}</h2>
-        <a href={website} target='_blank' rel='noopener noreferrer' className='text-blue-500 underline'>
-          Visit Website
-        </a>
-        <p className='text-sm bg-yellow-100 p-2 rounded-md'>
-          <strong>FYI:</strong> {note}
+        <h2 className='text-2xl font-bold'> <span className='text-blue-600'>Video Description: </span>{title}</h2>
+        {website && (
+          <a href={website} target='_blank' rel='noopener noreferrer' className='text-blue-500 underline'>
+            Visit Website
+          </a>
+        )}
+        <p className='text-sm p-8 rounded-md leading-loose'>
+          <strong className='text-purple-600'>FYI:</strong> {note}
         </p>
       </div>
 

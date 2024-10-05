@@ -39,7 +39,7 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
         className={`absolute inset-0 z-0 transition-opacity duration-500 ${isHovered ? 'opacity-0 sm:opacity-100' : 'opacity-100'} ${isClicked ? 'opacity-0 sm:opacity-100' : 'opacity-100'}`}
       >
         <Image
-          src={backgroundImage.src}
+          src={backgroundImage}
           alt={title}
           fill
           style={{ objectFit: 'cover' }}

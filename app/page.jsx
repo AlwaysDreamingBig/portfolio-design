@@ -10,6 +10,8 @@ import SocialIcons from '@/components/design components/Socials';
 import Brands from '@/components/design components/Home Page components/Brands';
 import ProjectCardContainer from '@/components/design components/Home Page components/ProjectCardContainer';
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
+import DownloadButton from '@/components/design components/DownloadButton';
+import { profile1, profile2, profile3 } from '@/assets/images';
 
 const HomePage = () => {
   return (
@@ -63,9 +65,7 @@ const HomePage = () => {
             whileHover={{ scale: 1.1, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.2)" }}
           >
             <div className='mt-4 flex sm:flex-row flex-col lg:flex-col xl:flex-row items-center justify-center'>
-                <Link href="/work" className="px-8 py-2 border border-blue-500 text-white font-semibold rounded-2xl shadow-md hover:text-blue-500 transition">
-                    Download CV
-                </Link>
+                <DownloadButton fileUrl={ 'https://firebasestorage.googleapis.com/v0/b/portfolio-website-90b70.appspot.com/o/CV_Auriol_NGUELI.pdf?alt=media&token=0c258efd-9b03-47c7-8d4b-89fb7090f959'}/>
 
                 <SocialIcons />
             </div>
@@ -81,10 +81,10 @@ const HomePage = () => {
           <Link href="/">
             <div className="relative w-[400px] h-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
               <Image 
-                src={bugsbunny} 
+                src={profile1} 
                 alt="My Logo" 
-                width={300} 
-                height={300} 
+                width={400} 
+                height={400} 
                 priority={true}
                 className="object-cover"
               />

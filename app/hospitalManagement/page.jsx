@@ -17,12 +17,20 @@ import { HPMan } from '@/assets/images'
 import Image from 'next/image';
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
 import FloatingDemoButton from '@/components/design components/FloatingDemoButton';
+import { HospitalMan_Database, HospitalMan_Demo } from '@/assets/videos';
 
 
 const demoContent = (
     <video controls className="w-full h-full">
-      <source src="your-video-url.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
+      <source src={HospitalMan_Database} />
+      This is the MySQL Database.
+    </video>
+  );
+
+  const demoContent2 = (
+    <video controls className="w-full h-full">
+      <source src={HospitalMan_Demo} />
+      A Quick demonstration of the application.
     </video>
   );
 
@@ -54,7 +62,7 @@ const demoContent = (
         {/* Image with responsive behavior */}
         <div className="relative w-full h-[90vh] "> {/* Adjust height based on needs */}
           <Image
-            src={HPMan.src}
+            src={HPMan}
             alt="HOSPITAL_MANAGEMENT image background"
             fill
             className="rounded-md"  // Example class, you can replace with your own
@@ -140,9 +148,9 @@ const demoContent = (
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
           <DemoMobile 
-              title="My Awesome Project" 
-              website="https://example.com" 
-              note="This is a demo for the mobile app." 
+              title="Exploring the Database of My Hospital Management App" 
+              website="" 
+              note="In this video, I showcase the database architecture of my Hospital Management Application built with Java and MySQL. I’ll guide you through the key tables, including patient management, doctor details, appointment scheduling, billing information, and room assignments. You’ll see how these components interact to streamline hospital operations and improve patient care. This presentation highlights the relationships between the tables and the design choices that support the app's functionality, making it a valuable resource for developers and students interested in database design." 
               demoContent={demoContent}
           />
       </section>
@@ -150,7 +158,7 @@ const demoContent = (
       <section className='border border-black rounded-lg p-2' data-aos="fade-up" id="demo">
           <DemoLaptop 
               title="My Laptop Demo" 
-              demoContent={demoContent} 
+              demoContent={demoContent2} 
           />
       </section>
 

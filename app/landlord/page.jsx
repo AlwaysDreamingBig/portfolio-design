@@ -17,12 +17,20 @@ import { Landlord } from '@/assets/images'
 import Image from 'next/image';
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
 import FloatingDemoButton from '@/components/design components/FloatingDemoButton';
+import { LandLord_Database, LandLord_Demo } from '@/assets/videos';
 
 
 const demoContent = (
     <video controls className="w-full h-full">
-      <source src="your-video-url.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
+      <source src={LandLord_Database} type="video/mp4" />
+      This is the MongoDB Database + Data Architecture.
+    </video>
+  );
+
+  const demoContent2 = (
+    <video controls className="w-full h-full">
+      <source src={LandLord_Demo} type="video/mp4" />
+      A Quick demonstration of the Wab Application.
     </video>
   );
 
@@ -54,7 +62,7 @@ const demoContent = (
         {/* Image with responsive behavior */}
         <div className="relative w-full h-[90vh] "> {/* Adjust height based on needs */}
           <Image
-            src={Landlord.src}
+            src={Landlord}
             alt="LANDLORD image background"
             fill
             className="rounded-md"  // Example class, you can replace with your own
@@ -139,9 +147,9 @@ const demoContent = (
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
           <DemoMobile 
-              title="My Awesome Project" 
-              website="https://example.com" 
-              note="This is a demo for the mobile app." 
+              title="Exploring the Data structure of My Real Estate WebApp" 
+              website="" 
+              note="In this video, I present the database architecture of my MERN stack Real Estate Web Application. I will walk you through the essential collections, including property listings, user accounts, inquiries, and transaction histories. You'll discover how these collections interact to provide a seamless user experience for buyers, sellers, and agents alike. This presentation highlights the relationships between the collections and the design decisions that optimize the app's performance, making it an insightful resource for developers and aspiring web developers interested in building scalable applications." 
               demoContent={demoContent}
           />
       </section>
@@ -149,7 +157,7 @@ const demoContent = (
       <section className='border border-black rounded-lg p-2' data-aos="fade-up" id="demo">
           <DemoLaptop 
               title="My Laptop Demo" 
-              demoContent={demoContent} 
+              demoContent={demoContent2} 
           />
       </section>
 

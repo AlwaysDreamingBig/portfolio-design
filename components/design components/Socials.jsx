@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const socialLinks = [
-  { href: 'https://facebook.com', icon: <FaFacebookF /> },
-  { href: 'https://twitter.com', icon: <FaTwitter /> },
-  { href: 'https://linkedin.com', icon: <FaLinkedinIn /> },
-  { href: 'https://github.com', icon: <FaGithub /> }
+  { href: 'https://www.facebook.com/adrielauriol.eboue/', icon: <FaFacebookF /> },
+  { href: 'https://x.com/kng_824', icon: <FaTwitter /> },
+  { href: 'https://www.linkedin.com/in/adrielnguelieboue/', icon: <FaLinkedinIn /> }, // Added https://
+  { href: 'https://github.com/AlwaysDreamingBig', icon: <FaGithub /> }
 ];
 
 const SocialIcons = () => {

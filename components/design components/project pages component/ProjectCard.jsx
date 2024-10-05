@@ -56,7 +56,7 @@ export default function ProjectCard({ title, text, images = [] }) {
           {images.map((image, index) => (
             <div key={index} className='min-w-[500px] h-[450px] relative'>
               <Image
-                src={image.src}
+                src={image}
                 alt={`image-${index}`}
                 fill
                 className="rounded-md"  // Example class, you can replace with your own

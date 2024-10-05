@@ -51,7 +51,7 @@ const demoContent = (
         {/* Image with responsive behavior */}
         <div className="relative w-full h-[90vh] "> {/* Adjust height based on needs */}
           <Image
-            src={flowImg.src}
+            src={flowImg}
             alt="siemens image background"
             fill
             className="rounded-md"  // Example class, you can replace with your own

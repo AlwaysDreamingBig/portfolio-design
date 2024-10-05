@@ -12,7 +12,7 @@ const BentoExperience = () => {
         {/* First grid item */}
         <div className='border rounded-lg flex flex-col items-center justify-center p-4 sm:h-full h-[70vh] '>
           <Image 
-            src={WORK_EXPERIENCES[0].logo.src} 
+            src={WORK_EXPERIENCES[0].logo} 
             alt={`${WORK_EXPERIENCES[0].companyName} Logo`} 
             width={200} // Corresponds to w-24 (24 * 4px = 96px)
             height={200} // Corresponds to h-24 (24 * 4px = 96px)
@@ -46,7 +46,7 @@ const BentoExperience = () => {
         <div className='grid grid-rows-2 sm:gap-2 gap-20 w-full h-full'>
           <div className='border rounded-lg flex flex-col items-center justify-center p-4 sm:h-full h-[50vh]'>
             <Image 
-              src={WORK_EXPERIENCES[1].logo.src} 
+              src={WORK_EXPERIENCES[1].logo} 
               alt={`${WORK_EXPERIENCES[0].companyName} Logo`} 
               width={200} // Corresponds to w-24 (24 * 4px = 96px)
               height={200} // Corresponds to h-24 (24 * 4px = 96px)
@@ -62,7 +62,7 @@ const BentoExperience = () => {
 
           <div className='border rounded-lg flex flex-col items-center justify-center p-4 sm:h-full h-[50vh]'>
             <Image 
-              src={WORK_EXPERIENCES[2].logo.src} 
+              src={WORK_EXPERIENCES[2].logo} 
               alt={`${WORK_EXPERIENCES[0].companyName} Logo`} 
               width={200} // Corresponds to w-24 (24 * 4px = 96px)
               height={200} // Corresponds to h-24 (24 * 4px = 96px)

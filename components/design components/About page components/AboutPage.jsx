@@ -47,7 +47,6 @@ const AboutPage = () => {
     setSideDivVisible((prev) => !prev); // Toggle visibility
   };
 
-  console.log(isFullViewVisible)
   return (
     <div className='flex flex-row items-center justify-center py-36 lg:space-x-16 relative min-h-screen'>
       {/* Main Menu */}

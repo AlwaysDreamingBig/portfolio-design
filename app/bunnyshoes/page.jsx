@@ -54,7 +54,7 @@ const demoContent = (
         {/* Image with responsive behavior */}
         <div className="relative w-full h-[90vh] "> {/* Adjust height based on needs */}
           <Image
-            src={ShoeStore1.src}
+            src={ShoeStore1}
             alt="BUNNY_SHOES image background"
             fill
             className="rounded-md"  // Example class, you can replace with your own

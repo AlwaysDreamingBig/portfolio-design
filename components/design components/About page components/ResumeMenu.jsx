@@ -1,4 +1,7 @@
 import React from 'react';
+import DownloadButton from '../DownloadButton';
+const fileUrl = 'https://firebasestorage.googleapis.com/v0/b/portfolio-website-90b70.appspot.com/o/CV_Auriol_NGUELI.pdf?alt=media&token=0c258efd-9b03-47c7-8d4b-89fb7090f959';
+
 
 const ResumeMenu = ({ onPreviewSelect, selectedPreview }) => {
   const previews = [
@@ -28,11 +31,7 @@ const ResumeMenu = ({ onPreviewSelect, selectedPreview }) => {
       </div>
 
       {/* Download CV Button */}
-      <button className='p-4 mt-6 rounded-lg bg-blue-500 text-white hover:bg-blue-700 transition'>
-        <a href='/path/to/your-cv.pdf' download="My_CV.pdf">
-          Download CV
-        </a>
-      </button>
+      <DownloadButton fileUrl={ 'https://firebasestorage.googleapis.com/v0/b/portfolio-website-90b70.appspot.com/o/CV_Auriol_NGUELI.pdf?alt=media&token=0c258efd-9b03-47c7-8d4b-89fb7090f959'}/>
     </div>
   );
 };
