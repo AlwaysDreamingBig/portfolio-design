@@ -74,12 +74,12 @@ const HomePage = () => {
         </div>
 
         {/* Image Section */}
-        <div className='absolute lg:right-[10%] xl:right-[15%] z-0'>
+        <div className='absolute lg:right-[10%] xl:right-[15%] z-0 mt-16 md:mt-0 lg:mt-10'>
             {/* Rotating Circle */}
             <div className="absolute w-full h-full border-4 border-blue-500 rounded-full animate-spin-slow" style={{ borderTopColor: 'transparent' }} />
             
           <Link href="/">
-            <div className="relative w-[400px] h-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
+            <div className="relative w-[300px] h-[300px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden flex items-center justify-center group">
               <Image 
                 src={profile1} 
                 alt="My Logo" 
