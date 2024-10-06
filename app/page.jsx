@@ -12,10 +12,16 @@ import ProjectCardContainer from '@/components/design components/Home Page compo
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
 import DownloadButton from '@/components/design components/DownloadButton';
 import { profile1, profile2, profile3 } from '@/assets/images';
+import { Spotlight } from '@/components/ui/spotlight';
 
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen text-gray-900">
+
+      <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
 
       <ScrollToTopButton />
 

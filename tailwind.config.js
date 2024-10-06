@@ -2,10 +2,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./src/**/*.{ts,tsx,js,jsx}",
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
   ],
   theme: {
     container: {
@@ -21,6 +21,15 @@ module.exports = {
       'source-code': ['Source Code Pro', 'ui-monospace', 'SFMono-Regular'],
       poppins: ['Poppins', 'ui-sans-serif', 'system-ui'],
       primary: "var(--font-jetbrainsMono)",
+      sevillana: ['var(--font-sevillana)'],
+      jetbrainsmono: ['var(--font-jetbrainsmono)'],
+      nerkoOne: ['var(--font-nerko-one)'],
+      caveat: ['var(--font-caveat)'],
+      ibmPlexMono: ['var(--font-ibm-plex-mono)'],
+      pixelifySans: ['var(--font-pixelify-sans)'],
+      silkscreen: ['var(--font-silkscreen)'],
+      rubikBubbles: ['var(--font-rubik-bubbles)'],
+      bangers: ['var(--font-bangers)'],
     },
     screens: {
       'xs': '480px',
@@ -33,16 +42,36 @@ module.exports = {
       '3xl': '1920px',
     },
     extend: {
-      fontFamily: {
-        sevillana: ['var(--font-sevillana)'],
-        jetbrainsmono: ['var(--font-jetbrainsmono)'],
-        nerkoOne: ['var(--font-nerko-one)'],
-        caveat: ['var(--font-caveat)'],
-        ibmPlexMono: ['var(--font-ibm-plex-mono)'],
-        pixelifySans: ['var(--font-pixelify-sans)'],
-        silkscreen: ['var(--font-silkscreen)'],
-        rubikBubbles: ['var(--font-rubik-bubbles)'],
-        bangers: ['var(--font-bangers)'],
+      animation: {
+        spotlight: "spotlight 2s ease .75s 1 forwards",
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+        'spin-fast': 'spin 0.5s linear infinite',
+        'spin-slow': 'spin 4s linear infinite',
+      },
+      keyframes: {
+        spotlight: {
+          "0%": {
+            opacity: 0,
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        spin: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
       },
       colors: {
         border: "hsl(var(--border))",
@@ -50,12 +79,11 @@ module.exports = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-
         primary: {
           DEFAULT: '#1c1c22',
           accent: {
             DEFAULT: '#00ff99',
-            hover:'#00e187',
+            hover: '#00e187',
           },
         },
         secondary: {
@@ -88,27 +116,7 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-          spin: {
-            '0%': { transform: 'rotate(0deg)' },
-            '100%': { transform: 'rotate(360deg)' },
-          },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
-        },
-      },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
-        'spin-fast': 'spin 0.5s linear infinite',  // Faster rotation
-        'spin-slow': 'spin 4s linear infinite',   // Slower rotation
-      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

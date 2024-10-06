@@ -16,6 +16,7 @@ import { ALSTOM_APTIS_PROJECT } from '@/assets/constants/projects'
 import { aptisBus } from '@/assets/images'
 import Image from 'next/image';
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
+import { Spotlight } from '@/components/ui/spotlight';
 
 
 const demoContent = (
@@ -44,6 +45,10 @@ const demoContent = (
 
   return (
     <div className='space-y-20'>
+      <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
 
       <ScrollToTopButton />
 

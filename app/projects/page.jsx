@@ -2,11 +2,16 @@ import BouncingArrow from '@/components/design components/BouncingArrow'
 import PageTitleText from '@/components/design components/PageTitleText'
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton'
 import { TimelineProjects } from '@/components/design components/TimelineProjects'
+import { Spotlight } from '@/components/ui/spotlight'
 import React from 'react'
 
 export default function projects() {
   return (
     <div className='flex flex-col space-y-10'>
+      <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
       <ScrollToTopButton />
 
       <div className=''>

@@ -64,8 +64,9 @@
   }
 
   body {
-    @apply bg-black/90 text-white font-primary leading-loose;
+    @apply bg-gradient-to-b from-black via-gray-700 to-black text-white font-primary leading-loose;
   }
+  
 
   @keyframes blink {
     0%, 100% { opacity: 1; }
