@@ -5,7 +5,7 @@ import React from "react";
 import Link from "next/link";
 import { CardBody, CardContainer, CardItem, link } from "../ui/3d-card";
 
-export function ThreeDCardWork({company, position, description, img, logo, pageLink}) {
+export function ThreeDCardWork({company, position, description, img, logo, pageLink, redirectLink}) {
   return (
     (<CardContainer className="inter-var">
       <CardBody
@@ -55,9 +55,12 @@ export function ThreeDCardWork({company, position, description, img, logo, pageL
 
           <CardItem
             translateZ={20}
+            href={redirectLink}
             as="button"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold hover:opacity-80">
-            Case Study →
+            <a href={redirectLink}>
+              Case Study →
+            </a>
           </CardItem>
         </div>
       </CardBody>

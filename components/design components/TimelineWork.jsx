@@ -28,6 +28,7 @@ export function TimelineWork() {
                 img={projects[0].backgroundImage}
                 logo={projects[0].logoSM}
                 pageLink={projects[0].companyLink} 
+                redirectLink={projects[0].link}
               />
           </div>
         </div>
@@ -55,6 +56,7 @@ export function TimelineWork() {
               img={projects[2].backgroundImage}
               logo={projects[2].logoImage}
               pageLink={projects[2].companyLink}
+              redirectLink={projects[2].link}
             />
             </div>
         </div>
@@ -82,6 +84,7 @@ export function TimelineWork() {
               img={projects[4].backgroundImage}
               logo={projects[4].logoSM}
               pageLink={projects[4].companyLink} 
+              redirectLink={projects[4].link}
             />
             </div>
         </div>
@@ -117,6 +120,7 @@ export function TimelineWork() {
               img={projects[3].backgroundImage}
               logo={projects[3].logoImage}
               pageLink={projects[3].companyLink} 
+              redirectLink={projects[3].link}
             />
           </div>
         </div>
