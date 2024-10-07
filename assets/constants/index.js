@@ -16,8 +16,8 @@ export const nav = [
     },
     {
       id: '4',
-      title: 'Skills',
-      href: '/skills',
+      title: 'About',
+      href: '/about',
     },
     {
       id: '5',
