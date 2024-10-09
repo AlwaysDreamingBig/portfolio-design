@@ -11,7 +11,8 @@ const Header = () => {
         {/**Name */}
         <Link href={'/'}>
           <div>
-            <p className='text-3xl font-bold sm:flex hidden text-white'> NGUELI Adr<span className='text-blue-500'>i</span>e<span className='text-blue-500'>l.</span> </p>
+            <p className='text-3xl font-bold hidden text-white xl:block'> NGUELI Adr<span className='text-blue-500'>i</span>e<span className='text-blue-500'>l.</span> </p>
+            <p className='text-3xl font-bold sm:flex hidden text-white xl:hidden'> Adr<span className='text-blue-500'>i</span>e<span className='text-blue-500'>l.</span> </p>
             <p className='text-3xl font-bold sm:hidden text-white'> AN </p>
           </div>
         </Link>

@@ -24,7 +24,6 @@ const ProjectCard = ({ backgroundImage, logoImage, title, tag, description, link
       setIsClicked(!isClicked);
     }
 
-    console.log(isVisible);
   return (
     <motion.div
       className="relative flex items-center justify-between sm:p-10 text-white rounded-lg shadow-lg overflow-hidden h-[100vh] opacity-80 hover:opacity-100 transition duration-500"
