@@ -143,7 +143,9 @@ const demoContent = (
       </section>
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
-          <Improvement improvements={improvements} />
+          <Improvement 
+            improvements={improvements}
+            text='A comprehensive overview of the significant enhancements made across various sectors of the product, highlighting the impact of my contributions and the resulting benefits.' />
       </section>
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">

@@ -139,7 +139,7 @@ import { Bungee } from "next/font/google";
       title: 'AI POWERED IOT PLATFORM',
       tag: 'In Progress',
       description: 'Design and develop a AI driven IOT platform.',
-      link: '/case-studies/project-2',
+      link: '/dmtools',
       titleClassName: '',
     },
   ];

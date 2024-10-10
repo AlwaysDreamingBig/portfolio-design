@@ -41,13 +41,13 @@ function ImprovementCard({ icon: Icon, title, description }) {
 }
 
 // Main Improvement Component with a Bento Grid Layout
-export default function Improvement({ improvements }) {
+export default function Improvement({ improvements, text = "Explore the possible updates and features we've added to improve your experience." }) {
   return (
     <section className="px-6 py-12 max-w-7xl mx-auto">
       {/* Title and Introduction */}
       <header className="text-center mb-12">
         <h2 className="text-4xl font-bold text-blue-500">Improvements Axes</h2>
-        <p className="text-neutral-500 dark:text-neutral-400 mt-2">Explore the possible updates and features we've added to improve your experience.</p>
+        <p className="text-neutral-500 dark:text-neutral-400 mt-2"> {text} </p>
       </header>
 
       {/* Bento Grid */}

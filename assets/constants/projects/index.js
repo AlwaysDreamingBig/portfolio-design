@@ -15,7 +15,7 @@ import { Client1, Client2, Client3, MF1, MF2, fuota1, fuota2, fuota3, fuota4, fu
         HPPharmacy2, HPPharmacy3, HPStaff1, HPStaff2, HPStaff3, HPStaff4, HPUser1, HPUser2, HPUser3, HPUser4, HPUser5, HPUser6
  } from '@/assets/images';
 
-import { FaRocket, FaCode, FaMobileAlt, FaCog, FaStore, FaShoePrints, FaLock, FaHome, FaDatabase, FaChartLine, FaHospital, FaPills, FaFacebook, FaGoogle, FaBrain, FaPython, FaLaptopCode, FaProjectDiagram, FaEnvelope, FaMicrochip, FaRobot, FaCogs, FaFileCode, FaDiagnoses, FaFileAlt, FaTools, FaBusAlt } from 'react-icons/fa';
+import { FaWrench, FaRocket, FaCode, FaMobileAlt, FaCog, FaStore, FaShoePrints, FaLock, FaHome, FaDatabase, FaChartLine, FaHospital, FaPills, FaFacebook, FaGoogle, FaBrain, FaPython, FaLaptopCode, FaProjectDiagram, FaEnvelope, FaMicrochip, FaRobot, FaCogs, FaFileCode, FaDiagnoses, FaFileAlt, FaTools, FaBusAlt } from 'react-icons/fa';
 
 export const SIEMENS = {
     FirstSection: {
@@ -190,8 +190,13 @@ export const SIEMENS = {
         {
             title: "Optimized Production Processes",
             description: "Designed and implemented new production-level processes and automated tools to streamline the manufacturing and deployment of both 3G and 4G MAG8000 models. This includes automated update tools and improved production workflows, leading to increased efficiency and reduced error rates.",
-            icon: <FaCog /> ,  // Changed icon to represent production and process optimization
+            icon: <FaCog /> , 
         }, 
+        {
+            title: "Hardware Redisigned",
+            description: "The 3G MAG8000 hardware redesign brought key improvements, including enhanced durability, better power efficiency, and improved connectivity with WCM module. The new design ensures easier maintenance with modular components. Additionally, it meets updated industry standards, offering a more reliable and cost-effective solution for debuggers.",
+            icon: <FaWrench /> ,
+        },
     ],
     SummarySection: {
         summaryBoxParam: {
@@ -368,25 +373,25 @@ export const SIEMENS = {
     },  
     ImprovementSection: [
         {
-          title: "Enhanced Responsiveness",
-          description: "Optimized the website’s responsiveness to ensure a consistent and smooth experience across all device sizes, from mobile phones to large desktop screens.",
-          icon: <FaRocket /> ,
+            title: "Further Enhancements to Responsiveness",
+            description: "Plan to implement advanced responsive design techniques, such as CSS Grid and Flexbox, to further optimize the website's adaptability across a wider range of devices and screen sizes.",
+            icon: <FaRocket />,
         },
         {
-          title: "Improved Interactivity",
-          description: "Developed interactive features using JavaScript to enhance user engagement and provide a more dynamic gaming experience on the website.",
-          icon: <FaCode /> ,
+            title: "Expand Interactivity Features",
+            description: "Aim to introduce more interactive elements, such as gamification features and user-driven content, to enhance engagement and create a more immersive gaming experience on the website.",
+            icon: <FaCode />,
         },
         {
-          title: "TailwindCSS Styling",
-          description: "Leveraged TailwindCSS for efficient and modern styling, resulting in a visually appealing and easy-to-maintain website design.",
-          icon: <FaMobileAlt /> ,
+            title: "Refine TailwindCSS Styling",
+            description: "Intend to explore additional TailwindCSS utilities and plugins to create more visually stunning components and improve the overall aesthetic of the website while maintaining ease of use.",
+            icon: <FaMobileAlt />,
         },
         {
-          title: "React Component Efficiency",
-          description: "Implemented a modular React component architecture to streamline development and make future updates more manageable.",
-          icon: <FaCog /> ,
-        },
+            title: "Optimize React Component Architecture",
+            description: "Plan to enhance the modularity of the React components further, focusing on performance optimization and reusability to ensure a more efficient development process for future updates.",
+            icon: <FaCog />,
+        },        
     ],
     SummarySection: {
         summaryBoxParam: {
@@ -561,25 +566,26 @@ export const BUNNY_SHOES = {
     },  
     ImprovementSection: [
         {
-            title: "Enhanced User Interface",
-            description: "Developed an attractive and functional interface for desktop users, focusing on ease of navigation and clear product presentation.",
-            icon: <FaStore /> ,
+            title: "Further Enhancements to User Interface",
+            description: "Plan to improve the user interface for mobile and tablet users, focusing on responsive design elements to ensure ease of navigation and clear product presentation across all devices.",
+            icon: <FaStore />,
         },
         {
-            title: "Dynamic Shopping Cart",
-            description: "Implemented a fully functional shopping cart with features for managing product quantities and proceeding to checkout.",
-            icon: <FaShoePrints /> ,
+            title: "Advanced Shopping Cart Features",
+            description: "Aim to enhance the shopping cart with features like saved carts, wishlist functionality, and improved checkout options to streamline the shopping experience.",
+            icon: <FaShoePrints />,
         },
         {
-            title: "JavaScript Integration",
-            description: "Used JavaScript to handle dynamic content updates and interactive features, enhancing the overall user experience.",
-            icon: <FaCode /> ,
+            title: "Expand JavaScript Integration",
+            description: "Intend to incorporate more JavaScript-driven dynamic elements, such as real-time product updates and interactive filters, to further enhance the overall user experience.",
+            icon: <FaCode />,
         },
         {
-            title: "TailwindCSS Styling",
-            description: "Utilized TailwindCSS for modern, consistent styling, ensuring a cohesive and visually appealing design.",
-            icon: <FaCog /> ,
+            title: "TailwindCSS Styling Enhancements",
+            description: "Plan to explore advanced TailwindCSS utilities for responsive design, ensuring a cohesive and visually appealing layout on both desktop and small screens.",
+            icon: <FaCog />,
         },
+        
     ],
     SummarySection: {
         summaryBoxParam: {
@@ -763,25 +769,26 @@ export const LANDLORD = {
     },  
     ImprovementSection: [
         {
-            title: "Role-Based Access Control",
-            description: "Checked that landlords and tenants have appropriate access rights. Landlords are able to create and manage property listings, while tenants can send inquiries, bookmark properties, and interact with landlords. Unauthorized access to certain features was blocked successfully.",
+            title: "Enhanced Role-Based Access Control",
+            description: "Plan to refine the access control system by introducing more granular roles and permissions, allowing for finer control over user actions. This will include roles for administrators, super users, and better segmentation for landlords and tenants.",
             icon: <FaLock /> ,
         },
         {
-            title: "Property Status Updates:",
-            description: "Validated the ability for landlords to change the status of listings (e.g., available, under review, rented) and ensured that these updates reflect instantly on the platform, providing accurate availability information to potential tenants.",
+            title: "Automated Property Status Updates",
+            description: "Future updates will include automated status changes based on predefined conditions, such as lease expiration or inactivity. This will help ensure property listings stay up-to-date without requiring manual intervention.",
             icon: <FaHome /> ,
         },
         {
-            title: "Data Backup and Recovery",
-            description: "Tested the database’s backup and recovery processes to ensure minimal downtime in the event of system failure. Simulated data loss scenarios and validated the effectiveness of MongoDB’s recovery mechanisms.",
+            title: "Improved Data Backup and Recovery",
+            description: "Explore more robust backup strategies, including automated incremental backups and distributed storage solutions, to minimize data loss risks and reduce recovery times in case of failure.",
             icon: <FaCode /> ,
         },
         {
-            title: "Account Recovery",
-            description: "Validated password recovery and reset processes through email links, ensuring that users can regain access to their accounts securely in case of forgotten credentials.",
+            title: "Multi-Factor Authentication for Account Recovery",
+            description: "Plan to enhance account security by integrating multi-factor authentication (MFA) into the recovery process, ensuring users must provide an additional layer of verification (e.g., SMS or app-based code) to reset their accounts.",
             icon: <FaDatabase /> ,
         },
+        
     ],
     SummarySection: {
         summaryBoxParam: {
@@ -981,25 +988,30 @@ export const HOSPITAL_MANAGEMENT = {
     }, 
     ImprovementSection: [
         {
-            title: "Comprehensive Dashboard",
-            description: "Developed a central dashboard integrating key hospital functions for real-time monitoring and management.",
-            icon: <FaChartLine /> ,
+            title: "Enhanced Comprehensive Dashboard",
+            description: "Plan to develop an even more robust dashboard that integrates additional hospital functions, offering advanced analytics and customizable views for improved real-time monitoring and management.",
+            icon: <FaChartLine />,
         },
         {
-            title: "Secure Data Management",
-            description: "Implemented robust data security and management practices using Java and MySQL to handle sensitive patient and pharmacy information.",
-            icon: <FaDatabase /> ,
+            title: "Advanced Data Security Measures",
+            description: "Aim to implement cutting-edge data security practices, including enhanced encryption protocols and real-time monitoring of data access, to further protect sensitive patient and pharmacy information.",
+            icon: <FaDatabase />,
         },
         {
-            title: "Interactive User Interface",
-            description: "Designed and implemented an interactive and user-friendly interface with JavaFX, enhancing usability and user experience.",
-            icon: <FaHospital /> ,
+            title: "Further UI/UX Design Enhancements",
+            description: "Intend to conduct user feedback sessions to identify areas for further improvement in the user interface and experience, ensuring the application remains intuitive and user-friendly.",
+            icon: <FaHospital />,
         },
         {
-            title: "Pharmacy Management Integration",
-            description: "Developed a comprehensive module for managing pharmacy inventory, prescriptions, and transactions.",
-            icon: <FaPills /> ,
+            title: "Expanded Pharmacy Management Integration",
+            description: "Plan to add more features to the pharmacy management module, including automated inventory tracking and reporting functionalities to streamline operations and improve accuracy.",
+            icon: <FaPills />,
         },
+        {
+            title: "Development of Separate Doctor and Patient Applications",
+            description: "Future plans include creating dedicated applications for doctors and patients, allowing for tailored features and functionalities that cater specifically to their needs.",
+            icon: <FaHospital />,
+        },        
     ],  
     SummarySection: {
         summaryBoxParam: {
