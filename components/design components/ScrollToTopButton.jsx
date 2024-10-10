@@ -36,7 +36,7 @@ const ScrollToTopButton = () => {
     isVisible && (
       <motion.div
         onClick={scrollToTop}
-        className="fixed bottom-20 right-8 bg-blue-500 text-white p-4 rounded-full shadow-lg cursor-pointer z-50"
+        className="fixed bottom-20 right-8 bg-blue-500 text-white p-4 rounded-full shadow-lg cursor-pointer z-30"
         whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 0.9 }}
         title="Scroll to Top"

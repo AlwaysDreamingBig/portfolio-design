@@ -109,6 +109,40 @@ const Navigation = () => {
           )}
         </button>
       )}
+
+      {/* Background Overlay */}
+      {isOpen && (
+        <>
+          {/* Overlay background */}
+          <div className="fixed inset-0 bg-black bg-opacity-80 z-40"></div>
+
+          {/* Loading Spinner and Message */}
+          <div className="fixed inset-0 flex flex-col items-center justify-center z-40">
+            <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 border-opacity-75 mb-10"></div>
+            <p className="text-white text-xl font-semibold italic"><span className='text-green-600'>Loading...</span> <span className='text-red-600'>Please make</span> <span className='text-yellow-400'>a selection</span></p>
+          </div>
+        </>
+      )}
+
+      {/* Horizontal Navigation Bar for Large Screens */}
+      {isOpen && (
+        <div className="hidden lg:flex flex-row items-center bg-gray-900 bg-opacity-80 px-8 py-4 rounded-lg fixed top-32 left-1/2 transform -translate-x-1/2 z-50 w-auto space-x-8">
+          {nav.map((item) => (
+            <Link 
+              key={item.id} 
+              href={item.href} 
+              onClick={() => setIsOpen(false)} 
+              className={`flex items-center text-lg transition-colors duration-200 ${
+                pathName === item.href
+                  ? 'text-blue-500 font-semibold'
+                  : 'text-white hover:text-blue-400'
+              }`}
+            >
+              {item.title}
+            </Link>
+          ))}
+        </div>
+      )}
     </nav>
   );
 };
