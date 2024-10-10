@@ -18,12 +18,19 @@ import Image from 'next/image';
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
 import FloatingDemoButton from '@/components/design components/FloatingDemoButton';
 import { Spotlight } from '@/components/ui/spotlight';
-
+import { Android17_Desktop_Demo, Android17_Mobile_Demo } from '@/assets/videos';
 
 const demoContent = (
     <video controls className="w-full h-full">
-      <source src="your-video-url.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
+      <source src={Android17_Desktop_Demo} />
+      This is the MySQL Database.
+    </video>
+  );
+
+  const demoContent2 = (
+    <video controls className="w-full h-full">
+      <source src={Android17_Mobile_Demo} />
+      A Quick demonstration of the application.
     </video>
   );
 
@@ -143,10 +150,10 @@ const demoContent = (
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">
           <DemoMobile 
-              title="My Awesome Project" 
-              website="https://example.com" 
-              note="This is a demo for the mobile app." 
-              demoContent={demoContent}
+              title="Android17 Responsive design" 
+              website="https://android-c17.onrender.com" 
+              note="Please note that the link is redirecting to the render free tier hosting platform: thus it will take around 1 minute for the servers to launch. Thank you for your understanding." 
+              demoContent={demoContent2}
           />
       </section>
 
