@@ -1,3 +1,4 @@
+/*
 // Importing fonts from next/font/google
 import { Sevillana, Nerko_One, Caveat, IBM_Plex_Mono, Pixelify_Sans, Silkscreen, Rubik_Bubbles, Bangers } from 'next/font/google';
 
@@ -66,3 +67,4 @@ export const pixelifySans = pixelifySans_init.variable;
 export const silkscreen = silkscreen_init.variable;
 export const rubikBubbles = rubikBubbles_init.variable;
 export const bangers = bangers_init.variable;
+*/

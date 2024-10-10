@@ -15,7 +15,7 @@ export function TimelineProjects() {
           <Link href="/">
             <p
               className="text-blue-700 dark:text-neutral-200 text-xs md:text-lg mb-2 mt-8 px-10 font-bold">
-              Portfolio Website:
+              Portfolio Website: (JUST TRY IT ON MOBILE)
             </p>
             <p
               className="sm:text-black text-white dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 px-10">
