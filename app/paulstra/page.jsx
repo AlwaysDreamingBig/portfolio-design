@@ -26,7 +26,7 @@ const demoContent = (
     </video>
   );
 
-  export default function paulstra() {
+  export default function Paulstra() {
 
     useEffect(() => {
       AOS.init({

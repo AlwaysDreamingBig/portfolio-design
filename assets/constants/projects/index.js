@@ -20,11 +20,11 @@ import { FaWrench, FaRocket, FaCode, FaMobileAlt, FaCog, FaStore, FaShoePrints, 
 export const SIEMENS = {
     FirstSection: {
       titleBoxParams: {
-        title: "SITRANS FM MAG 8000",
-        tag: "Developping embedded features and maintaining existing code bases!",
+        title: "SITRANS FM MAG 8000 IoT",
+        tag: "Developping embedded features and maintaining existing iot system code bases!",
       },
       descriptionBoxParams: {
-        description: "The MAG 8000 is a microprocessor-based water meter featuring a graphic display and a button, enabling optimal use of customer data at the installation site. || The transmitter activates the magnetic field in the sensor, processes the flow signal from the sensor, and calculates flow volumes. This system solution provides necessary information via pulse output or integrated communication interfaces. With intelligent data processing and diagnostic features, it ensures excellent performance and data for optimizing water supply and billing. || The MAG 8000 and MAG 8000 CT are available in basic and advanced versions, both designed for battery operation lasting up to 6 years in typical billing applications."
+        description: "The MAG 8000 IoT system is a microprocessor-based water meter featuring a graphic display and a button, enabling optimal use of customer data at the installation site. || The transmitter activates the magnetic field in the sensor, processes the flow signal from the sensor, and calculates flow volumes. This system solution provides necessary information via pulse output or integrated communication interfaces. With intelligent data processing and diagnostic features, it ensures excellent performance and data for optimizing water supply and billing. || The MAG 8000 and MAG 8000 CT are available in basic and advanced versions, both designed for battery operation lasting up to 6 years in typical billing applications."
       },
     },
     SecondSection: {
@@ -33,6 +33,7 @@ export const SIEMENS = {
           description: "Key outputs and results from the MAG 8000 4G and 3G water meter projects.",
           list: [
             "Designed and implemented FUOTA (Firmware Update Over The Air) feature for 4G devices",
+            "Take part in Web App design and development",
             "Developed AWS-based architecture for signing and key protection",
             "Implemented backup mechanism and automated updater programs",
             "Maintained legacy 3G MAG 8000 firmware, including bug corrections and enhancements",
@@ -45,8 +46,8 @@ export const SIEMENS = {
           description: "My contributions to the MAG 8000 4G and 3G development and maintenance.",
           list: [
             "Firmware Architect",
-            "Cloud Security Specialist",
-            "Legacy Systems Specialist",
+            "Cloud Security",
+            "Web Development",
             "Process Flow Designer",
             "Testing Lead",
             "Technical Support Specialist"

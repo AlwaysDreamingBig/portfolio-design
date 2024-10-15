@@ -34,7 +34,7 @@ const demoContent = (
     </video>
   );
 
-  export default function android_17() {
+  export default function Android_17() {
 
     useEffect(() => {
       AOS.init({

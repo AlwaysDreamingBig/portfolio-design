@@ -27,7 +27,7 @@ const demoContent = (
     </video>
   );
 
-  export default function itgstoreCS() {
+  export default function ItgstoreCS() {
 
     useEffect(() => {
       AOS.init({

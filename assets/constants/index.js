@@ -151,7 +151,7 @@ import { Bungee } from "next/font/google";
       name: 'Till SOHIER',
       role: 'Project Owner',
       company: 'SIEMENS',
-      contact: 'aaddemail@gmail.com',
+      contact: 'till.sohier@siemens.com',
       message: 'An excellent software engineer with a knack for solving complex problems.',
       profilePic: 'https://media.licdn.com/dms/image/C4D03AQGDNuJhjK--HA/profile-displayphoto-shrink_200_200/0/1517594942420?e=2147483647&v=beta&t=CFzvAEBwiAEpNhaOgHw-kc_mUAQGbYS7Cn_y1D-TLhA' // Replace with actual URL
     },
@@ -159,32 +159,32 @@ import { Bungee } from "next/font/google";
       name: 'Rachid El MALKI',
       role: 'Industrial Solutions Provider',
       company: 'OPEX GROUP',
-      contact: 'aaddemail@gmail.com',
-      message: 'A creative genius with an eye for detail.',
+      contact: 'elmalki.rachid@gmail.com',
+      message: 'A creative worker with an eye for detail.',
       profilePic: 'https://media.licdn.com/dms/image/C4D03AQEjUC57ipmWrg/profile-displayphoto-shrink_400_400/0/1612206781795?e=2147483647&v=beta&t=QPCLCkGSODiY9O6JAaItxejzD2RBr8d1E66FPwYE04g' // Replace with actual URL
     },
     {
-      name: 'Marksten Thorsten',
-      role: 'CPO',
+      name: 'Mackert Thorsten',
+      role: 'Chief Product Owner',
       company: 'SIEMENS',
-      contact: 'aaddemail@gmail.com',
-      message: 'A great team leader who keeps everything organized and on track.',
-      profilePic: 'https://via.placeholder.com/150' // Replace with actual URL
+      contact: 'thorsten.mackert@siemens.com',
+      message: 'A great team player who keeps everything organized and on track.',
+      profilePic: 'https://media.licdn.com/dms/image/v2/C5603AQFWXzIWDPXUEg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1559828865076?e=1734566400&v=beta&t=rdYNI2TNix_3-EFK1uZZHDuzWW2KqoDw5M-3DdEfuBY' 
     },
     {
       name: 'François DERIVAUX',
-      role: 'Team Manager',
+      role: 'Business Manager',
       company: 'Technology & Strategy',
-      contact: 'aaddemail@gmail.com',
-      message: 'A great team leader who keeps everything organized and on track.',
-      profilePic: 'https://via.placeholder.com/150' // Replace with actual URL
+      contact: 'f.derivaux@technologyandstrategy.com',
+      message: 'Always do his best and with great client feedbacks.',
+      profilePic: 'https://media.licdn.com/dms/image/v2/C4D03AQFvtG2LMT8sfw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584090010984?e=1734566400&v=beta&t=8BvXh-gMghqdaogOZb0b9YrD08kmbmcf1LWuBGIY7Cg' 
     },
     {
       name: 'Sass Franck',
-      role: 'SIEMENS',
+      role: 'Process Automator',
       company: 'SIEMENS',
-      contact: 'aaddemail@gmail.com',
-      message: 'A creative genius with an eye for detail.',
-      profilePic: 'https://via.placeholder.com/150' // Replace with actual URL
+      contact: 'frank.sass@siemens.com',
+      message: 'Perform high quality work in complex situations.',
+      profilePic: 'https://media.licdn.com/dms/image/v2/D4E03AQEy7Yi1Ji1Lhg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680527756928?e=1734566400&v=beta&t=m8agouucpgaNiRMwf2f5efLxkNejTPjo-D_5fLXIBpY'
     },
   ];

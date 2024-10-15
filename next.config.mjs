@@ -10,7 +10,20 @@ const nextConfig = {
         pathname: '/**', // This matches all paths under the hostname
       },
     ],
-  },
+    domains: [
+      'www.ownsport.fr',
+      'encrypted-tbn0.gstatic.com',
+      'static.posters.cz',
+      'm.media-amazon.com',
+      'assets.xboxservices.com',
+      'fr.web.img2.acsta.net',
+      'w7.pngwing.com',
+      'upload.wikimedia.org', 
+      'img.icons8.com', 
+      'media.licdn.com',
+      'via.placeholder.com',
+    ],
+   },
 };
 
 export default withSentryConfig(nextConfig, {

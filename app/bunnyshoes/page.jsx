@@ -35,7 +35,7 @@ const demoContent = (
     </video>
   );
 
-  export default function bunnyshoes() {
+  export default function Bunnyshoes() {
 
     useEffect(() => {
       AOS.init({

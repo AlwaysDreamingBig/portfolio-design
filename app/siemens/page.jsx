@@ -26,7 +26,7 @@ const demoContent = (
     </video>
   );
 
-  export default function siemens() {
+  export default function Siemens() {
 
     useEffect(() => {
       AOS.init({

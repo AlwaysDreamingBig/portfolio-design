@@ -26,7 +26,7 @@ const demoContent = (
     </video>
   );
 
-  export default function android_17() {
+  export default function Aptis() {
 
     useEffect(() => {
       AOS.init({

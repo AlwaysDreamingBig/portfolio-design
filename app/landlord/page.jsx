@@ -35,7 +35,7 @@ const demoContent = (
     </video>
   );
 
-  export default function landlord() {
+  export default function Landlord() {
 
     useEffect(() => {
       AOS.init({

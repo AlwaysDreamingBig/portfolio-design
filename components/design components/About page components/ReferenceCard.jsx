@@ -1,12 +1,15 @@
+import Image from 'next/image';
 import React from 'react';
 
 const ReferenceCard = ({ name, role, company, contact, message, profilePic }) => {
   return (
     <div className='px-4 py-8 border border-red-200 rounded-lg sm:flex grid items-start min-h-[45vh]'>
-      <img 
+      <Image 
         src={profilePic} 
         alt={`${name}'s profile`} 
         className='w-16 h-16 rounded-full mr-4'
+        width={64} 
+        height={64} 
       />
       <div className='sm:translate-y-10 mt-2'>
         <h3 className='text-lg font-semibold'>{name}</h3>

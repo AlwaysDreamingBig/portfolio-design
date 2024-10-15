@@ -5,7 +5,7 @@ import { TimelineProjects } from '@/components/design components/TimelineProject
 import { Spotlight } from '@/components/ui/spotlight'
 import React from 'react'
 
-export default function projects() {
+export default function Projects() {
   return (
     <div className='flex flex-col space-y-10'>
       <Spotlight

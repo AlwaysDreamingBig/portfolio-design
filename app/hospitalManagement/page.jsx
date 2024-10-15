@@ -35,7 +35,7 @@ const demoContent = (
     </video>
   );
 
-  export default function hospitalManagement() {
+  export default function HospitalManagement() {
 
     useEffect(() => {
       AOS.init({

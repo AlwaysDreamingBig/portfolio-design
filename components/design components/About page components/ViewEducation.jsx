@@ -1,5 +1,6 @@
 import React from 'react';
 import { ECOLE_PREPARATOIRE_FULL_VIEW, UNIVERSITY_FULL_VIEW } from '.';
+import Image from 'next/image';
 
 const ViewEducation = ({ level }) => {
   // Determine which data to use based on the level
@@ -66,7 +67,7 @@ const ViewEducation = ({ level }) => {
       {data.images && (
         <div className='flex flex-wrap gap-4 mt-6'>
           {data.images.map((image, index) => (
-            <img key={index} src={image} alt={`Educational Image ${index + 1}`} className='w-1/3 h-auto rounded-lg shadow-md' />
+            <Image key={index} src={image} alt={`Educational Image ${index + 1}`} className='w-1/3 h-auto rounded-lg shadow-md' width={64} height={64} />
           ))}
         </div>
       )}
