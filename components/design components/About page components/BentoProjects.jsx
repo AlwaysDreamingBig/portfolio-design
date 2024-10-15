@@ -10,7 +10,7 @@ const BentoProjects = () => {
         {/* First Row */}
         <div className='grid sm:grid-cols-2 w-full sm:min-h-[40vh] sm:gap-2 gap-10'>
           <div className='border rounded-lg flex flex-col items-center justify-center p-4'>
-            <p className='text-lg mb-2'>Project's Title:</p>
+            <p className='text-lg mb-2'>Project&apos;s Title:</p>
 
             <h3 className='text-2xl font-semibold mb-2 text-center'>{PERSONAL_PROJECTS[0].title}</h3>
 
@@ -28,7 +28,7 @@ const BentoProjects = () => {
           </div>
 
           <div className='border rounded-lg flex flex-col items-center justify-center p-4'>
-            <p className='text-lg mb-2'>Project's Title:</p>
+            <p className='text-lg mb-2'>Project&apos;s Title:</p>
 
             <h3 className='text-2xl font-semibold mb-2 text-center'>{PERSONAL_PROJECTS[1].title}</h3>
 
@@ -50,7 +50,7 @@ const BentoProjects = () => {
         {/* Second Row */}
         <div className='grid sm:grid-cols-2 w-full sm:min-h-[40vh] sm:gap-2 gap-10'>
           <div className='border rounded-lg flex flex-col items-center justify-center p-4'>
-              <p className='text-lg mb-2'>Project's Title:</p>
+              <p className='text-lg mb-2'>Project&apos;s Title:</p>
 
               <h3 className='text-2xl font-semibold mb-2 text-center'>{PERSONAL_PROJECTS[2].title}</h3>
 
@@ -69,7 +69,7 @@ const BentoProjects = () => {
             </div>
 
             <div className='border rounded-lg flex flex-col items-center justify-center p-4'>
-              <p className='text-lg mb-2'>Project's Title:</p>
+              <p className='text-lg mb-2'>Project&apos;s Title:</p>
 
               <h3 className='text-2xl font-semibold mb-2 text-center'>{PERSONAL_PROJECTS[3].title}</h3>
 

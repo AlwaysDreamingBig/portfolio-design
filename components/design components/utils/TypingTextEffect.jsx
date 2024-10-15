@@ -29,6 +29,7 @@ const TypingText = ({ texts, speed = 100, cursor = true, loop = true, loopCount 
         setDisplayedText((prev) => prev.slice(0, -1));
         setIndex((prev) => prev - 1);
       }, speed / 2);
+
       if (index === 0) {
         setIsDeleting(false);
         setTextIndex((prev) => (prev + 1) % texts.length);
@@ -38,7 +39,7 @@ const TypingText = ({ texts, speed = 100, cursor = true, loop = true, loopCount 
       }
       return () => clearTimeout(timeout);
     }
-  }, [index, isDeleting, currentText, speed, loop, loopCount, textIndex, currentLoop]);
+  }, [index, isDeleting, currentText, speed, loop, loopCount, textIndex, currentLoop, texts.length]); // Included texts.length here to resolve build error
 
   return (
     <motion.span

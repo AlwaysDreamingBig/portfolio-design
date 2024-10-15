@@ -15,7 +15,7 @@ const ReferenceCard = ({ name, role, company, contact, message, profilePic }) =>
         <h3 className='text-lg font-semibold'>{name}</h3>
         <p className='text-gray-600'>{role} at {company}</p>
         <p className='text-blue-600'>{contact}</p>
-        <p className='text-gray-400 italic mt-2'>"{message}"</p>
+        <p className='text-gray-400 italic mt-2'>&quot;{message}&quot;</p>
       </div>
     </div>
   );

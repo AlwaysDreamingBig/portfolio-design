@@ -35,7 +35,7 @@ const demoContent = (
     </video>
   );
 
-  export default function Landlord() {
+  export default function LandlordPage() {
 
     useEffect(() => {
       AOS.init({
@@ -115,8 +115,8 @@ const demoContent = (
 
       <section className='lg:px-48 px-10 py-20 bg-red-600 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-            "THE REAL ESTATE WEB APP IS A FULL-STACK SOLUTION BUILT 
-            TO SIMPLIFY PROPERTY LISTINGS, USER MANAGEMENT AND ACTIONS USING REACT, REDUX, AND MONGODB."
+            &quot;THE REAL ESTATE WEB APP IS A FULL-STACK SOLUTION BUILT 
+            TO SIMPLIFY PROPERTY LISTINGS, USER MANAGEMENT AND ACTIONS USING REACT, REDUX, AND MONGODB.&quot;
           </p>
       </section>
 
@@ -146,7 +146,7 @@ const demoContent = (
 
       <section className='lg:px-48 px-10 py-20 bg-red-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-            "THIS PROJECT SHOWCASES THE POTENTIAL OF MODERN WEB TECH TO CREATE A SCALABLE AND EFFICIENT PLATFORM."
+            &quot;THIS PROJECT SHOWCASES THE POTENTIAL OF MODERN WEB TECH TO CREATE A SCALABLE AND EFFICIENT PLATFORM.&quot;
           </p>
       </section>
 

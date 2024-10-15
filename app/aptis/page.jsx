@@ -137,8 +137,8 @@ const demoContent = (
       <section className='lg:px-48 px-10 py-20 bg-yellow-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
               
-            "IT IS CRUCIAL TO CONDUCT PRECISE ANALYSES IN ORDER TO DETERMINE
-            THE CONTEXT OF INCIDENTS AND DEDUCE THE CAUSE<span className='hidden sm:block'> AND RESPONSIBILITIES</span> OF THE DIFFERENT PARTIES."
+            &quot;IT IS CRUCIAL TO CONDUCT PRECISE ANALYSES IN ORDER TO DETERMINE
+            THE CONTEXT OF INCIDENTS AND DEDUCE THE CAUSE<span className='hidden sm:block'> AND RESPONSIBILITIES</span> OF THE DIFFERENT PARTIES.&quot;
           </p>
       </section>
 

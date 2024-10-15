@@ -104,7 +104,7 @@ const demoContent = (
 
       <section className='lg:px-48 px-10 py-20 bg-purple-500 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
           <p>
-            "SOFTWARE DEVELOPMENT FOR MAINTENANCE AND TROUBLESHOOTING OF AN ACTIVE VIBRATION CONTROL SYSTEM FOR HELICOPTERS."
+            &quot;SOFTWARE DEVELOPMENT FOR MAINTENANCE AND TROUBLESHOOTING OF AN ACTIVE VIBRATION CONTROL SYSTEM FOR HELICOPTERS.&quot;
           </p>
       </section>
 

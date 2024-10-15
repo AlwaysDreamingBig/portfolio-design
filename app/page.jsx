@@ -37,7 +37,7 @@ const HomePage = () => {
             whileHover={{ y: -10 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
-            Hello, I'm 
+            Hello, I&apos;m 
           </motion.h1>
           
           <motion.h1 

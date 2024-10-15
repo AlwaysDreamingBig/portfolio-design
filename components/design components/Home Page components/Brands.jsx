@@ -16,7 +16,7 @@ const Brands = () => {
           transition={{ duration: 0.8, ease: 'easeInOut' }}
           viewport={{ once: true }}  // Ensures animation only happens once
         >
-          Brands I've Worked With
+          Brands I&apos;ve Worked With
         </motion.h2>
         
         <motion.div
