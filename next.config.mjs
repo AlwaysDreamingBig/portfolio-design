@@ -9,21 +9,74 @@ const nextConfig = {
         port: '',
         pathname: '/**', // This matches all paths under the hostname
       },
+      {
+        protocol: 'https',
+        hostname: 'www.ownsport.fr',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'encrypted-tbn0.gstatic.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.posters.cz',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.xboxservices.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'fr.web.img2.acsta.net',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'w7.pngwing.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.licdn.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
-    domains: [
-      'www.ownsport.fr',
-      'encrypted-tbn0.gstatic.com',
-      'static.posters.cz',
-      'm.media-amazon.com',
-      'assets.xboxservices.com',
-      'fr.web.img2.acsta.net',
-      'w7.pngwing.com',
-      'upload.wikimedia.org', 
-      'img.icons8.com', 
-      'media.licdn.com',
-      'via.placeholder.com',
-    ],
-   },
+  },
 };
 
 export default withSentryConfig(nextConfig, {

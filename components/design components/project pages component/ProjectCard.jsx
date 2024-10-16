@@ -1,9 +1,10 @@
 "use client";
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import Image from 'next/image';
 
 export default function ProjectCard({ title, text, images = [] }) {
   const imageContainerRef = useRef(null);
+  const [isLoading, setIsLoading] = useState(images.map(() => true)); // Track loading state for each image
 
   const scrollLeft = () => {
     imageContainerRef.current.scrollBy({
@@ -16,6 +17,14 @@ export default function ProjectCard({ title, text, images = [] }) {
     imageContainerRef.current.scrollBy({
       left: 300, // Adjust this value as needed
       behavior: 'smooth',
+    });
+  };
+
+  const handleImageLoad = (index) => {
+    setIsLoading((prevState) => {
+      const newLoadingState = [...prevState];
+      newLoadingState[index] = false; // Set image at index as loaded
+      return newLoadingState;
     });
   };
 
@@ -55,12 +64,21 @@ export default function ProjectCard({ title, text, images = [] }) {
         >
           {images.map((image, index) => (
             <div key={index} className='min-w-[500px] h-[450px] relative'>
+              {/* Display loading animation if image is still loading */}
+              {isLoading[index] && (
+                <div className="absolute inset-0 flex items-center justify-center bg-gray-200">
+                  {/* Loading Spinner */}
+                  <div className="loader"></div>
+                </div>
+              )}
+
               <Image
                 src={image}
                 alt={`image-${index}`}
                 fill
-                className="rounded-md"  // Example class, you can replace with your own
+                className={`rounded-md transition-opacity duration-300 ${isLoading[index] ? 'opacity-0' : 'opacity-100'}`} // Fade-in effect
                 style={{ objectFit: 'cover' }}
+                onLoad={() => handleImageLoad(index)} // Trigger loading complete handler
               />
             </div>
           ))}
