@@ -65,7 +65,7 @@ const Navigation = () => {
         <button
           aria-expanded={isOpen}
           aria-controls="mobile-menu"
-          className="text-gray-700 p-2 focus:outline-none"
+          className="text-gray-700 p-2 focus:outline-none z-50"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (

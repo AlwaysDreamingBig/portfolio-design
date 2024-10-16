@@ -113,7 +113,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-cyan-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-cyan-300 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-playfair' data-aos="fade-up">
           <p>
             A LOOK INTO HOW WE BUILT A SIMPLE, YET EFFECTIVE HOSPITAL
             MANAGEMENT SYSTEM THAT MAKES HEALTHCARE OPERATIONS RUN SMOOTHLY.
@@ -144,7 +144,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-cyan-700 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-cyan-700 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-playfair' data-aos="fade-up">
           <p>
             THIS PROJECT SHOWS HOW SMART SOFTWARE CAN MAKE A REAL 
             DIFFERENCE IN MANAGING DAILY HOSPITAL TASKS WITH EASE.

@@ -102,7 +102,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-purple-500 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-purple-500 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-playfair' data-aos="fade-up">
           <p>
             &quot;SOFTWARE DEVELOPMENT FOR MAINTENANCE AND TROUBLESHOOTING OF AN ACTIVE VIBRATION CONTROL SYSTEM FOR HELICOPTERS.&quot;
           </p>
@@ -132,7 +132,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-purple-200 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-purple-200 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-playfair' data-aos="fade-up">
           <p>
               THROUGH INNOVATIVE SOFTWARE DEVELOPMENT, WE’VE NOT ONLY ENHANCED THE PERFORMANCE OF 
               THE ACTIVE VIBRATION CONTROL SYSTEM BUT ALSO PAVED THE WAY FOR GREATER COMFORT AND SAFETY IN HELICOPTER FLIGHT.

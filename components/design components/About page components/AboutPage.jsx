@@ -84,7 +84,7 @@ const AboutPage = () => {
 
           {/* Preview Card */}
           {!isFullViewVisible && (visibleSection === 'resumeMenu' || visibleSection === 'aboutMeMenu') && (
-            <div className='bg-blue-300 w-full lg:w-2/3 min-h-[70vh] flex flex-col lg:mx-0 sm:mx-10 mx-4'>
+            <div className='w-full lg:w-2/3 min-h-[70vh] flex flex-col lg:mx-0 sm:mx-10 mx-4'>
               <div className='flex-grow'>
                 {selectedPreview && (
                   <PreviewCard title={selectedPreview} onClick={handlePreviewClick} />
@@ -138,7 +138,7 @@ const AboutPage = () => {
       {/* Floating Button */}
       {!isFullViewVisible && (visibleSection === 'resumeMenu' || visibleSection === 'aboutMeMenu') && (
         <button
-          className='fixed right-5 bottom-5 bg-blue-500 text-white p-3 rounded-full shadow-lg lg:hidden block z-50'
+          className='fixed right-5 bottom-20 bg-blue-500 text-white p-3 rounded-full shadow-lg lg:hidden block z-50'
           onClick={toggleSideDiv}
         >
           {isSideDivVisible ? 'Hide' : 'Show'} Menu

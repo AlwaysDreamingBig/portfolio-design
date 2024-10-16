@@ -16,7 +16,6 @@ import { AI_CHATBOT } from '@/assets/constants/projects'
 import { chatbotImg } from '@/assets/images'
 import Image from 'next/image';
 import ScrollToTopButton from '@/components/design components/ScrollToTopButton';
-import FloatingDemoButton from '@/components/design components/FloatingDemoButton';
 import { Spotlight } from '@/components/ui/spotlight';
 
 
@@ -52,8 +51,6 @@ const demoContent = (
       />
 
       <ScrollToTopButton />
-      {/* Floating Button */}
-      <FloatingDemoButton />
 
       <section>
         {/* Image with responsive behavior */}
@@ -105,7 +102,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-green-500 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-green-500 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-playfair' data-aos="fade-up">
           <p>
               THE BASE OBJECTIVE WAS DOING RESEARCH ON HOW TO DEVELOP AN EFFECTIVE
               AI CHATBOT BACK IN 2020 AND INTEGRATE IT ON A WEBSITE.
@@ -136,27 +133,11 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-green-700 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-green-700 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-playfair' data-aos="fade-up">
           <p>
               WITH THE INFORMATION GATHERED, CAME THEN TRIED DESIGNING SOME PROTOTYPES,
               TEST TO HAVE A BETTER UNDERSTANDING.
           </p>
-      </section>
-
-      <section className='border border-black rounded-lg p-2' data-aos="fade-up" id="demo">
-          <DemoMobile 
-              title="My Awesome Project" 
-              website="https://example.com" 
-              note="This is a demo for the mobile app." 
-              demoContent={demoContent}
-          />
-      </section>
-
-      <section className='border border-black rounded-lg p-2' data-aos="fade-up">
-          <DemoLaptop 
-              title="My Laptop Demo" 
-              demoContent={demoContent} 
-          />
       </section>
 
       <section className='border border-black rounded-lg p-2' data-aos="fade-up">

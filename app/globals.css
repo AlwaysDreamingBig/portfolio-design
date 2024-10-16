@@ -245,8 +245,8 @@
 /* Italic styles */
 @font-face {
   font-family: 'Sevillana';
-  src: url('/fonts/Sevillana/Sevillana-RegularItalic.woff2') format('woff2'),
-       url('/fonts/Sevillana/Sevillana-RegularItalic.woff') format('woff');
+  src: url('/fonts/Sevillana/Sevillana-Regular.woff2') format('woff2'),
+       url('/fonts/Sevillana/Sevillana-Regular.woff') format('woff');
   font-weight: 400; /* Regular */
   font-style: italic;
   font-display: swap;

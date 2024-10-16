@@ -112,7 +112,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-blue-400 mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-200 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-sevillana' data-aos="fade-up">
           <p>
             IN A WORLD WHERE GAMING AND DESIGN COLLIDE, CREATING AN IMMERSIVE ONLINE EXPERIENCE IS KEY TO ENGAGING USERS.
           </p>
@@ -142,7 +142,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-blue-200 mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-blue-200 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-sevillana' data-aos="fade-up">
           <p>
             WITH SEAMLESS NAVIGATION AND STUNNING VISUALS, THIS PROJECT REDEFINES WHAT A GAMING WEBSITE CAN OFFER.
           </p>

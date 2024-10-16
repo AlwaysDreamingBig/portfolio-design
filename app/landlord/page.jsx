@@ -113,7 +113,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-red-600 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-red-600 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-playfair' data-aos="fade-up">
           <p>
             &quot;THE REAL ESTATE WEB APP IS A FULL-STACK SOLUTION BUILT 
             TO SIMPLIFY PROPERTY LISTINGS, USER MANAGEMENT AND ACTIONS USING REACT, REDUX, AND MONGODB.&quot;
@@ -144,7 +144,7 @@ const demoContent = (
           />
       </section>
 
-      <section className='lg:px-48 px-10 py-20 bg-red-400 min-h-[70vh] mb-10 xl:text-7xl lg:text-6xl md:text-5xl text-5xl' data-aos="fade-up">
+      <section className='lg:px-48 px-10 py-20 bg-red-400 mb-10 xl:text-5xl lg:text-3xl md:text-2xl text-2xl min-h-[50vh] text-center items-center justify-center font-playfair' data-aos="fade-up">
           <p>
             &quot;THIS PROJECT SHOWCASES THE POTENTIAL OF MODERN WEB TECH TO CREATE A SCALABLE AND EFFICIENT PLATFORM.&quot;
           </p>
